@@ -6,9 +6,9 @@
     background: url("../../imges/login-bg.jpg") no-repeat;
     background-size: 100%;
 }
-.u-loginbox .container{
+.u-loginbox .container-fluid{
     padding: 0 .5rem;
-    margin-top: 4.43rem;
+    margin-top: 4.33rem;
 }
 .u-loginbox .form-control{
     height: .9rem;
@@ -18,7 +18,7 @@
     color: #fff;
 }
 .u-loginbox .j-inbtn{
-    margin-top: .95rem;
+    margin-top: .85rem;
     height:.9rem;
     background: #EB3D44;
     color: #fff;
@@ -29,4 +29,26 @@
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
     outline: none;
     outline-offset: 0;
+}
+.u-btn{
+    color: #fff;
+    font-size: .26rem;
+    font-family: "SimHei";
+    line-height: .64rem;
+    text-align: center;
+}
+.u-btn span{
+    display: inline-block;
+    width: .03rem;
+    height: .26rem;
+    margin: 0 .38rem;
+    vertical-align: middle;
+    background: #fff;
+}
+.u-loginbox .col-xs-12{
+    padding: 0;
+}
+.u-loginbox .form-control{
+    padding: .06rem .6rem;
+    font-size: .3rem;
 }
