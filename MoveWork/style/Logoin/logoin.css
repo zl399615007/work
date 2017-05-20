@@ -15,5 +15,18 @@
     border-radius: .44rem;
     background: #0a0a0a;
     opacity: .4;
-    color: #ececed;
+    color: #fff;
+}
+.u-loginbox .j-inbtn{
+    margin-top: .95rem;
+    height:.9rem;
+    background: #EB3D44;
+    color: #fff;
+    border-radius: .44rem;
+    width: 100%;
+    outline: none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+    outline: none;
+    outline-offset: 0;
 }
