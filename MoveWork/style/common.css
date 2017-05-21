@@ -1,0 +1,26 @@
+.u-header-box {
+    position: relative;
+    margin: 0;
+    height: .88rem;
+    line-height: .88rem;
+}
+.u-header-box .u-header-title{
+    font-size: 16px;
+    color: #222;
+}
+.u-header-box .u-header-arrow {
+    position: absolute;
+    left: .3rem;
+    top: 50%;
+    margin-top: -.2rem;
+    display: block;
+    width: .22rem;
+    height: .4rem;
+    background: url("../imges/setting/icon_setting_arrow.png") no-repeat center center;
+    background-size: 100% 100%;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
