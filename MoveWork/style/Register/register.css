@@ -13,7 +13,7 @@
     background: transparent;
     border: none;
     height: .88rem;
-    border-bottom: 1px solid #a0a1a3;
+    border-bottom: 1px solid #4d4d4e;
     border-radius: 0;
     padding: .48rem 0 .2rem .06rem;
     box-shadow: none;
@@ -44,7 +44,7 @@
     outline: none;
 }
 .u-registerbox .jumbotron-row{
-    margin-top: 2.54rem;
+    margin-top: 2.63rem;
     background: #000;
     opacity: .4;
     height: 4.85rem;
@@ -72,7 +72,7 @@
     margin-top: 10px;
 }
 .u-registerbox .input-group-btn{
-    border-bottom: 1px solid #a0a1a3;
+    border-bottom: 1px solid #4d4d4e;
 }
 
 
