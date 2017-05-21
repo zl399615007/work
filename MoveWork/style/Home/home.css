@@ -1,0 +1,55 @@
+.bannerimg{
+    height: 2.56rem;
+}
+.bannerimg img{
+    width: 100%;
+    height: 100%;
+}
+.welcometext{
+    font-size: .3rem;
+    color: #333;
+    height: .88rem;
+    line-height: .88rem;
+}
+.u-homebox .col-xs-6{
+    height: 2.51rem;
+    text-align: center;
+}
+
+.u-homebox .home-list{
+    display: block;
+    border: 1px solid #e6e6e6;
+    border-radius: .05rem;
+    height: 100%;
+    text-decoration: none;
+}
+.home-list img{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: .3rem;
+}
+.home-list p{
+    line-height: .65rem;
+    font-size: .28rem;
+    color: #333;
+    font-family: "SimHei";
+}
+.row .col-xs-6:nth-of-type(1){
+    padding-left: .34rem;
+    padding-right: .15rem;
+}
+.row .col-xs-6:nth-of-type(2){
+    padding-left: .15rem;
+    padding-right: .34rem;
+}
+.u-homebox .container-fluid{
+    padding-bottom: 1.74rem;
+}
+
+
+
+
+
+
+
+
