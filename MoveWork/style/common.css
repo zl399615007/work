@@ -122,6 +122,9 @@
 .u-lookresume-b span:nth-of-type(3){
     margin-right: 0;
 }
+.u-lookresume-box .row:last-child{
+    border-bottom: .02rem solid #e6e6e6;
+}
 
 
 
