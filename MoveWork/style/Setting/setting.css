@@ -111,9 +111,9 @@
 }
 .u-coupon-box .u-coupon-list .u-coupon-item {
     position: relative;
+    margin: 0;
     margin-bottom: .2rem;
     padding: 0;
-    width: 6.9rem;
     height: 2rem;
     background: url("../../imges/setting/bg_coupon.png") no-repeat center center;
     background-size: 100% 100%;
@@ -121,14 +121,13 @@
 
 .u-coupon-box .u-coupon-item .u-coupon-item-left {
     position: relative;
+    padding-left: 0;
     overflow: hidden;
-    width: 1.6rem;
     height: 2rem;
     line-height: 2rem;
     font-size: 28px;
     text-align: center;
     color: #EB3D44;
-    border-right: 2px dotted #ccc;
 }
 
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type2,
@@ -166,7 +165,6 @@
 
 .u-coupon-box .u-coupon-item .u-coupon-item-right{
     padding: .6rem .3rem;
-    width: 5.3rem;
     height: 2rem;
 }
 .u-coupon-box .u-coupon-item .u-coupon-item-right>h2 {
