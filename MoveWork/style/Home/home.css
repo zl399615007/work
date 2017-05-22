@@ -59,14 +59,18 @@
 .noread .u-messaget span:nth-of-type(1){
     font-size: .3rem;
     color: #222;
+    line-height: .86rem;
 }
 .u-messaget span:nth-of-type(2){
     font-size: .24rem;
     color: #999;
+    margin-top: .28rem;
+
 }
 .hasread .u-messaget span:nth-of-type(1){
     font-size: .3rem;
     color: #999;
+    line-height: .86rem;
 }
 
 .noread .u-messaget,.hasread .u-messaget{
@@ -76,6 +80,7 @@
     overflow: hidden;
     text-overflow:ellipsis;
     white-space: nowrap;
+    line-height: .42rem;
 }
 .noread .u-messageb p{
     font-size: .26rem;
@@ -96,9 +101,10 @@
 .u-message-time{
     text-align: center;
     color: #999;
-    font-size: .12rem;
-    margin-top: .4rem;
-    margin-bottom: .2rem;
+    font-size: .24rem;
+
+    line-height: .62rem;
+    margin-top: .18rem;
 }
 .u-message-text{
     background: #fff;
@@ -106,6 +112,7 @@
     border: 1px solid #e6e6e6;
     font-size: .26rem;
     color: #444;
-    padding: .3rem .14rem .34rem .24rem;
+    padding: .18rem .14rem .23rem .24rem;
+    line-height: .45rem;
 }
 

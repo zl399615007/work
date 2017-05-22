@@ -32,6 +32,8 @@
     height: .3rem;
     top: 50%;
     margin-top: -0.15rem;
+    background: url("../imges/add.png") no-repeat center center;
+    background-size: 100% 100%;
 }
 /*底部标签栏*/
 .foot-tab{
@@ -116,12 +118,17 @@
     color: #02b720;
 }
 .u-lookresume-t{
-    margin-top: .4rem;
+    line-height: .56rem;
+    margin-top: .24rem;
+}
+
+.u-lookresume-b {
+    line-height: .58rem;
 }
 .u-lookresume-b span{
     font-size: .24rem;
     color: #666;
-    margin-right: 4%;
+    margin-right: .3rem;
 }
 .u-lookresume-b b{
     font-weight: normal;

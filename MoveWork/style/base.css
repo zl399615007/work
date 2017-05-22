@@ -9,6 +9,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
+b {
+    font-weight: normal;
+}
 body {
    
     font-family: "Microsoft yahei", 微软雅黑, 宋体, Helvetica, Airal, sans-serif;
