@@ -1,0 +1,11 @@
+.u-project-management ul{
+    border-bottom: 0
+  }
+  .u-project-management li{
+    width: 50%;
+    text-align: center
+  }
+  .u-project-management .nav-tabs>li.active>a{
+    border: 0;
+    border-bottom: .05rem solid #eb3d44
+  }

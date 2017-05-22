@@ -25,7 +25,14 @@
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-
+.u-header-add{
+    position: absolute;
+    right: .3rem;
+    width: .3rem;
+    height: .3rem;
+    top: 50%;
+    margin-top: -0.15rem;
+}
 /*底部标签栏*/
 .foot-tab{
     position: fixed;
