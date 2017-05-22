@@ -1,3 +1,4 @@
+/*公共头*/
 .u-header-box {
     position: relative;
     margin: 0;
@@ -25,6 +26,7 @@
     transform: rotate(180deg);
 }
 
+/*底部标签栏*/
 .foot-tab{
     position: fixed;
     width: 100%;
@@ -67,3 +69,63 @@
     height: 100%;
 
 }
+
+
+/*待查看简历岗位*/
+
+.u-lookresume-box .row{
+    height: 1.6rem;
+    border-top:.02rem solid #e6e6e6;
+}
+.u-lookresume-box .row .col-xs-12{
+    height: 100%;
+}
+.u-lookresume-t span:nth-of-type(1){
+    display: inline-block;
+    font-size: .28rem;
+    color: #333;
+    height: .28rem;
+    line-height: .28rem;
+}
+.u-lookresume-t span:nth-of-type(2){
+    display: inline-block;
+    width: .03rem;
+    height: .26rem;
+    background: #eb3d44;
+    margin: 0 .2rem;
+    line-height: .26rem;
+    vertical-align: -1px;
+}
+.u-lookresume-t span:nth-of-type(3){
+    display: inline-block;
+    font-size: .24rem;
+    color: #999;
+    height: .25rem;
+    line-height: .25rem;
+}
+.u-lookresume-t a{
+    float: right;
+    font-size: .26rem;
+    color: #02b720;
+}
+.u-lookresume-t{
+    margin-top: .4rem;
+}
+.u-lookresume-b span{
+    font-size: .24rem;
+    color: #666;
+    margin-right: 4%;
+}
+.u-lookresume-b b{
+    font-weight: normal;
+}
+.u-lookresume-b span:nth-of-type(3){
+    margin-right: 0;
+}
+
+
+
+
+
+
+
