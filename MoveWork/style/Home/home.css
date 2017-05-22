@@ -1,3 +1,4 @@
+/*主页*/
 .bannerimg{
     height: 2.56rem;
 }
@@ -43,6 +44,8 @@
     padding-right: .34rem;
 }
 
+
+/*消息*/
 .u-messagebox .row{
     border-top: .02rem solid #e6e6e6;
     height: 1.5rem
@@ -83,5 +86,26 @@
     color: #999;
 }
 
-
+/*消息详情*/
+.u-message-context{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+.u-message-time{
+    text-align: center;
+    color: #999;
+    font-size: .12rem;
+    margin-top: .4rem;
+    margin-bottom: .2rem;
+}
+.u-message-text{
+    background: #fff;
+    border-radius: .1rem;
+    border: 1px solid #e6e6e6;
+    font-size: .26rem;
+    color: #444;
+    padding: .3rem .14rem .34rem .24rem;
+}
 
