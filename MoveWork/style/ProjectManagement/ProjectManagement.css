@@ -116,6 +116,14 @@
   background: #fff;
 }
 
+/*修改原因*/
+.u-modify-text{
+  font-size: .28rem;
+  color: #999;
+  line-height: .56rem;
+  padding-top: .14rem;
+  border-top: .02rem solid #e6e6e6;
+}
 
 
 

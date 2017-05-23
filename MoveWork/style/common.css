@@ -144,11 +144,30 @@
 
 /*模态框样式*/
 .u-model .modal-dialog{
-    margin: 50% .5rem
+    margin: 50% 1.48rem
 }
 .u-model .modal-header{
     text-align: center
 }
+.u-model .modal-body{
+    padding: .3rem .6rem .4rem .6rem;
+    line-height: .7rem;
+    font-size: .26rem;
+    color: #333;
+}
+.u-dialog-close{
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    background: url("../imges/dialog-close.png") no-repeat;
+    background-size: 100%;
+}
+.u-model .modal-header .close{
+    margin-top: -18px;
+    margin-right: -20px;
+    opacity: 1
+}
+
 
 
 
