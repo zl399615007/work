@@ -1,0 +1,174 @@
+/*公共头*/
+.u-header-box {
+    position: relative;
+    margin: 0;
+    height: .88rem;
+    line-height: .88rem;
+    background-color: #fff;
+}
+.u-header-box .u-header-title{
+    font-size: 16px;
+    color: #222;
+}
+.u-header-box .u-header-arrow {
+    position: absolute;
+    left: .3rem;
+    top: 50%;
+    margin-top: -.2rem;
+    display: block;
+    width: .22rem;
+    height: .4rem;
+    background: url("../../img/icon_setting_arrow.png") no-repeat center center;
+    background-size: 100% 100%;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.u-header-add{
+    position: absolute;
+    right: .3rem;
+    width: .3rem;
+    height: .3rem;
+    top: 50%;
+    margin-top: -0.15rem;
+    background: url("../../img/add.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+/*底部标签栏*/
+.foot-tab{
+    position: fixed;
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    border-top: .02rem solid #d9d9d9;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.foot-tab .col-xs-4{
+    text-align: center;
+    height: 100%;
+}
+.foot-tab .col-xs-4 img{
+    margin-top: .2rem;
+}
+.foot-tab .col-xs-4:nth-of-type(1) img{
+    width: .36rem;
+    height: .32rem;
+}
+.foot-tab .col-xs-4:nth-of-type(2) img{
+    width: .39rem;
+    height: .36rem;
+}
+.foot-tab .col-xs-4:nth-of-type(3) img{
+    width: .38rem;
+    height: .36rem;
+}
+.foot-tab .col-xs-4 p{
+    font-size: .22rem;
+    color: #666;
+    height: .32rem;
+    line-height: .32rem;
+    margin-top: .04rem;
+}
+.foot-tab .row{
+    height: 100%;
+
+}
+
+
+/*待查看简历岗位*/
+
+.u-lookresume-box .row{
+    height: 1.6rem;
+    border-top:.02rem solid #e6e6e6;
+}
+.u-lookresume-box .row .col-xs-12{
+    height: 100%;
+}
+.u-lookresume-t span:nth-of-type(1){
+    display: inline-block;
+    font-size: .28rem;
+    color: #333;
+    height: .28rem;
+    line-height: .28rem;
+}
+.u-lookresume-t span:nth-of-type(2){
+    display: inline-block;
+    width: .03rem;
+    height: .26rem;
+    background: #eb3d44;
+    margin: 0 .2rem;
+    line-height: .26rem;
+    vertical-align: -1px;
+}
+.u-lookresume-t span:nth-of-type(3){
+    display: inline-block;
+    font-size: .24rem;
+    color: #999;
+    height: .25rem;
+    line-height: .25rem;
+}
+.u-lookresume-t a{
+    float: right;
+    font-size: .26rem;
+    color: #02b720;
+}
+.u-lookresume-t{
+    line-height: .56rem;
+    margin-top: .24rem;
+}
+
+.u-lookresume-b {
+    line-height: .58rem;
+}
+.u-lookresume-b span{
+    font-size: .24rem;
+    color: #666;
+    margin-right: .3rem;
+}
+.u-lookresume-b b{
+    font-weight: normal;
+}
+.u-lookresume-b span:nth-of-type(3){
+    margin-right: 0;
+}
+.u-lookresume-box .row:last-child{
+    border-bottom: .02rem solid #e6e6e6;
+}
+
+
+/*模态框样式*/
+.u-model .modal-dialog{
+    margin: 50% 1.48rem
+}
+.u-model .modal-header{
+    text-align: center
+}
+.u-model .modal-body{
+    padding: .3rem .6rem .4rem .6rem;
+    line-height: .7rem;
+    font-size: .26rem;
+    color: #333;
+}
+.u-dialog-close{
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    background: url("../../img/dialog-close.png") no-repeat;
+    background-size: 100%;
+}
+.u-model .modal-header .close{
+    margin-top: -18px;
+    margin-right: -20px;
+    opacity: 1
+}
+
+
+
+
+

@@ -1,0 +1,219 @@
+body { background-color: #f0f0f0; }
+.u-setting-box .u-company-box {
+    padding: .3rem;
+    background-color: #f2f2f2;
+}
+.u-setting-box .u-company-box .u-company{
+    padding-top: .4rem;
+    background: #fff;
+}
+.u-setting-box  .u-company .u-company-logo { display: inline-block; width: 1.5rem; height: 1.5rem; background: url("../../img/logo.png") no-repeat center center; background-size: 100% 100%; }
+.u-setting-box  .u-company .u-company-star {
+    padding-top: .1rem;
+    font-size: 12px;
+    color: #999;
+}
+.u-setting-box .u-company .u-company-star > i {
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    vertical-align: middle;
+    background: url("../../img/icon_setting_star.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-setting-box .u-company .u-company-name {
+    font-size: 14px;
+    color: #333;
+}
+
+.u-setting-box .u-setting-list {
+    margin-bottom: 0;
+    padding-bottom: .35rem;
+    background-color: #fff;
+}
+.u-setting-box .u-setting-list .u-setting-item {
+    position: relative;
+    padding-left: .6rem;
+    height: .86rem;
+    line-height: .86rem;
+    font-size: 16px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+.u-setting-box .u-setting-item .u-setting-item-icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -.2rem;
+    display: block;
+    width: .4rem;
+    height: .4rem;
+}
+.u-setting-box .u-setting-item:first-of-type .u-setting-item-icon {
+    background: url("../../img/icon_setting1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-setting-box .u-setting-item:nth-of-type(2) .u-setting-item-icon {
+     background: url("../../img/icon_setting2.png") no-repeat center center;
+    background-size: 100% 100%;
+ }
+.u-setting-box .u-setting-item:nth-of-type(3) .u-setting-item-icon {
+    background: url("../../img/icon_setting3.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-setting-box .u-setting-item:nth-of-type(4) .u-setting-item-icon {
+    background: url("../../img/icon_setting4.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-setting-box .u-setting-item:nth-of-type(5) .u-setting-item-icon {
+    background: url("../../img/icon_setting5.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-setting-box .u-setting-item:nth-of-type(6) .u-setting-item-icon {
+    background: url("../../img/icon_setting6.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-setting-box .u-setting-item:nth-of-type(7) .u-setting-item-icon {
+    background: url("../../img/icon_setting7.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-setting-box .u-setting-item:nth-of-type(8) .u-setting-item-icon {
+    background: url("../../img/icon_setting8.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-setting-box .u-setting-item .u-setting-item-arrow {
+    position: absolute;
+    right: .18rem;
+    top: 50%;
+    margin-top: -.1rem;
+    display: block;
+    width: .12rem;
+    height: .2rem;
+    background: url("../../img/icon_setting_arrow.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-setting-box .u-btn {
+    padding: 0;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: 16px;
+    color: #EB3D44;
+}
+
+/* coupon(优惠券) */
+.u-coupon-box {
+
+}
+.u-coupon-box .u-coupon-list {
+    padding-top: .2rem;
+    background-color: #f0f0f0;
+}
+.u-coupon-box .u-coupon-list .u-coupon-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: .2rem;
+    padding: 0;
+    height: 2rem;
+    background: url("../../img/bg_coupon.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left {
+    position: relative;
+    padding-left: 0;
+    overflow: hidden;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 28px;
+    text-align: center;
+    color: #EB3D44;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2,
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3 {
+    font-size: 18px;
+}
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2>span {
+    font-size: 30px;
+}
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3 {
+    padding-top: .5rem;
+}
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3>span {
+    display: block;
+    line-height: .48rem;
+}
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type1:before,
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2:before,
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: .53rem;
+    height: .52rem;
+    content: " ";
+    background: url("../../img/icon_coupon_cash.png");
+    background-size: 100% 100%;
+}
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2:before,
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3:before {
+    background: url("../../img/icon_coupon_discount.png");
+    background-size: 100% 100%;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right{
+    padding: .6rem .3rem;
+    height: 2rem;
+}
+.u-coupon-box .u-coupon-item .u-coupon-item-right>h2 {
+    font-size: 16px;
+    color: #444;
+}
+.u-coupon-box .u-coupon-item .u-coupon-item-right>p {
+    padding-top: .12rem;
+    font-size: 14px;
+    color: #888;
+}
+
+/* 修改密码 */
+.u-password-box .form-group {
+    height: .9rem;
+}
+.u-password-box .u-btn-box .btn {
+    margin-top: .82rem;
+    height: .9rem;
+    background: #EB3D44;
+    color: #fff;
+    width: 100%;
+    outline: none;
+}
+.u-password-box .u-password {
+    margin-top: .1rem;
+}
+
+.u-password-box .input-group {
+    margin-top: 1px;
+}
+.u-password-box .input-group:first-of-type {
+    margin-top: .1rem;
+}
+.u-password-box .form-control {
+    height: .9rem;
+    font-size: 14px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.u-password-box .input-group-addon {
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+}
+.u-password-box .u-send-phone-code {
+    font-size: 13px;
+    color: #eb3d44;
+}
+

@@ -1,0 +1,61 @@
+/*登陆*/
+::-webkit-input-placeholder {
+    color: #fff!important;
+}
+.u-loginbox .container-fluid{
+    padding: 0 .5rem;
+    margin-top: 4.33rem;
+}
+.u-loginbox .col-xs-12{
+    padding: 0;
+}
+.u-loginbox .form-control{
+    height: .9rem;
+    border-radius: .44rem;
+    background: #0a0a0a;
+    opacity: .4;
+    color: #fff;
+    padding: .06rem .6rem;
+    font-size: .3rem;
+
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+    outline: none;
+    outline-offset: 0;
+}
+.u-loginbox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../../img/login-bg.jpg") no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+.u-loginbox .j-inbtn{
+    margin-top: .82rem;
+    height:.9rem;
+    background: #EB3D44;
+    color: #fff;
+    border-radius: .44rem;
+    width: 100%;
+    outline: none;
+}
+
+.u-btn{
+    color: #fff;
+    font-size: .26rem;
+    font-family: "SimHei";
+    line-height: .64rem;
+    text-align: center;
+}
+.u-btn span{
+    display: inline-block;
+    width: .03rem;
+    height: .26rem;
+    margin: 0 .36rem;
+    vertical-align: middle;
+    background: #fff;
+}
