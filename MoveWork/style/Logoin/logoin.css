@@ -1,4 +1,7 @@
 /*登陆*/
+::-webkit-input-placeholder {
+    color: #fff!important;
+}
 .u-loginbox .container-fluid{
     padding: 0 .5rem;
     margin-top: 4.33rem;

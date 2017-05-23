@@ -142,7 +142,13 @@
 }
 
 
-
+/*模态框样式*/
+.u-model .modal-dialog{
+    margin: 50% .5rem
+}
+.u-model .modal-header{
+    text-align: center
+}
 
 
 

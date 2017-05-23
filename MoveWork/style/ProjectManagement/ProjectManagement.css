@@ -103,8 +103,18 @@
   color: #02b720;
 }
 
-
-
+.u-lookresume-box{
+  border-bottom: .2rem solid #f2f2f2;
+}
+.u-projectManagement-box{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.u-project-management{
+  background: #fff;
+}
 
 
 
