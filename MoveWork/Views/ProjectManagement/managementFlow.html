@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-   <meta content="yes" name="apple-mobile-web-app-capable">     
-<meta content="black" name="apple-mobile-web-app-status-bar-style">     
-<meta content="telephone=no" name="format-detection">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
@@ -15,16 +15,691 @@
     <script src="../../Resources/public/jquery/jquery.min.js"></script>
     <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
     <script src="../../Resources/js/common/base.js"></script>
-
-
 </head>
 <body>
-    <div class="">
-      <div class="u-header-box container-fluid">
-          <i class="u-header-arrow"></i>
-          <p class="u-header-title text-center">XXX招聘项目</p>
-      </div>
+<div class="u-managementflow-box">
+    <div class="u-header-box container-fluid">
+        <i class="u-header-arrow"></i>
+        <p class="u-header-title text-center">XXX招聘项目</p>
     </div>
-    
+    <div class="u-managementflow">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#flow1" role="tab" data-toggle="tab">公告</a></li>
+            <li role="presentation"><a href="#flow2" role="tab" data-toggle="tab">开始报名</a></li>
+            <li role="presentation"><a href="#flow3" role="tab" data-toggle="tab">现场审核</a></li>
+            <li role="presentation"><a href="#flow4" role="tab" data-toggle="tab">费用支付</a></li>
+            <li role="presentation"><a href="#flow5" role="tab" data-toggle="tab">在线笔试</a></li>
+            <li role="presentation"><a href="#flow6" role="tab" data-toggle="tab">笔试</a></li>
+            <li role="presentation"><a href="#flow7" role="tab" data-toggle="tab">面试</a></li>
+            <li role="presentation"><a href="#flow8" role="tab" data-toggle="tab">资格审查</a></li>
+            <li role="presentation"><a href="#flow9" role="tab" data-toggle="tab">体检</a></li>
+            <li role="presentation"><a href="#flow10" role="tab" data-toggle="tab">入职</a></li>
+
+        </ul>
+    </div>
+    <div class="tab-content">
+        <!--公告-->
+        <div role="tabpanel" class="tab-pane active" id="flow1">
+            <div class="container-fluid u-flow1-content">
+                <textarea placeholder="请输入公告内容..."></textarea>
+                <div class="u-flow1-camera">
+                    <img src="../../Resources/img/flow1-camera.png" alt="">
+                </div>
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--公告-->
+
+
+        <!--开始报名-->
+        <div role="tabpanel" class="tab-pane" id="flow2">
+            <div class="container-fluid u-flow2-content">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <!-- 招聘岗位 -->
+                        <div class="btn-group">
+                            <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                招聘岗位 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">岗位一</a></li>
+                                <li><a href="#">岗位二</a></li>
+                                <li><a href="#">岗位三</a></li>
+                                <li><a href="#">岗位四</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <!-- 状态 -->
+                        <div class="btn-group">
+                            <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                状态 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">全部</a></li>
+                                <li><a href="#">已通过</a></li>
+                                <li><a href="#">未通过</a></li>
+                                <li><a href="#">未审核</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span class="u-line-gry"></span>
+                </div>
+
+            </div>
+            <div class="container-fluid u-lookresume-box">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>报名时间<b>2017.02.05</b></span>
+                            <a href="#">已通过审核</a>
+                        </div>
+                        <div class="u-lookresume-b">
+                            <span>报名号：<b>1211566</b></span>
+                            <span>性别：<b>女</b></span>
+                            <span>年龄：<b>22</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>报名时间<b>2017.02.05</b></span>
+                            <a href="#">已通过审核</a>
+                        </div>
+                        <div class="u-lookresume-b">
+                            <span>报名号：<b>1211566</b></span>
+                            <span>性别：<b>女</b></span>
+                            <span>年龄：<b>22</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>报名时间<b>2017.02.05</b></span>
+                            <a href="#">已通过审核</a>
+                        </div>
+                        <div class="u-lookresume-b">
+                            <span>报名号：<b>1211566</b></span>
+                            <span>性别：<b>女</b></span>
+                            <span>年龄：<b>22</b></span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--开始报名-->
+
+        <!--现场审核-->
+        <div role="tabpanel" class="tab-pane" id="flow3">
+            <div class="container-fluid u-siteAudit">
+                <div class="u-siteAudit-pass">
+                    <span>通过：</span>
+                    <span>20/500</span>
+                </div>
+                <form class="form-horizontal">
+                    <div class="row">
+                        <label for="inputEmail3" class="col-xs-4 control-label">请输入报名号：</label>
+                        <div class="col-xs-8">
+                            <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                </form>
+                <button class="btn u-siteAudit-search" type="submit">查询</button>
+                <div class="row u-siteAudit-info">
+                    <div class="col-xs-8">
+                            <ul class="u-siteAudit-list">
+                                <li class="u-siteAudit-result">
+                                    <span>审核结果：</span>
+                                    <span>已通过</span>
+                                </li>
+                                <li>
+                                    <span>报名号：</span>
+                                    <span>1211566</span>
+                                </li>
+                                <li>
+                                    <span>姓名：</span>
+                                    <span>李雪</span>
+                                </li>
+                                <li>
+                                    <span>性别：</span>
+                                    <span>女</span>
+                                </li>
+                                <li>
+                                    <span>年龄：</span>
+                                    <span>22</span>
+                                </li>
+                                <li>
+                                    <span>学历：</span>
+                                    <span>本科</span>
+                                </li>
+                                <li>
+                                    <span>报名岗位：</span>
+                                    <span>本科</span>
+                                </li>
+                                <li>
+                                    <span>身份证：</span>
+                                    <span>1213546156431313</span>
+                                </li>
+                                <li>
+                                    <span>手机号：</span>
+                                    <span>1211531433466</span>
+                                </li>
+
+                            </ul>
+                    </div>
+                    <div class="col-xs-4 ">
+                        <div class="u-siteAudit-people">
+                        <img src="../../Resources/img/siteAudit-people.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="u-project-f">
+                <div class="u-project-a">
+                    <a href="#">修改</a>
+                    <a href="#">通过</a>
+                    <a href="#">不通过</a>
+                </div>
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--现场审核-->
+
+        <!--费用支付-->
+        <div role="tabpanel" class="tab-pane" id="flow4">
+             <div class="container-fluid u-flow-table flow-table">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                <th>报名号</th>
+                                <th>姓名</th>
+                                <th>年龄</th>
+                                <th>得分</th>
+                                <th>排名</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                  <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                 <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                 <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--费用支付-->
+
+        <!--在线笔试-->
+        <div role="tabpanel" class="tab-pane" id="flow5">
+            <div class="container-fluid u-flow5-choice">
+                        <div class="row">
+                            <div class="col-xs-4 u-flow5-choice-text">选择招聘岗位：</div>
+                            <div class="col-xs-8">
+                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret">请选择<img src="../../Resources/img/flow5-choice.png" alt=""></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">岗位一</a></li>
+                                    <li><a href="#">岗位二</a></li>
+                                    <li><a href="#">岗位三</a></li>
+                                    <li><a href="#">岗位四</a></li>
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-xs-12 u-flow5-search">
+                                <button class="btn u-siteAudit-search" type="submit">查询</button>
+                 </div>
+            </div>
+            <div class="container-fluid u-flow-table flow-table" >
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                <th>报名号</th>
+                                <th>姓名</th>
+                                <th>年龄</th>
+                                <th>得分</th>
+                                <th>排名</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                  <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                 <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                 <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-2 pr0">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-5 pr0">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+                <div class="col-xs-5 ">
+                    <input type="button" class="btn" value="设置考试时长">
+                </div>
+            </div>
+        </div>
+        <!--在线笔试-->
+
+        <!--笔试-->
+        <div role="tabpanel" class="tab-pane" id="flow6">
+            <div class="container-fluid u-flow5-choice">
+                        <div class="row">
+                            <div class="col-xs-4 u-flow5-choice-text">选择招聘岗位：</div>
+                            <div class="col-xs-8">
+                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret">请选择<img src="../../Resources/img/flow5-choice.png" alt=""></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">岗位一</a></li>
+                                    <li><a href="#">岗位二</a></li>
+                                    <li><a href="#">岗位三</a></li>
+                                    <li><a href="#">岗位四</a></li>
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-xs-12 u-flow5-search">
+                                <button class="btn u-siteAudit-search" type="submit">查询</button>
+                 </div>
+            </div>
+            <div class="container-fluid u-flow-table flow-table">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                <th>报名号</th>
+                                <th>姓名</th>
+                                <th>年龄</th>
+                                <th>得分</th>
+                                <th>排名</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                  <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                 <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                 <tr>
+                                    <td>1212312</td>
+                                    <td>李雪丽</td>
+                                    <td>23</td>
+                                    <td>98</td>
+                                    <td>1</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--笔试-->
+
+        <!--面试-->
+        <div role="tabpanel" class="tab-pane" id="flow7">
+            <div class="container-fluid u-flow5-choice">
+                <div class="row">
+                    <div class="col-xs-4 u-flow5-choice-text">选择招聘岗位：</div>
+                    <div class="col-xs-8">
+                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret">请选择<img src="../../Resources/img/flow5-choice.png" alt=""></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">岗位一</a></li>
+                            <li><a href="#">岗位二</a></li>
+                            <li><a href="#">岗位三</a></li>
+                            <li><a href="#">岗位四</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-xs-12 u-flow5-search">
+                    <button class="btn u-siteAudit-search" type="submit">查询</button>
+                </div>
+            </div>
+            <div class="container-fluid u-lookresume-box">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>报名时间<b>2017.02.05</b></span>
+                            <span class="fr u-flow7-points">得分：<b>88</b></span>
+                        </div>
+                        <div class="u-lookresume-b">
+                            <span>面试评价：<b>面试评价面试评价面试评价面试评价面试评价面试评价面试评价面试评价</b></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>报名时间<b>2017.02.05</b></span>
+                            <span class="fr u-flow7-points">得分：<b>88</b></span>
+                        </div>
+                        <div class="u-lookresume-b">
+                            <span>面试评价：<b>面试评价面试评价面试评价面试评价面试评价面试评价面试评价面试评价</b></span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--面试-->
+
+        <!--资格审查-->
+        <div role="tabpanel" class="tab-pane" id="flow8">
+            <div class="container-fluid u-flow5-choice">
+                <div class="row">
+                    <div class="col-xs-4 u-flow5-choice-text">选择招聘岗位：</div>
+                    <div class="col-xs-8">
+                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret">请选择<img src="../../Resources/img/flow5-choice.png" alt=""></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">岗位一</a></li>
+                            <li><a href="#">岗位二</a></li>
+                            <li><a href="#">岗位三</a></li>
+                            <li><a href="#">岗位四</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-xs-12 u-flow5-search">
+                    <button class="btn u-siteAudit-search" type="submit">查询</button>
+                </div>
+            </div>
+            <div class="container-fluid u-lookresume-box">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>报名时间<b>2017.02.05</b></span>
+                            <span class="fr u-flow7-points">得分：<b>88</b></span>
+                        </div>
+                        <div class="u-lookresume-b">
+                            <span>面试评价：<b>面试评价面试评价面试评价面试评价面试评价面试评价面试评价面试评价</b></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>身份证号<b>4120123564598645</b></span>
+                        </div>
+                        <div class="u-lookresume-b">
+                            <span>考号：<b>605410120</b></span>
+                            <span>报名号：<b>121511120</b></span>
+                        </div>
+                        <div class="u-flow8-result">
+                            <span>结果：<b>审核结果审核结果审核结果</b></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--资格审查-->
+
+        <!--体检-->
+        <div role="tabpanel" class="tab-pane" id="flow9">
+            <div class="container-fluid u-flow5-choice">
+                <div class="row">
+                    <div class="col-xs-4 u-flow5-choice-text">选择招聘岗位：</div>
+                    <div class="col-xs-8">
+                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret">请选择<img src="../../Resources/img/flow5-choice.png" alt=""></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">岗位一</a></li>
+                            <li><a href="#">岗位二</a></li>
+                            <li><a href="#">岗位三</a></li>
+                            <li><a href="#">岗位四</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-xs-12 u-flow5-search">
+                    <button class="btn u-siteAudit-search" type="submit">查询</button>
+                </div>
+            </div>
+            <div class="container-fluid u-lookresume-box">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>合格</span>
+                        </div>
+                        <div class="u-lookresume-b">
+                           <p> <span>身份证号：<b>401231323565966465</b></span></p>
+                            <p>
+                                <span>考号：<b>121511120</b></span>
+                                <span>报名号：<b>121511120</b></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--体检-->
+
+        <!--入职-->
+        <div role="tabpanel" class="tab-pane" id="flow10">
+            <div class="container-fluid u-flow5-choice">
+                <div class="row">
+                    <div class="col-xs-4 u-flow5-choice-text">选择招聘岗位：</div>
+                    <div class="col-xs-8">
+                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret">请选择<img src="../../Resources/img/flow5-choice.png" alt=""></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">岗位一</a></li>
+                            <li><a href="#">岗位二</a></li>
+                            <li><a href="#">岗位三</a></li>
+                            <li><a href="#">岗位四</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-xs-12 u-flow5-search">
+                    <button class="btn u-siteAudit-search" type="submit">查询</button>
+                </div>
+            </div>
+            <div class="container-fluid u-lookresume-box">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="u-lookresume-t">
+                            <span>李雪</span>
+                            <span class="line-red"></span>
+                            <span>合格</span>
+                        </div>
+                        <div class="u-lookresume-b">
+                            <p> <span>身份证号：<b>401231323565966465</b></span></p>
+                            <p>
+                                <span>考号：<b>121511120</b></span>
+                                <span>报名号：<b>121511120</b></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="u-flow1-foot">
+                <div class="col-xs-4">
+                    <input type="button" class="btn" value="发布">
+                </div>
+                <div class="col-xs-8">
+                    <input type="button" class="btn" value="更改流程名称">
+                </div>
+            </div>
+        </div>
+        <!--入职-->
+    </div>
+</div>
+
 </body>
 </html>

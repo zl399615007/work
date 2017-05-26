@@ -13,3 +13,15 @@
     document.documentElement.style.fontSize = rem + 'px';       
  }       
  SetDefaultFontSize(750);
+
+//横向滑动计算ul的宽
+ $(function () {
+     var liWidth=0;
+    $(".nav-tabs li").each(function (input,index) {
+        console.log(index);
+        liWidth+=$(index).width();
+
+     });
+     $('.nav-tabs').width(liWidth)
+
+ })

@@ -26,7 +26,7 @@
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-.u-header-add{
+.u-header-add {
     position: absolute;
     right: .3rem;
     width: .3rem;
@@ -36,6 +36,27 @@
     background: url("../../img/add.png") no-repeat center center;
     background-size: 100% 100%;
 }
+.u-header-help {
+    position: absolute;
+    right: .3rem;
+    top: 50%;
+    margin-top: -.44rem;
+    display: inline-block;
+    height: .88rem;
+    font-size: 13px;
+}
+.u-header-exchangeLog {
+    position: absolute;
+    right: .3rem;
+    top: 50%;
+    margin-top: -.22rem;
+    display: inline-block;
+    width: .37rem;
+    height: .44rem;
+    background: url("../../../Resources/img/icon_exchange_log.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
 /*底部标签栏*/
 .foot-tab{
     position: fixed;
@@ -97,7 +118,8 @@
     height: .28rem;
     line-height: .28rem;
 }
-.u-lookresume-t span:nth-of-type(2){
+.line-red,
+.u-lookresume-t span:nth-of-type(2) {
     display: inline-block;
     width: .03rem;
     height: .26rem;
@@ -168,7 +190,9 @@
     opacity: 1
 }
 
-
+.highlight-red {
+    color: #EB3D44;
+}
 
 
 
