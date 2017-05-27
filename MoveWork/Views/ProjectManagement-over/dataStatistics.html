@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+   <meta content="yes" name="apple-mobile-web-app-capable">     
+<meta content="black" name="apple-mobile-web-app-status-bar-style">     
+<meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数据统计</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/ProjectManagement/dataStatistics.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/public/echarts/echarts.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+    <script src="../../Resources/js/common/MyEcharts.js"></script>
+</head>
+<body>
+    <div class="u-dataStatistics-box">
+      <div class="u-header-box container-fluid">
+    <i class="u-header-arrow"></i>
+    <p class="u-header-title text-center">待查看简历岗位</p>
+</div>
+      <div class="container-fluid bar-education">
+        <div class="row">
+          <div class="col-xs-12" id='bar-education' style="height:5.4rem"></div>
+        </div>
+        <div class="row bar-signup">
+          <div class="col-xs-12" id='bar-signup' style="height:5.4rem"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+       var barEducation = echarts.init(document.getElementById('bar-education'));
+       var barsignup = echarts.init(document.getElementById('bar-signup'));
+       var xEducation=['高中以下','高中','专科','本科','本科以上'];
+       var dataEducation=[12,23,13,45,32];
+       var titleEducation='学历统计';
+       var xSignup=['2017/02/11','2017/02/11','2017/02/11','2017/02/11','2017/02/11'];
+       var dataSignup=[42,31,13,42,35];
+       var titleSignup='报名情况统计';
+       setBar(barEducation,xEducation,dataEducation,titleEducation);
+       setBar(barsignup,xSignup,dataSignup,titleSignup,315);
+    </script>
+</body>
+</html>

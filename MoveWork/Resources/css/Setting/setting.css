@@ -494,8 +494,51 @@ body { background-color: #f0f0f0; }
     height: 100%;
     line-height: .74rem;
     text-align: center;
-
 }
+
+/* 企业认证 */
+.u-certificate-box .u-certificate-list {
+    padding: 0 .3rem;
+    border-top: 1px solid #E6E6E6;
+}
+.u-certificate-box .u-certificate-list .u-certificate-item {
+    margin: 0;
+    margin-top: .3rem;
+    padding: .3rem 0;
+    height: 2.3rem;
+    color: #fff;
+    font-size: 16px;
+}
+.u-certificate-box .u-certificate-list .u-certificate-item:first-of-type {
+    background-color: #F8B551;
+}
+
+.u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(2) {
+    background-color: #50C3F2;
+}
+.u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(3) {
+    background-color: #ED6F7D;
+}
+.u-certificate-box .u-certificate-list .u-certificate-icon {
+    margin-right: .14rem;
+    display: inline-block;
+    width: .38rem;
+    height: .45rem;
+    background: url("../../img/icon_certificate.png") no-repeat center center;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+.u-certificate-box .u-certificate-list .u-certificate-intro {
+    padding-top: .3rem;
+}
+
+/* 提交认证资料 */
+.u-certificateSubmit-box .u-certificate-list{
+    border-top: 1px solid #E6E6E6;
+}
+
+/* 修改基本信息 */
+.u-basicMessageByAditor-box
 
 @media screen and (max-width: 320px){
     .u-coupon-box .u-coupon-item .u-coupon-item-right>h2 {
@@ -524,5 +567,9 @@ body { background-color: #f0f0f0; }
 
     .u-pointEx-box .u-point-list .u-point-item .u-item-img-desc {
         font-size: 14px;
+    }
+
+    .u-certificate-box .u-certificate-list .u-certificate-intro {
+        padding-top: .24rem;
     }
 }

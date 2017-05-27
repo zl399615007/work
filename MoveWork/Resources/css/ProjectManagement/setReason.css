@@ -1,0 +1,30 @@
+/*新增原因*/
+/*修改原因*/
+.u-addReason-content textarea{
+  font-size: .28rem;
+  color: #999;
+  resize:none;
+  border: none;
+  width: 100%;
+  min-height: 11rem;
+  margin-top: .28rem;
+}
+.u-addReason-content{
+     border-top: .02rem solid #e6e6e6;
+}
+.u-siteAudit-search{
+        width: 100%;
+    height: .8rem;
+    border-radius: .05rem;
+    background: #EB3D44;
+    color: #fff;
+}
+.u-flow1-foot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.u-flow1-foot .col-xs-12{
+    padding: 0
+}

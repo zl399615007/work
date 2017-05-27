@@ -130,14 +130,7 @@
   background: #fff;
 }
 
-/*修改原因*/
-.u-modify-text{
-  font-size: .28rem;
-  color: #999;
-  line-height: .56rem;
-  padding-top: .14rem;
-  border-top: .02rem solid #e6e6e6;
-}
+
 
 /*管理流程*/
 ::-webkit-scrollbar{width:0px;height: 0}
@@ -300,6 +293,8 @@
 }
 .u-siteAudit-info{
   margin-top: .4rem;
+  height: 7.4rem;
+  overflow-y: auto;
 }
 .u-siteAudit-list li span:nth-of-type(1){
   display: inline-block;
@@ -476,8 +471,46 @@
 
 
 
-
-
+/*报名信息详情*/
+.u-infoDetile-content{
+  border-top: .02rem solid #e6e6e6;
+  font-size: .26rem;
+  color: #666;
+  padding-top: .14rem;
+}
+.u-infoDetile-content ul li{
+  line-height: .54rem;
+}
+.name-Authentication span:nth-of-type(2),.teacher-Authentication span:nth-of-type(2){
+  color:#eb3d44;
+}
+.u-infoDetil-box .u-flow1-foot{
+  border-top:0;
+  padding: 0;
+  height: .9rem;
+}
+.u-infoDetil-box .u-flow1-foot .col-xs-6{
+  padding: 0;
+  height: 100%;
+}
+.u-infoDetil-box .u-flow1-foot .row{
+  height: 100%;
+}
+.u-infoDetil-box .u-flow1-foot .u-infoDetil-pass,.u-infoDetil-box .u-flow1-foot .u-infoDetil-notpass{
+  width: 100%;
+  font-size: .26rem;
+  height: 100%;
+  border-radius: 0;
+  padding: 0
+}
+.u-infoDetil-box .u-flow1-foot .u-infoDetil-pass{
+  background: #eb3d44;
+  color: #fff;
+}
+.u-infoDetil-box .u-flow1-foot .u-infoDetil-notpass{
+  background: #e6e6e6;
+  color: #666;
+}
 
 
 
