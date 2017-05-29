@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>积分兑换</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/Setting/setting.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+    <script src="../../Resources/js/Setting/setting.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+        .u-header-box {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+<div class="u-pointEx-box u-wrapper">
+    <div class="u-header-box container-fluid">
+        <i class="u-header-arrow"></i>
+        <p class="u-header-title text-center">积分兑换</p>
+        <!--<span class="u-header-add"></span>-->
+        <span class="u-header-exchangeLog"></span>
+    </div>
+
+    <div id="pointCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#pointCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#pointCarousel" data-slide-to="1"></li>
+            <li data-target="#pointCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="../../Resources/img/bg_pointEx_carousel1.png">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="../../Resources/img/bg_pointEx_carousel1.png">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="../../Resources/img/bg_pointEx_carousel1.png">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="u-point-list container">
+        <div class="row u-point-item">
+            <div class="col-xs-12">
+                <div class="pull-left">
+                    <div class="u-item-img-box">
+                        <img src="../../Resources/img/bg_resume_download.png">
+                        <!--<p class="u-item-img-desc highlight-red">50</p>-->
+                    </div>
+
+                    <div class="u-point-message">
+                        <h3>简历下载50份</h3>
+                        <p>兑换积分：20</p></div>
+                </div>
+                <div class="pull-right">
+                    <div class="u-point-btn highlight-red" data-toggle="modal" data-target="#modal-lg">兑换</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row u-point-item">
+            <div class="col-xs-12">
+                <div class="pull-left">
+                    <div class="u-item-img-box">
+                        <img src="../../Resources/img/bg_resume_download.png">
+                        <!--<p class="u-item-img-desc highlight-red">70份</p>-->
+                    </div>
+
+                    <div class="u-point-message">
+                        <h3>简历下载50份</h3>
+                        <p>兑换积分：20</p></div>
+                </div>
+                <div class="pull-right">
+                    <div class="u-point-btn highlight-red" data-toggle="modal" data-target="#modal-lg">兑换</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row u-point-item">
+            <div class="col-xs-12">
+                <div class="pull-left">
+                    <div class="u-item-img-box">
+                        <img src="../../Resources/img/bg_resume_download.png">
+                        <p class="u-item-img-desc highlight-red">100份</p>
+                    </div>
+
+                    <div class="u-point-message">
+                        <h3>简历下载100份</h3>
+                        <p>兑换积分：150</p></div>
+                </div>
+                <div class="pull-right">
+                    <div class="u-point-btn highlight-red" data-toggle="modal" data-target="#modal-lg">兑换</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row u-point-item">
+            <div class="col-xs-12">
+                <div class="pull-left">
+                    <div class="u-item-img-box">
+                        <img src="../../Resources/img/bg_resume_download.png">
+                        <p class="u-item-img-desc highlight-red">150份</p>
+                    </div>
+
+                    <div class="u-point-message">
+                        <h3>简历下载150份</h3>
+                        <p>兑换积分：180</p></div>
+                </div>
+                <div class="pull-right">
+                    <div class="u-point-btn highlight-red" data-toggle="modal" data-target="#modal-lg">兑换</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-lg'>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+				<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">
+				</span>
+                    <h4 class="modal-title" id="myModalLabel">
+                        提示
+                    </h4>
+                </div>
+                <div class="modal-body text-center">
+                    确认兑换？
+                </div>
+
+                <div class="modal-footer u-btn-box">
+                    <div class="row">
+                        <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                        <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+</div>
+</body>
+</html>

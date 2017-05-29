@@ -7,7 +7,7 @@
     <meta content="black" name="apple-mobile-web-app-status-bar-style">
     <meta content="telephone=no" name="format-detection">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>更换手机号</title>
+    <title>修改管理员</title>
     <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
     <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
@@ -15,35 +15,43 @@
     <script src="../../Resources/public/jquery/jquery.min.js"></script>
     <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
     <script src="../../Resources/js/common/base.js"></script>
+    
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
 </head>
 <body>
-<div class="u-password-box u-wrapper">
+<div class="u-add-manager-box u-wrapper">
     <div class="u-header-box container-fluid">
         <i class="u-header-arrow"></i>
-        <p class="u-header-title text-center">更换手机号</p>
+        <p class="u-header-title text-center">修改管理员</p>
     </div>
-    <div class="container-fluid u-password">
+    <div class="container-fluid u-add-manager">
         <div class="col-xs-12">
             <form>
                 <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon1">原手机验证码：</span>
-                    <input type="text" class="form-control" id="oldPhoneCode" aria-describedby="basic-addon1">
-                    <span class="input-group-addon u-send-phone-code">发送验证码</span>
+                    <span class="input-group-addon" id="basic-addon1">姓&nbsp;&nbsp;&nbsp;名：</span>
+                    <input type="text" class="form-control" id="managerName" aria-describedby="basic-addon1"
+                           placeholder="请输入姓名">
                 </div>
                 <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon2">新手机号：</span>
-                    <input type="text" class="form-control" id="newPhone" aria-describedby="basic-addon2">
-                    <span class="input-group-addon u-send-phone-code">发送验证码</span>
+                    <span class="input-group-addon" id="basic-addon2">用户名：</span>
+                    <input type="text" class="form-control" id="userName" aria-describedby="basic-addon2"
+                           placeholder="请输入手机号">
                 </div>
                 <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon3">新手机验证码：</span>
-                    <input type="text" class="form-control" id="newPhoneCode" aria-describedby="basic-addon3">
+                    <span class="input-group-addon" id="basic-addon3">密&nbsp;&nbsp;&nbsp;码：</span>
+                    <input type="password" class="form-control" id="password" aria-describedby="basic-addon3"
+                           placeholder="6-16位">
                 </div>
+                        <p class="highlight-red u-tips">注：管理员权限请在PC端设置</p>
             </form>
         </div>
 
     </div>
-    <div class="u-btn-box col-xs-12">
+    <div class="u-btn-box container-fluid">
         <button class="btn" type="submit">确定</button>
     </div>
 </div>

@@ -1,18 +1,51 @@
-body { background-color: #f0f0f0; }
+body {
+    background-color: #f0f0f0;
+}
+
+/* 公用类样式 */
+.u-wrapper {
+    padding-bottom: .6rem;
+}
+
+.u-wrapper .u-bottom-arrow {
+    display: inline-block;
+    margin-top: -.04rem;
+    width: .2rem;
+    height: .1rem;
+    background: url("../../img/flow5-choice.png") no-repeat center center;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.u-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
 .u-setting-box .u-company-box {
     padding: .3rem;
     background-color: #f2f2f2;
 }
-.u-setting-box .u-company-box .u-company{
+
+.u-setting-box .u-company-box .u-company {
     padding-top: .4rem;
     background: #fff;
 }
-.u-setting-box  .u-company .u-company-logo { display: inline-block; width: 1.5rem; height: 1.5rem; background: url("../../img/logo.png") no-repeat center center; background-size: 100% 100%; }
-.u-setting-box  .u-company .u-company-star {
+
+.u-setting-box .u-company .u-company-logo {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("../../img/logo.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-setting-box .u-company .u-company-star {
     padding-top: .1rem;
     font-size: 12px;
     color: #999;
 }
+
 .u-setting-box .u-company .u-company-star > i {
     display: inline-block;
     width: .4rem;
@@ -21,6 +54,7 @@ body { background-color: #f0f0f0; }
     background: url("../../img/icon_setting_star.png") no-repeat center center;
     background-size: 100% 100%;
 }
+
 .u-setting-box .u-company .u-company-name {
     font-size: 14px;
     color: #333;
@@ -31,6 +65,7 @@ body { background-color: #f0f0f0; }
     padding-bottom: .35rem;
     background-color: #fff;
 }
+
 .u-setting-box .u-setting-list .u-setting-item {
     position: relative;
     padding-left: .6rem;
@@ -49,34 +84,42 @@ body { background-color: #f0f0f0; }
     width: .4rem;
     height: .4rem;
 }
+
 .u-setting-box .u-setting-item:first-of-type .u-setting-item-icon {
     background: url("../../img/icon_setting1.png") no-repeat center center;
     background-size: 100% 100%;
 }
+
 .u-setting-box .u-setting-item:nth-of-type(2) .u-setting-item-icon {
-     background: url("../../img/icon_setting2.png") no-repeat center center;
+    background: url("../../img/icon_setting2.png") no-repeat center center;
     background-size: 100% 100%;
- }
+}
+
 .u-setting-box .u-setting-item:nth-of-type(3) .u-setting-item-icon {
     background: url("../../img/icon_setting3.png") no-repeat center center;
     background-size: 100% 100%;
 }
+
 .u-setting-box .u-setting-item:nth-of-type(4) .u-setting-item-icon {
     background: url("../../img/icon_setting4.png") no-repeat center center;
     background-size: 100% 100%;
 }
+
 .u-setting-box .u-setting-item:nth-of-type(5) .u-setting-item-icon {
     background: url("../../img/icon_setting5.png") no-repeat center center;
     background-size: 100% 100%;
 }
+
 .u-setting-box .u-setting-item:nth-of-type(6) .u-setting-item-icon {
     background: url("../../img/icon_setting6.png") no-repeat center center;
     background-size: 100% 100%;
 }
+
 .u-setting-box .u-setting-item:nth-of-type(7) .u-setting-item-icon {
     background: url("../../img/icon_setting7.png") no-repeat center center;
     background-size: 100% 100%;
 }
+
 .u-setting-box .u-setting-item:nth-of-type(8) .u-setting-item-icon {
     background: url("../../img/icon_setting8.png") no-repeat center center;
     background-size: 100% 100%;
@@ -106,10 +149,12 @@ body { background-color: #f0f0f0; }
 .u-coupon-box {
 
 }
+
 .u-coupon-box .u-coupon-list {
     padding-top: .2rem;
     background-color: #f0f0f0;
 }
+
 .u-coupon-box .u-coupon-list .u-coupon-item {
     position: relative;
     margin: 0;
@@ -135,16 +180,21 @@ body { background-color: #f0f0f0; }
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type3 {
     font-size: 18px;
 }
-.u-coupon-box .u-coupon-item .u-coupon-item-left.type2>span {
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2 > span {
     font-size: 30px;
 }
+
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type3 {
     padding-top: .5rem;
+    padding-right: 8px;
 }
-.u-coupon-box .u-coupon-item .u-coupon-item-left.type3>span {
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3 > span {
     display: block;
     line-height: .48rem;
 }
+
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type1:before,
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type2:before,
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type3:before {
@@ -158,21 +208,40 @@ body { background-color: #f0f0f0; }
     background: url("../../img/icon_coupon_cash.png");
     background-size: 100% 100%;
 }
+
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type2:before,
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type3:before {
     background: url("../../img/icon_coupon_discount.png");
     background-size: 100% 100%;
 }
 
-.u-coupon-box .u-coupon-item .u-coupon-item-right{
+.u-coupon-box .u-coupon-item .u-coupon-item-right {
+    position: relative;
     padding: .6rem .3rem;
     height: 2rem;
 }
-.u-coupon-box .u-coupon-item .u-coupon-item-right>h2 {
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right .used {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 25%;
+    height: 100%;
+    line-height: .45rem;
+    font-size: 18px;
+    text-align: center;
+    color: #999;
+    padding: .48rem .1rem 0;
+    border-left: 1px dashed #CCCCCC;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right > h2 {
     font-size: 16px;
     color: #444;
 }
-.u-coupon-box .u-coupon-item .u-coupon-item-right>p {
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right > p {
     padding-top: .12rem;
     font-size: 14px;
     color: #888;
@@ -182,6 +251,7 @@ body { background-color: #f0f0f0; }
 .u-password-box .form-group {
     height: .9rem;
 }
+
 .u-password-box .u-btn-box .btn {
     margin-top: .82rem;
     height: .9rem;
@@ -190,6 +260,7 @@ body { background-color: #f0f0f0; }
     width: 100%;
     outline: none;
 }
+
 .u-password-box .u-password {
     margin-top: .1rem;
 }
@@ -197,9 +268,11 @@ body { background-color: #f0f0f0; }
 .u-password-box .input-group {
     margin-top: 1px;
 }
+
 .u-password-box .input-group:first-of-type {
     margin-top: .1rem;
 }
+
 .u-password-box .form-control {
     height: .9rem;
     font-size: 14px;
@@ -207,13 +280,554 @@ body { background-color: #f0f0f0; }
     border-radius: 0;
     box-shadow: none;
 }
+
 .u-password-box .input-group-addon {
     font-size: 15px;
     background-color: #fff;
     border: none;
 }
+
 .u-password-box .u-send-phone-code {
     font-size: 13px;
     color: #eb3d44;
 }
 
+/* 设置管理员 */
+.u-manager-box .u-manager-list .u-manager-item {
+    margin-top: .2rem;
+    padding-top: .34rem;
+    background-color: #fff;
+}
+
+.u-manager-box .u-inform-box .u-inform-name {
+    font-size: 14px;
+    color: #333;
+}
+
+.u-manager-box .u-inform-box .u-inform-desc {
+    font-size: 12px;
+    color: #999;
+}
+
+.u-manager-box .u-inform-box .u-inform-time {
+    padding-top: .1rem;
+    font-size: 13px;
+    color: #666;
+}
+
+.u-manager-box .u-btn-box {
+    margin-top: .34rem;
+    padding: .2rem 0;
+    height: .8rem;
+    color: #666;
+    border-top: 1px solid #E6E6E6;
+}
+
+.u-btn-box .u-inform-btn {
+    font-size: 13px;
+    border-right: .02rem solid #e6e6e6;
+}
+
+.u-btn-box .u-inform-btn:last-of-type {
+    border-right: none;
+}
+
+.u-add-manager-box .u-add-manager {
+    margin-top: .01rem;
+    padding: 0;
+    background-color: #fff;
+    border-top: 1px solid #E6E6E6;
+}
+
+.u-add-manager-box .input-group {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.u-add-manager-box .input-group:first-of-type {
+    margin-top: .1rem;
+}
+
+.u-add-manager-box .form-control {
+    height: .89rem;
+    font-size: 14px;
+    text-align: right;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.u-add-manager-box .u-textarea {
+    padding: .16rem .2rem;
+    height: auto;
+    font-size: 12px;
+    line-height: .36rem;
+    text-align: left;
+    background-color: #F5F5F5;
+    resize: none;
+}
+
+.u-add-manager-box .u-group-addon,
+.u-add-manager-box .input-group-addon {
+    padding-left: 0;
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+}
+
+.u-add-manager-box .u-group-addon {
+    padding: 6px 12px;
+    padding-left: 4px;
+    font-weight: normal;
+}
+
+.u-add-manager-box .u-select-btn-box {
+    height: .86rem;
+}
+
+.u-add-manager-box .u-select-btn {
+    height: 100%;
+    line-height: .86rem;
+    color: #999;
+}
+
+.u-add-manager-box .u-btn-box {
+    background-color: #fff;
+}
+
+.u-add-manager-box .u-btn-box .btn {
+    margin-top: .82rem;
+    height: .9rem;
+    background: #EB3D44;
+    color: #fff;
+    width: 100%;
+    outline: none;
+}
+
+.u-add-manager-box .u-tips {
+    padding: .2rem 0;
+    font-size: 12px;
+}
+
+.u-add-manager-box .u-principal-desc {
+    padding: .4rem .5rem .36rem;
+    font-size: 13px;
+}
+
+.u-add-manager-box .u-principal-desc > h2 {
+    padding: .4rem 0;
+    line-height: .13rem;
+    color: #666;
+}
+
+.u-add-manager-box .u-principal-desc > p {
+    line-height: .42rem;
+    color: #999;
+}
+
+/* 积分记录 */
+.u-pointLog-box .u-point-count-box {
+    padding: 0 .3rem;
+    border-top: 2px solid #E6E6E6;
+}
+
+.u-pointHelp-box .u-point-list .u-point-title,
+.u-pointLog-box .u-point-count-box .u-point-title {
+    padding-top: .26rem;
+    padding-bottom: .14rem;
+    font-size: 14px;
+
+}
+
+.u-pointLog-box .u-point-count-box .u-point-count {
+    text-align: center;
+    font-size: 14px;
+}
+
+.u-pointLog-box .u-point-count-box .u-point-count > span {
+    font-size: 40px;
+}
+
+.u-pointHelp-box .u-point-list .u-point-item,
+.u-pointLog-box .u-point-list .u-point-item {
+    border-top: 1px solid #e6e6e6;
+    height: 1.26rem;
+}
+
+.u-pointLog-box .u-point-list .u-point-item .u-point-message {
+    padding-top: .28rem;
+    padding-bottom: .18rem;
+    line-height: .28rem;
+}
+
+.u-pointLog-box .u-point-list .u-point-item .u-point-time {
+    line-height: .28rem;
+    font-size: 12px;
+    color: #999;
+}
+
+.u-pointLog-box .u-point-list .u-point-item .u-point-time > span:last-of-type {
+    margin-left: .1rem;
+}
+
+.u-pointLog-box .u-point-list .u-point-item .u-point-data {
+    padding-top: .4rem;
+}
+
+/* 积分使用规则 */
+.u-pointHelp-box .u-point-list .u-point-item {
+    padding-bottom: .26rem;
+    height: auto;
+}
+
+.u-pointHelp-box .u-point-list .u-point-title {
+    font-size: 14px;
+    color: #333;
+}
+
+.u-pointHelp-box .u-point-list .u-point-desc {
+    font-size: 13px;
+    color: #666;
+    line-height: .44rem;
+}
+
+/* 轮播图 */
+#pointCarousel {
+    height: 3rem;
+}
+
+#pointCarousel .carousel-indicators li {
+    width: .14rem;
+    height: .14rem;
+    background-color: #fff;
+}
+
+#pointCarousel .carousel-indicators li.active {
+    background-color: #EB3D44;
+}
+
+/* 积分兑换 */
+.u-pointEx-box .u-point-list .u-point-item {
+    padding: .3rem 0;
+    height: 1.88rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.u-pointEx-box .u-point-list .u-point-item .u-item-img-box {
+    position: relative;
+    display: inline-block;
+    width: 1.29rem;
+    height: 1.29rem;
+    vertical-align: top;
+}
+
+.u-pointEx-box .u-point-list .u-point-item .u-item-img-desc {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    padding: 0 .08rem;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.u-pointEx-box .u-point-list .u-point-message {
+    padding-left: .2rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.u-pointEx-box .u-point-list .u-point-message > h3 {
+    padding-top: .08rem;
+    padding-bottom: .28rem;
+    font-size: 16px;
+    color: #444;
+}
+
+.u-pointEx-box .u-point-list .u-point-message > p {
+    font-size: 14px;
+    color: #888;
+}
+
+.u-pointEx-box .u-point-list .u-point-btn {
+    position: absolute;
+    top: 50%;
+    right: .4rem;
+    margin-top: -.3rem;
+    width: 1.4rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #EB3D44;
+    border-radius: 10px;
+
+}
+
+/* 积分兑换记录 */
+.u-pointExLog-box .u-point-list {
+    border-top: 1px solid #E6E6E6;
+}
+
+.u-pointExLog-box .u-point-list .u-point-item {
+    border-bottom: 1px solid #E6E6E6;
+    padding: .26rem 0;
+    height: 1.26rem;
+}
+
+.u-pointExLog-box .u-point-item .u-point-message > h3 {
+    font-size: 14px;
+    color: #333;
+}
+
+.u-pointExLog-box .u-point-item .u-point-message > p {
+    padding-top: .12rem;
+    font-size: 12px;
+    color: #999
+}
+
+.u-pointExLog-box .u-point-item .u-point-message > p span:last-of-type {
+    margin-left: .1rem;
+}
+
+.u-pointExLog-box .u-point-item .u-point-count {
+    display: inline-block;
+    height: 100%;
+    line-height: .74rem;
+    text-align: center;
+}
+
+/* 企业认证 */
+.u-certificate-box .u-certificate-list {
+    padding: 0 .3rem;
+    border-top: 1px solid #E6E6E6;
+}
+
+.u-certificate-box .u-certificate-list .u-certificate-item {
+    margin: 0;
+    margin-top: .3rem;
+    padding: .3rem 0;
+    height: 2.3rem;
+    color: #fff;
+    font-size: 16px;
+}
+
+.u-certificate-box .u-certificate-list .u-certificate-item:first-of-type {
+    background-color: #F8B551;
+}
+
+.u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(2) {
+    background-color: #50C3F2;
+}
+
+.u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(3) {
+    background-color: #ED6F7D;
+}
+
+.u-certificate-box .u-certificate-list .u-certificate-icon {
+    margin-right: .14rem;
+    display: inline-block;
+    width: .38rem;
+    height: .45rem;
+    background: url("../../img/icon_certificate.png") no-repeat center center;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.u-certificate-box .u-certificate-list .u-certificate-intro {
+    padding-top: .3rem;
+}
+
+/* 提交认证资料 */
+.u-certificateSubmit-box .u-certificate-list {
+    border-top: 1px solid #E6E6E6;
+}
+
+/* 基本信息 */
+.u-basicMessage-box {
+
+}
+
+.u-basicMessage-box .u-company-pic-box {
+    position: relative;
+}
+
+.u-basicMessage-box .u-company-pic-box .u-indicators {
+    position: absolute;
+    right: .15rem;
+    top: .15rem;
+    width: .45rem;
+    height: .45rem;
+    line-height: .45rem;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 100%;
+}
+
+.u-basicMessage-box .u-company-pic-box .u-company-item-desc {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: .3rem;
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.u-basicMessage-box .u-company-message-box {
+
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-message-title {
+    padding: .3rem 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-sm-logo {
+    margin-right: .1rem;
+    overflow: hidden;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #ccc;
+    border-radius: .1rem;
+    text-align: center;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-sm-logo img {
+    display: inline-block;
+    width: 1rem;
+    height: .93rem;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-name {
+    font-size: 16px;
+    color: #333;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-star {
+    padding-top: .16rem;
+    font-size: 12px;
+    color: #666;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-star > span {
+    color: #333;
+}
+
+.u-basicMessage-box .u-company-message-box .u-location-ion {
+    margin-top: .05rem;
+    margin-bottom: .05rem;
+    display: inline-block;
+    width: .28rem;
+    height: .4rem;
+    background: url("../../img/icon_location.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-basicMessage-box .u-company-message-list {
+    font-size: 14px;
+    color: #888;
+}
+
+.u-basicMessage-box .u-company-message-list li {
+    padding-top: .16rem;
+}
+
+.u-basicMessage-box .u-company-message-list li > span {
+    color: #333;
+}
+
+.u-basicMessage-box .u-company-message-list li > span.u-indent {
+    display: inline-block;
+    color: #888;
+    text-indent: .6rem;
+}
+
+.u-basicMessage-box .u-company-message-list .u-company-qrcode {
+    margin-top: .22rem;
+    width: 1.48rem;
+    height: 1.48rem;
+}
+
+/* 修改基本信息 */
+.u-basicMessageByAditor-box .u-add-btn-box {
+
+}
+
+.u-basicMessageByAditor-box .u-add-btn {
+    position: relative;
+    margin-top: .2rem;
+    margin-right: .3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px dotted #CCC;
+}
+
+.u-basicMessageByAditor-box .u-add-btn .u-add-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.29rem;
+    margin-left: -.02rem;
+    display: block;
+    width: .04rem;
+    height: .58rem;
+    content: " ";
+    background-color: #ccc;
+}
+
+.u-basicMessageByAditor-box .u-add-btn .u-add-icon:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.29rem;
+    margin-top: -.02rem;
+    display: block;
+    height: .04rem;
+    width: .58rem;
+    content: " ";
+    background-color: #ccc;
+}
+
+/* 兼容 Iphone5 手机样式 */
+@media screen and (max-width: 320px) {
+    .u-coupon-box .u-coupon-item .u-coupon-item-right > h2 {
+        font-size: 14px;
+    }
+
+    .u-coupon-box .u-coupon-item .u-coupon-item-right > p {
+        font-size: 12px;
+    }
+
+    .u-coupon-box .u-coupon-item .u-coupon-item-left {
+        font-size: 26px;
+    }
+
+    .u-coupon-box .u-coupon-item .u-coupon-item-right .used {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 25%;
+        height: 100%;
+        line-height: .45rem;
+        font-size: 16px;
+        text-align: center;
+        color: #999;
+        padding: .48rem .1rem 0;
+        border-left: 1px dashed #CCCCCC;
+    }
+
+    .u-pointEx-box .u-point-list .u-point-item .u-item-img-desc {
+        font-size: 14px;
+    }
+
+    .u-certificate-box .u-certificate-list .u-certificate-intro {
+        padding-top: .24rem;
+    }
+}

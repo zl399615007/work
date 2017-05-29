@@ -1,0 +1,69 @@
+/*新增原因*/
+/*修改原因*/
+.u-addReason-content textarea{
+  font-size: .28rem;
+  color: #999;
+  resize:none;
+  border: none;
+  width: 100%;
+  min-height: 11rem;
+  margin-top: .28rem;
+}
+.u-addReason-content{
+     border-top: .02rem solid #e6e6e6;
+}
+.u-siteAudit-search{
+        width: 100%;
+    height: .8rem;
+    border-radius: .05rem;
+    background: #EB3D44;
+    color: #fff;
+}
+.u-flow1-foot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.u-flow1-foot .col-xs-12{
+    padding: 0
+}
+
+
+/*设置未通过原因*/
+.u-failingReason-content{
+    border-top:.02rem solid #e6e6e6;
+}
+.u-failingReason-text{
+    padding-bottom: .22rem;
+    border-bottom: .02rem solid #e6e6e6;
+}
+.u-failingReason-text p{
+    font-size: .26rem;
+    color: #666;
+    line-height: .46rem;
+    padding-top:.2rem;
+    
+}
+.u-failingReason-text span{
+    font-size: .24rem;
+    color: #999;
+}
+.u-failingReason-f{
+    border-bottom: .02rem solid #e6e6e6;
+    line-height: .68rem;
+}
+.u-failingReason-a a{
+    color: #EB3D44;
+    font-size: .26rem;
+    border-right: .02rem solid #EB3D44;
+
+}
+.u-failingReason-a a:nth-of-type(1){
+    padding-left: 1.3rem;
+    padding-right: 1.6rem;
+}
+.u-failingReason-a a:nth-of-type(2){
+    padding-left: 1.3rem;
+    border-right: 0;
+}
