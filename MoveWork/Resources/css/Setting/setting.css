@@ -220,7 +220,10 @@ body {
     padding: .6rem .3rem;
     height: 2rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-coupon-box .u-coupon-item .u-coupon-item-right .used {
     position: absolute;
     right: 0;
@@ -235,8 +238,12 @@ body {
     padding: .48rem .1rem 0;
     border-left: 1px dashed #CCCCCC;
 }
+<<<<<<< HEAD
 
 .u-coupon-box .u-coupon-item .u-coupon-item-right > h2 {
+=======
+.u-coupon-box .u-coupon-item .u-coupon-item-right>h2 {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     font-size: 16px;
     color: #444;
 }
@@ -293,7 +300,11 @@ body {
 }
 
 /* 设置管理员 */
+<<<<<<< HEAD
 .u-manager-box .u-manager-list .u-manager-item {
+=======
+.u-manager-box .u-manager-list .u-manager-item{
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     margin-top: .2rem;
     padding-top: .34rem;
     background-color: #fff;
@@ -303,12 +314,18 @@ body {
     font-size: 14px;
     color: #333;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-manager-box .u-inform-box .u-inform-desc {
     font-size: 12px;
     color: #999;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-manager-box .u-inform-box .u-inform-time {
     padding-top: .1rem;
     font-size: 13px;
@@ -322,6 +339,7 @@ body {
     color: #666;
     border-top: 1px solid #E6E6E6;
 }
+<<<<<<< HEAD
 
 .u-btn-box .u-inform-btn {
     font-size: 13px;
@@ -329,6 +347,13 @@ body {
 }
 
 .u-btn-box .u-inform-btn:last-of-type {
+=======
+ .u-btn-box .u-inform-btn {
+    font-size: 13px;
+    border-right: .02rem solid #e6e6e6;
+}
+ .u-btn-box .u-inform-btn:last-of-type {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     border-right: none;
 }
 
@@ -338,7 +363,10 @@ body {
     background-color: #fff;
     border-top: 1px solid #E6E6E6;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-add-manager-box .input-group {
     border-bottom: 1px solid #E6E6E6;
 }
@@ -346,7 +374,10 @@ body {
 .u-add-manager-box .input-group:first-of-type {
     margin-top: .1rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-add-manager-box .form-control {
     height: .89rem;
     font-size: 14px;
@@ -355,6 +386,7 @@ body {
     border-radius: 0;
     box-shadow: none;
 }
+<<<<<<< HEAD
 
 .u-add-manager-box .u-textarea {
     padding: .16rem .2rem;
@@ -369,11 +401,15 @@ body {
 .u-add-manager-box .u-group-addon,
 .u-add-manager-box .input-group-addon {
     padding-left: 0;
+=======
+.u-add-manager-box .input-group-addon {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     font-size: 15px;
     background-color: #fff;
     border: none;
 }
 
+<<<<<<< HEAD
 .u-add-manager-box .u-group-addon {
     padding: 6px 12px;
     padding-left: 4px;
@@ -384,6 +420,11 @@ body {
     height: .86rem;
 }
 
+=======
+.u-add-manager-box .u-select-btn-box {
+    height: .86rem;
+}
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-add-manager-box .u-select-btn {
     height: 100%;
     line-height: .86rem;
@@ -393,7 +434,10 @@ body {
 .u-add-manager-box .u-btn-box {
     background-color: #fff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-add-manager-box .u-btn-box .btn {
     margin-top: .82rem;
     height: .9rem;
@@ -402,7 +446,10 @@ body {
     width: 100%;
     outline: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-add-manager-box .u-tips {
     padding: .2rem 0;
     font-size: 12px;
@@ -412,14 +459,22 @@ body {
     padding: .4rem .5rem .36rem;
     font-size: 13px;
 }
+<<<<<<< HEAD
 
 .u-add-manager-box .u-principal-desc > h2 {
+=======
+.u-add-manager-box .u-principal-desc>h2 {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     padding: .4rem 0;
     line-height: .13rem;
     color: #666;
 }
+<<<<<<< HEAD
 
 .u-add-manager-box .u-principal-desc > p {
+=======
+.u-add-manager-box .u-principal-desc>p {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     line-height: .42rem;
     color: #999;
 }
@@ -437,13 +492,20 @@ body {
     font-size: 14px;
 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-pointLog-box .u-point-count-box .u-point-count {
     text-align: center;
     font-size: 14px;
 }
+<<<<<<< HEAD
 
 .u-pointLog-box .u-point-count-box .u-point-count > span {
+=======
+.u-pointLog-box .u-point-count-box .u-point-count>span {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     font-size: 40px;
 }
 
@@ -452,20 +514,30 @@ body {
     border-top: 1px solid #e6e6e6;
     height: 1.26rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-pointLog-box .u-point-list .u-point-item .u-point-message {
     padding-top: .28rem;
     padding-bottom: .18rem;
     line-height: .28rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-pointLog-box .u-point-list .u-point-item .u-point-time {
     line-height: .28rem;
     font-size: 12px;
     color: #999;
 }
+<<<<<<< HEAD
 
 .u-pointLog-box .u-point-list .u-point-item .u-point-time > span:last-of-type {
+=======
+.u-pointLog-box .u-point-list .u-point-item .u-point-time>span:last-of-type {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     margin-left: .1rem;
 }
 
@@ -478,12 +550,18 @@ body {
     padding-bottom: .26rem;
     height: auto;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-pointHelp-box .u-point-list .u-point-title {
     font-size: 14px;
     color: #333;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-pointHelp-box .u-point-list .u-point-desc {
     font-size: 13px;
     color: #666;
@@ -494,13 +572,19 @@ body {
 #pointCarousel {
     height: 3rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 #pointCarousel .carousel-indicators li {
     width: .14rem;
     height: .14rem;
     background-color: #fff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 #pointCarousel .carousel-indicators li.active {
     background-color: #EB3D44;
 }
@@ -511,7 +595,10 @@ body {
     height: 1.88rem;
     border-bottom: 1px solid #ccc;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-pointEx-box .u-point-list .u-point-item .u-item-img-box {
     position: relative;
     display: inline-block;
@@ -519,7 +606,14 @@ body {
     height: 1.29rem;
     vertical-align: top;
 }
+<<<<<<< HEAD
 
+=======
+.u-pointEx-box .u-point-list .u-point-item .u-item-img-box img {
+    width: 100%;
+    height: 100%;
+}
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-pointEx-box .u-point-list .u-point-item .u-item-img-desc {
     position: absolute;
     top: 55%;
@@ -536,15 +630,23 @@ body {
     display: inline-block;
     vertical-align: top;
 }
+<<<<<<< HEAD
 
 .u-pointEx-box .u-point-list .u-point-message > h3 {
+=======
+.u-pointEx-box .u-point-list .u-point-message>h3 {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     padding-top: .08rem;
     padding-bottom: .28rem;
     font-size: 16px;
     color: #444;
 }
+<<<<<<< HEAD
 
 .u-pointEx-box .u-point-list .u-point-message > p {
+=======
+.u-pointEx-box .u-point-list .u-point-message>p {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     font-size: 14px;
     color: #888;
 }
@@ -568,25 +670,40 @@ body {
 .u-pointExLog-box .u-point-list {
     border-top: 1px solid #E6E6E6;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-pointExLog-box .u-point-list .u-point-item {
     border-bottom: 1px solid #E6E6E6;
     padding: .26rem 0;
     height: 1.26rem;
 }
 
+<<<<<<< HEAD
 .u-pointExLog-box .u-point-item .u-point-message > h3 {
     font-size: 14px;
     color: #333;
 }
 
 .u-pointExLog-box .u-point-item .u-point-message > p {
+=======
+.u-pointExLog-box .u-point-item .u-point-message>h3 {
+    font-size: 14px;
+    color: #333;
+}
+.u-pointExLog-box .u-point-item .u-point-message>p {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     padding-top: .12rem;
     font-size: 12px;
     color: #999
 }
+<<<<<<< HEAD
 
 .u-pointExLog-box .u-point-item .u-point-message > p span:last-of-type {
+=======
+.u-pointExLog-box .u-point-item .u-point-message>p span:last-of-type {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     margin-left: .1rem;
 }
 
@@ -602,7 +719,10 @@ body {
     padding: 0 .3rem;
     border-top: 1px solid #E6E6E6;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-certificate-box .u-certificate-list .u-certificate-item {
     margin: 0;
     margin-top: .3rem;
@@ -611,7 +731,10 @@ body {
     color: #fff;
     font-size: 16px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-certificate-box .u-certificate-list .u-certificate-item:first-of-type {
     background-color: #F8B551;
 }
@@ -619,11 +742,17 @@ body {
 .u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(2) {
     background-color: #50C3F2;
 }
+<<<<<<< HEAD
 
 .u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(3) {
     background-color: #ED6F7D;
 }
 
+=======
+.u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(3) {
+    background-color: #ED6F7D;
+}
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-certificate-box .u-certificate-list .u-certificate-icon {
     margin-right: .14rem;
     display: inline-block;
@@ -633,12 +762,16 @@ body {
     background-size: 100% 100%;
     vertical-align: middle;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
 .u-certificate-box .u-certificate-list .u-certificate-intro {
     padding-top: .3rem;
 }
 
 /* 提交认证资料 */
+<<<<<<< HEAD
 .u-certificateSubmit-box .u-certificate-list {
     border-top: 1px solid #E6E6E6;
 }
@@ -808,6 +941,25 @@ body {
         font-size: 26px;
     }
 
+=======
+.u-certificateSubmit-box .u-certificate-list{
+    border-top: 1px solid #E6E6E6;
+}
+
+/* 修改基本信息 */
+.u-basicMessageByAditor-box
+
+@media screen and (max-width: 320px){
+    .u-coupon-box .u-coupon-item .u-coupon-item-right>h2 {
+        font-size: 14px;
+    }
+    .u-coupon-box .u-coupon-item .u-coupon-item-right>p {
+        font-size: 12px;
+    }
+    .u-coupon-box .u-coupon-item .u-coupon-item-left {
+        font-size: 26px;
+    }
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
     .u-coupon-box .u-coupon-item .u-coupon-item-right .used {
         position: absolute;
         right: 0;
