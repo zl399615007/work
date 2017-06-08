@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>收藏的简历</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/TalentManagement/talentManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+    <script src="../../Resources/js/TalentManagement/talentManagement.js"></script>
+
+    <style>
+        body {
+            background-color: #E6E6E6;
+        }
+    </style>
+
+</head>
+<body>
+<div class="u-resume-box u-wrapper">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="talentManagement.html"></a>
+        <p class="u-header-title text-center">收藏的简历</p>
+        <!--<span class="u-header-add"></span>-->
+    </div>
+
+
+    <!-- 选择框 -->
+    <div class="u-resume-content container-fluid">
+        <div class="row u-accordion" id="accordion">
+            <div class="col-xs-4 panel">
+                <span class="u-select-btn" type="button" data-parent="#accordion" data-toggle="collapse"
+                      data-target="#experience" aria-expanded="false" aria-controls="experience">
+                   工作经验 <span class="caret"></span>
+                </span>
+                <div class="collapse u-collapse container-fluid" aria-labelledby="experience" id="experience">
+                    <div class="row u-collapse-head">
+                        <div class="col-xs-12">
+                            <p class="pull-left">请选择工作经验，可多选</p>
+                            <div class="pull-right u-select-example">不限 <span class="u-select-normal-icon"></span></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="u-collapse-select-list row checkbox">
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="experience" id="a1">
+                            <label for="a1">应届毕业生</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="experience" id="a2">
+                            <label for="a2">1年以下</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="experience" id="a3">
+                            <label for="a3">1-3年</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="experience" id="a4">
+                            <label for="a4">3-5年</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="experience" id="a5">
+                            <label for="a5">5-7年</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="experience" id="a6">
+                            <label for="a6">7-10年</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="experience" id="a7">
+                            <label for="a7">10年以上</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="experience" id="a8">
+                            <label for="a8">XXX的简历</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="btn u-infoDetil-notpass col-xs-6">重置</button>
+                        <button class="btn u-infoDetil-pass col-xs-6">确定</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 panel">
+                <span class="u-select-btn" type="button" data-parent="#accordion" data-toggle="collapse"
+                      data-target="#education" aria-expanded="false" aria-controls="education">
+                   学历  <span class="caret"></span>
+                </span>
+                <div class="collapse u-collapse container-fluid" aria-labelledby="education" id="education">
+                    <div class="row u-collapse-head">
+                        <div class="col-xs-12">
+                            <p class="pull-left">请选择学历，可多选</p>
+                            <div class="pull-right u-select-example">不限 <span class="u-select-normal-icon"></span></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="u-collapse-select-list row checkbox">
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d1">
+                            <label for="d1">初中</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d2">
+                            <label for="d2">高中</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d3">
+                            <label for="d3">中专</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d4">
+                            <label for="d4">大专</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d5">
+                            <label for="d5">本科</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d6">
+                            <label for="d6">研究生</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d7">
+                            <label for="d7">硕士</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d8">
+                            <label for="d8">博士</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="d9">
+                            <label for="d9">博士后</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="btn u-infoDetil-notpass col-xs-6">重置</button>
+                        <button class="btn u-infoDetil-pass col-xs-6">确定</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3 panel">
+                <span class="u-select-btn" type="button" data-parent="#accordion" data-toggle="collapse"
+                      data-target="#age" aria-expanded="false" aria-controls="age">
+                   年龄  <span class="caret"></span>
+                </span>
+                <div class="collapse u-collapse container-fluid" aria-labelledby="age" id="age">
+                    <div class="row u-collapse-head">
+                        <div class="col-xs-12">
+                            <p class="pull-left">请选择年龄，可多选</p>
+                            <div class="pull-right u-select-example">不限 <span class="u-select-normal-icon"></span></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="u-collapse-select-list row checkbox">
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="c1">
+                            <label for="c1">18-25岁</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="c2">
+                            <label for="c2">25-30岁</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="c3">
+                            <label for="c3">30-35岁</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="c4">
+                            <label for="c4">35-40岁</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="c5">
+                            <label for="c5">40-45</label>
+                        </div>
+                        <div class="u-collapse-slect-item col-xs-6">
+                            <input class="checkbox-choice" type="checkbox" name="eduation" id="c6">
+                            <label for="c6">45以上</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="btn u-infoDetil-notpass col-xs-6">重置</button>
+                        <button class="btn u-infoDetil-pass col-xs-6">确定</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 panel" onclick="window.location='more.html'">更多</div>
+        </div>
+    </div>
+    <!-- 选择框 -->
+
+    <!-- 简历信息 -->
+    <div class="u-resume-list container-fluid">
+        <div class="row u-resume-item" onclick="window.location='../lookResume/ResumeDetil-collection.html'">
+            <div class="col-xs-12">
+                <div class="u-resume-icon-head pull-left"></div>
+                <div class="pull-left u-resume-info">
+                    <div>
+                        <p class=" u-resume-name pull-left">胡燕的简历</p>
+                        <p class="u-resume-time pull-left">更新于2017-02-05</p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <p class="u-resume-state">求职状态：求职中,可即可上岗</p>
+                </div>
+                <div class="pull-right u-resume-show-btn">查看</div>
+                <div class="clearfix"></div>
+            </div></div>
+        <div class="row u-resume-item">
+            <div class="col-xs-12">
+                <div class="u-resume-icon-head pull-left"></div>
+                <div class="pull-left u-resume-info">
+                    <div>
+                        <p class=" u-resume-name pull-left">胡燕的简历</p>
+                        <p class="u-resume-time pull-left">更新于2017-02-05</p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <p class="u-resume-state">求职状态：求职中,可即可上岗</p>
+                </div>
+                <div class="pull-right u-resume-show-btn">查看</div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 简历信息 -->
+</div>
+</body>
+</html>

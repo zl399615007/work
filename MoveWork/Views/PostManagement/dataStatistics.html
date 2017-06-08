@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+   <meta content="yes" name="apple-mobile-web-app-capable">     
+<meta content="black" name="apple-mobile-web-app-status-bar-style">     
+<meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数据统计</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/ProjectManagement/dataStatistics.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/public/echarts/echarts.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+    <script src="../../Resources/js/common/MyEcharts.js"></script>
+
+</head>
+<body>
+    <div class="u-dataStatistics-box">
+      <div class="u-header-box container-fluid">
+    <a class="u-header-arrow" href="postManagement.html"></a>
+    <p class="u-header-title text-center">统计</p>
+</div>
+      <div class="container-fluid u-pie">
+        <div class="row pie-sex">
+          <div class="col-xs-12" id='pie-sex' style="height:3.8rem"></div>
+            <div class="pie-text">
+                <p>男：15人<span>占35%</span></p>
+                <p>女：30人<span>占65%</span></p>
+            </div>
+        </div>
+        <div class="row pie-education">
+          <div class="col-xs-12" id='pie-education' style="height:3.8rem"></div>
+            <div class="education-text">
+                <div class="pie-text">
+                    <p>男：15人<span>占35%</span></p>
+                    <p>女：30人<span>占65%</span></p>
+                </div>
+            </div>
+        </div>
+          <div class="row pie-work">
+              <div class="col-xs-12" id='pie-work' style="height:3.8rem"></div>
+              <div class="work-text">
+                  <div class="pie-text">
+                      <p>男：15人<span>占35%</span></p>
+                      <p>女：30人<span>占65%</span></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <script>
+       var piesex = echarts.init(document.getElementById('pie-sex'));
+       var pieeducation = echarts.init(document.getElementById('pie-education'));
+       var piework = echarts.init(document.getElementById('pie-work'));
+        var sexdata=[{value:15,name:'男'},{value:30,name:'女'}];
+       var educationdata=[{value:15,name:'男'},{value:30,name:'女'}];
+       var workdata=[{value:15,name:'男'},{value:30,name:'女'}];
+       setPie(piesex,sexdata,'性别统计');
+       setPie(pieeducation,educationdata,'学历统计');
+       setPie(piework,workdata,'工作经验');
+    </script>
+</body>
+</html>

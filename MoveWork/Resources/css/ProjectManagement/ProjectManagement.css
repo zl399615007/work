@@ -319,11 +319,15 @@
   margin-top: .2rem;
   border-bottom: .02rem solid #e6e6e6;
 }
-#flow3 .u-project-f a:nth-of-type(1),#flow3 .u-project-f a:nth-of-type(2){
-  padding: 0 .98rem;
+#flow3 .u-project-f a:nth-of-type(1){
+  padding-left: .68rem;
+  padding-right: .94rem
+}
+#flow3 .u-project-f a:nth-of-type(2){
+  padding: 0 .94rem;
 }
 #flow3 .u-project-f a:nth-of-type(3){
-  padding-left: .85rem;
+  padding-left: .84rem;
 }
 .u-siteAudit-result span:nth-of-type(2){
   color: #02b720;
@@ -513,6 +517,42 @@
 }
 
 
+/*修改审核信息*/
+.u-modifyAuditInfor-box .u-flow5-choice{
+  height: auto;
+  line-height: normal;
+  border-top: .02rem solid #e6e6e6;
+  padding-right: 0;
+  margin-top: 0;
+}
+.u-modifyAuditInfor-box .u-flow5-choice .col-xs-4{
+  width: 28%;
+  font-size: .3rem;
+  color: #444;
+}
+.u-modifyAuditInfor-box .u-flow5-choice .col-xs-8{
+  line-height: .6rem;
+  width: 72%;
+  padding-right: 0
+}
+.u-modifyAuditInfor-box .u-flow5-choice .row{
+  height: .66rem;
+  line-height: .66rem;
+  margin: 0;
+  border-bottom: .02rem solid #e6e6e6;
+  margin-top: .2rem
+}
+.u-modifyAuditInfor-box .u-flow5-choice input{
+  border: none;
+  font-size: .26rem;
+  color: #444;
+  height: .6rem;
+  line-height: .6rem;
+}
+
+.u-modifyAuditInfor-box .u-flow5-choice .row .btn{
+  padding:5px 12px;
+}
 
 
 

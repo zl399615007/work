@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>企业人才库</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/TalentManagement/talentManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+    <script src="../../Resources/js/TalentManagement/talentManagement.js"></script>
+
+</head>
+<body>
+<div class="u-talentManage-box u-wrapper">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="../Home/index.html"></a>
+        <p class="u-header-title text-center">企业人才库</p>
+        <!--<span class="u-header-add"></span>-->
+        <!--<span class="u-header-add"></span>-->
+    </div>
+
+    <!-- 新增人才库分组 -->
+    <div class="u-add-btn-box">
+        <div class="u-add-btn highlight-red" data-toggle="modal" data-target="#modal-add"> <span class="u-icon-add"></span>新增人才库分组</div>
+        <div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-add'>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">
+                            添加库
+                        </h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        <textarea class="form-control u-textarea" placeholder="请输入库名称..."  aria-describedby="basic-addon10" rows="2"></textarea>
+                    </div>
+
+                    <div class="modal-footer u-btn-box">
+                        <div class="row">
+                            <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                            <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+    </div>
+    <!-- 新增人才库分组 -->
+
+    <!--人才库列表-->
+    <div class="u-talent-list container-fluid">
+        <div class="row">
+            <div class="u-talent-item col-xs-12" onclick="window.location='resumeCollect.html'">
+                <span class="u-talent-icon-star pull-left"></span>
+                <span class="pull-left">我收藏的简历</span>
+                <span class="highlight-red pull-left u-talent-count">【1562份】</span>
+                <span class="pull-right u-talent-arrow"> > </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="u-talent-item col-xs-12" onclick="window.location='resumeGroup.html'">
+                <span class="u-talent-icon-people pull-left"></span>
+                <span class="pull-left">销售精英</span>
+                <span class="highlight-red pull-left u-talent-count">【1562份】</span>
+                <span class="u-aditor-btn">
+                    <i class="pull-left u-talent-icon-aditor" data-toggle="modal" data-target="#modal-aditor"></i>
+                </span>
+                <span class="pull-right u-talent-arrow"> > </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="u-talent-item col-xs-12" onclick="window.location='resumeGroup.html'">
+                <span class="u-talent-icon-people pull-left"></span>
+                <span class="pull-left">应届毕业生</span>
+                <span class="highlight-red pull-left u-talent-count">【1562份】</span>
+                <span class="u-aditor-btn">
+                    <i class="pull-left u-talent-icon-aditor" data-toggle="modal" data-target="#modal-aditor"></i>
+                </span>
+                <span class="pull-right u-talent-arrow"> > </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="u-talent-item col-xs-12">
+                <span class="u-talent-icon-people pull-left"></span>
+                <span class="pull-left">中高级人才</span>
+                <span class="highlight-red pull-left u-talent-count">【1562份】</span>
+                <span class="u-aditor-btn">
+                    <i class="pull-left u-talent-icon-aditor" data-toggle="modal" data-target="#modal-aditor"></i>
+                </span>
+                <span class="pull-right u-talent-arrow"> > </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="u-talent-item col-xs-12">
+                <span class="u-talent-icon-people pull-left"></span>
+                <span class="pull-left">电话客服储备</span>
+                <span class="highlight-red pull-left">【1562份】</span>
+                <span class="u-aditor-btn">
+                    <i class="pull-left u-talent-icon-aditor" data-toggle="modal" data-target="#modal-aditor"></i>
+                </span>
+                <span class="pull-right u-talent-arrow"> > </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-aditor'>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabe2">
+                        编辑库名
+                    </h4>
+                </div>
+                <div class="modal-body text-center">
+                    <textarea class="form-control u-textarea" placeholder="请输入库名称..."  aria-describedby="basic-addon10" rows="2"></textarea>
+                </div>
+
+                <div class="modal-footer u-btn-box">
+                    <div class="row">
+                        <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                        <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <!--人才库列表-->
+
+   <!--温馨小提示-->
+    <div class="u-talent-tips container-fluid alert">
+        <span class="u-talent-cloese-btn  pull-right" data-dismiss="alert" aria-label="Close"></span>
+        <div class="u-talent-tips-heard">
+            <span class="u-talent-icon-tips pull-left"></span>
+            <span class="pull-left">温馨小贴士</span>
+            <div class="clearfix"></div>
+        </div>
+        <div class="u-talent-tips-content">
+            1.“我收藏的简历”中的简历无法看到求职者的联系方式，请将简历下载并转入企业简历库后查看； 2.企业简历库各分组中存放的简历可永久保存，并且可以查看所有详情内容；
+        </div>
+    </div>
+   <!--温馨小提示-->
+
+    <div class="u-flow1-foot container-fluid">
+        <div class="row">
+                <button class="btn u-infoDetil-notpass col-xs-6">简历下载余额：1000份</button>
+                <button class="btn u-infoDetil-pass col-xs-6" onclick="window.location='resumeRecharge.html'">简历充值</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

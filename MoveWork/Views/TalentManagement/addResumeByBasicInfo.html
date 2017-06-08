@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>基础信息</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/TalentManagement/talentManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="u-resumeByAdd-box u-add-basic-box u-wrapper">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="addResume.html"></a>
+        <p class="u-header-title text-center">基础信息</p>
+        <a class="u-header-help highlight-red" href="addResume.html">保存</a>
+    </div>
+
+    <!--修改列表-->
+    <div class="container-fluid u-add-manager">
+        <div class="row u-head-pic-box">
+            <div class="u-head-pic">
+                <img src="../../Resources/img/workmanagemet-work.png">
+            </div>
+
+        </div>
+        <div class="col-xs-12">
+            <div class="input-group">
+                <span class="input-group-addon">姓&nbsp;&nbsp;&nbsp;名：</span>
+                <input type="text" class="form-control" id="UserName" aria-describedby="basic-addon1"
+                       placeholder="请输入真实姓名">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">姓&nbsp;&nbsp;&nbsp;别：</span>
+                <div class="u-select-btn-box pull-right">
+                    <input class="multiple-choice" type="radio" name="sex" id="a1">
+                    <label for="a1" class="mr30">男</label>
+                    <input class="multiple-choice" type="radio" name="sex" id="a2">
+                    <label for="a2">女</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">出生年月：</span>
+                <div class="u-select-btn-box pull-right">
+                       <span type="button" id="BirthDate" class="u-select-btn" data-toggle="dropdown"
+                             aria-haspopup="true" aria-expanded="false">请选择 </span>>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">岗位一</a></li>
+                        <li><a href="#">岗位二</a></li>
+                        <li><a href="#">岗位三</a></li>
+                        <li><a href="#">岗位四</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">最高学历：</span>
+                <div class="u-select-btn-box pull-right">
+                       <span type="button" id="MaxDegree" class="u-select-btn" data-toggle="dropdown"
+                             aria-haspopup="true" aria-expanded="false">请选择 </span>>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">岗位一</a></li>
+                        <li><a href="#">岗位二</a></li>
+                        <li><a href="#">岗位三</a></li>
+                        <li><a href="#">岗位四</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">电子邮箱：</span>
+                <input type="text" class="form-control" id="Email" aria-describedby="basic-addon2"
+                       placeholder="请输入">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">手机号码：</span>
+                <input type="text" class="form-control" id="CellPhone" aria-describedby="basic-addon3"
+                       placeholder="请输入">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">工作经验：</span>
+                <input type="text" class="form-control" id="experience" aria-describedby="basic-addon4"
+                       placeholder="请输入">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">婚姻状况：</span>
+              <div class="u-select-btn-box pull-right">
+                  <input class="multiple-choice" type="radio" name="maritalStatus" id="d1">
+                  <label for="d1" class="mr30">已婚</label>
+                  <input class="multiple-choice" type="radio" name="maritalStatus" id="d2">
+                  <label for="d2">未婚</label>
+              </div>
+            </div>
+            <div class="input-group">
+            <span class="input-group-addon">政治面貌：</span>
+                <div class="u-select-btn-box pull-right">
+                       <span type="button" id="Political" class="u-select-btn" data-toggle="dropdown"
+                             aria-haspopup="true" aria-expanded="false">请选择 </span>>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">岗位一</a></li>
+                        <li><a href="#">岗位二</a></li>
+                        <li><a href="#">岗位三</a></li>
+                        <li><a href="#">岗位四</a></li>
+                    </ul>
+                </div>
+        </div>
+            <div class="input-group">
+                <span class="input-group-addon">现居住地：</span>
+                <input type="text" class="form-control" id="NowResident" aria-describedby="basic-addon5"
+                       placeholder="请输入">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">户口所在地：：</span>
+                <input type="text" class="form-control" id="registeredResidence" aria-describedby="basic-addon6"
+                       placeholder="请输入">
+            </div>
+
+        </div>
+    </div>
+    <!--修改列表-->
+</div>
+</body>
+</html>

@@ -16,75 +16,80 @@
     <script src="../../Resources/public/jquery/jquery.min.js"></script>
     <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
     <script src="../../Resources/js/common/base.js"></script>
+    <style>
+        body {
+        background-color: #fff;
+        }
+    </style>
 </head>
 <body>
-<div class="u-setting-box">
+<div class="u-setting-box u-wrapper">
     <div class="u-header-box container-fluid">
         <p class="u-header-title text-center">企业设置</p>
     </div>
     <div class="u-company-box container-fluid">
                 <div class="u-company col-xs-12 text-center">
                     <div class="u-company-logo"></div>
-                    <p class="u-company-star"><i></i> 一级会员</p>
+                    <p class="u-company-star" onclick="window.location='pointLog.html'"><i></i> 一级会员</p>
                     <p class="u-company-name">诺亚人力资源有限公司</p>
                 </div>
     </div>
     <ul class="u-setting-list container-fluid">
-        <li class="u-setting-item col-xs-12">
+        <li class="u-setting-item col-xs-12" onclick="window.location='basicMessage.html'">
             <i class="u-setting-item-icon"></i>
             <span>基本信息</span>
             <i class="u-setting-item-arrow"></i>
         </li>
-        <li class="u-setting-item col-xs-12">
+        <li class="u-setting-item col-xs-12" onclick="window.location='certificate.html'">
             <i class="u-setting-item-icon"></i>
             <span>企业诚信</span>
             <i class="u-setting-item-arrow"></i>
         </li>
-        <li class="u-setting-item col-xs-12">
+        <li class="u-setting-item col-xs-12" onclick="window.location='manager.html'">
             <i class="u-setting-item-icon"></i>
             <span>设置子管理员</span>
             <i class="u-setting-item-arrow"></i>
         </li>
-        <li class="u-setting-item col-xs-12">
+        <li class="u-setting-item col-xs-12" onclick="window.location='principal.html'">
             <i class="u-setting-item-icon"></i>
             <span>设置负责人</span>
             <i class="u-setting-item-arrow"></i>
         </li>
-        <li class="u-setting-item col-xs-12">
+        <li class="u-setting-item col-xs-12" onclick="window.location='changePhone.html'">
             <i class="u-setting-item-icon"></i>
             <span>更换手机号</span>
             <i class="u-setting-item-arrow"></i>
         </li>
-        <li class="u-setting-item col-xs-12">
+        <li class="u-setting-item col-xs-12" onclick="window.location='password.html'">
             <i class="u-setting-item-icon"></i>
             <span>修改密码</span>
             <i class="u-setting-item-arrow"></i>
         </li>
-        <li class="u-setting-item col-xs-12">
+        <li class="u-setting-item col-xs-12" onclick="window.location='coupon.html'">
             <i class="u-setting-item-icon"></i>
             <span>我的优惠卷</span>
             <i class="u-setting-item-arrow"></i>
         </li>
-        <li class="u-setting-item col-xs-12">
+        <li class="u-setting-item col-xs-12" onclick="window.location='pointExchange.html'">
             <i class="u-setting-item-icon"></i>
             <span>积分兑换</span>
             <i class="u-setting-item-arrow"></i>
         </li>
     </ul>
-        <div class="u-btn-box container-fluid">
+        <div class="u-btn-box u-btn-box-color container-fluid">
             <div class="btn u-btn col-xs-12">退出当前账号</div>
         </div>
     <div class="container foot-tab">
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-4" onclick="window.location='../Message/message.html'">
                 <img src="../../Resources/img/icon_message_normal.png" />
                 <p>消息</p>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-4" onclick="window.location='../Home/index.html'">
                 <img src="../../Resources/img/icon_home_normal.png" />
                 <p>主页</p>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-4" onclick="window.location='index.html'">
                 <img src="../../Resources/img/icon_set_normal.png" />
                 <p>设置</p>
             </div>

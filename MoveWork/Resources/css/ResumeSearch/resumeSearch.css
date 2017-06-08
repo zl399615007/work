@@ -1,0 +1,326 @@
+/* 更多 */
+.u-more-box .u-more-content {
+    padding-top: .26rem;
+    border-top: 1px solid #E6E6E6;
+}
+
+.u-more-box .u-more-content .u-more-item:not(:first-of-type) {
+    margin-top: .24rem;
+}
+
+.u-more-box .u-more-content .u-more-item .u-more-title {
+    font-size: 15px;
+}
+
+.u-more-box .u-more-content .u-more-item .u-more-title>span {
+    font-size: 13px;
+}
+
+.u-more-box .u-more-content .u-more-item .u-collapse-select-list {
+    margin-top: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.u-more-box .u-more-content .u-more-item .u-collapse-select-list .u-collapse-slect-item {
+    margin-top: .2rem;
+    padding:  0 .2rem;
+}
+
+.u-more-box .u-more-content .u-more-item .checkbox-choice + label  {
+    padding-left: 0;
+    width: 100%;
+    height: .6rem;
+    line-height: .6rem;
+    color: #777;
+    border: 1px solid #CCCCCC;
+    border-radius: .1rem;
+}
+
+.u-more-box .u-more-content .u-more-item .checkbox-choice:checked + label  {
+    border: 1px solid #EB3D44;
+    border-radius: .1rem;
+    color: #EB3D44;
+}
+
+.u-more-box .u-more-content .btn {
+    margin-top: .4rem;
+    padding: 0;
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: 16px;
+    color: #fff;
+    background: #EB3D44;
+    outline: none;
+}
+
+/* 简历充值 */
+.u-recharge-box .u-recharge-content {
+    border-top: 1px solid #E6E6E6;
+    padding-top: .18rem;
+}
+
+.u-recharge-box .u-recharge-content > p:not(:first-of-type) {
+    padding-top: .14rem;
+}
+
+.u-recharge-box .u-recharge-content .u-btn-box .btn {
+    margin-top: 1.6rem;
+    padding: 0;
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: 16px;
+    color: #fff;
+    background: #EB3D44;
+    outline: none;
+}
+
+/* 简历搜索 */
+.u-resume-box .u-search-box {
+    padding-top: .14rem;
+    padding-bottom: .3rem;
+    /*height: 1.5rem;*/
+    background-color: #E6E6E6;
+}
+
+.u-resume-box .u-search-box .u-search-tips {
+    padding-bottom: .08rem;
+    font-size: .26rem;
+    color: #999;
+    text-align: center;
+}
+
+.u-resume-box .u-search-box .u-search-tips>span {
+    margin-right: .12rem;
+    display: inline-block;
+    width: .24rem;
+    height: .24rem;
+    background: url("../../img/icon_search_tips.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-resume-box .u-search-box .u-search {
+    position: relative;
+    padding-left: .2rem;
+    padding-right: .58rem;
+    height: .6rem;
+    background-color: #fff;
+}
+
+.u-resume-box .u-search-box .u-search .u-search-icon {
+    position: absolute;
+    right: .15rem;
+    top: 50%;
+    margin-top: -.2rem;
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    background: url("../../img/icon_search.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-resume-box .u-search-box .u-search>input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: .24rem;
+    border: none;
+}
+
+.u-resume-box .u-resume-content {
+    border-top: 1px solid #E6E6E6;
+    background-color: #fff;
+}
+
+.u-resume-box .u-resume-content .u-accordion {
+    height: .9rem;
+    line-height: .9rem;
+}
+
+.u-resume-box .u-resume-content .u-accordion .panel {
+    margin: 0;
+
+}
+
+.u-resume-box .u-resume-content .u-accordion .u-select-btn {
+    font-size: .3rem;
+}
+
+.u-resume-box .u-collapse {
+    position: fixed;
+    left: 0;
+    top: 1.8rem;
+    background-color: #fff;
+    z-index: 10;
+}
+.u-resume-box .u-collapse .u-collapse-head {
+    height: .9rem;
+    line-height: .9rem;
+    color: #B3B3B3;
+    font-size: 14px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.u-resume-box .u-collapse .u-collapse-head .u-select-example {
+    color: #444;
+}
+.u-resume-box .u-collapse .u-collapse-head .u-select-normal-icon {
+    margin-left: .1rem;
+    display: inline-block;
+    width: .24rem;
+    height: .24rem;
+    border: 1px solid #999999;
+    border-radius: 2px;
+}
+
+.u-resume-box .u-collapse-select-list .checkbox-choice + label {
+    position: relative;
+    padding-left: 0;
+    width: 100%;
+    height: .6rem;
+    line-height: .6rem;
+    border-bottom: 1px solid transparent;
+}
+
+.u-resume-box .u-collapse-select-list .checkbox-choice:checked + label {
+    color: #EB3D44;
+    border-bottom: 1px solid #EB3D44;
+}
+.u-resume-box .u-collapse-select-list .checkbox-choice:checked + label:after {
+    position: absolute;
+    right: .15rem;
+    top: 50%;
+    margin-top: -.13rem;
+    display: block;
+    width: .26rem;
+    height: .26rem;
+    content: " ";
+    background: url("../../img/icon_talent_select.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-resume-box  .u-collapse .btn {
+    height: .8rem;
+    color: #fff;
+    font-size: .28rem;
+    background-color: #EB3D44;
+    border-radius: 0;
+}
+
+.u-resume-box .u-collapse .u-infoDetil-notpass {
+    background: #e6e6e6;
+    color: #666;
+}
+
+.u-resume-box .u-resume-item {
+    position: relative;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    height: 1.62rem;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+}
+.u-resume-box .u-resume-item>.col-xs-12:first-of-type {
+    padding-top: .1rem;
+    height: 1rem;
+}
+
+.u-resume-box .u-resume-item .u-resume-load {
+    font-size: .26rem;
+    color: #B3B3B3;
+    text-align: center;
+}
+
+.u-resume-box .u-resume-item .u-resume-icon-head {
+    position: absolute;
+    top: 50%;
+    left: .4rem;
+    margin-top: -.5rem;
+    overflow: hidden;
+    width: 1rem;
+    height: 1rem;
+    background-color: #E6E6E6;
+    border-radius: 100%;
+}
+.u-resume-box .u-resume-item .u-resume-icon-head:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -.5rem;
+    margin-left: -.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: " ";
+    background: url("../../img/siteAudit-people.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-resume-box .u-resume-item .u-resume-info {
+    padding-left: 1.2rem;
+    padding-top: .04rem;
+}
+.u-resume-box .u-resume-item .u-resume-name {
+    padding-right: .18rem;
+    font-size: .28rem;
+    line-height: .26rem;
+    color: #333;
+    border-right: 1px solid #eb3d44;
+}
+.u-resume-box .u-resume-item .u-resume-time {
+    padding-left: .2rem;
+    font-size: .24rem;
+    line-height: .26rem;
+    color: #999;
+}
+
+.u-resume-box .u-resume-item .u-resume-state {
+    padding-top: .1rem;
+    font-size: .24rem;
+    color: #666;
+}
+.u-resume-box .u-resume-item .u-resume-show-btn {
+    padding-top: .1rem;
+    margin-right: .14rem;
+    font-size: .26rem;
+    color: #02B720;
+}
+
+.u-resume-box .u-flow1-foot {
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.u-resume-box .u-flow1-foot .btn {
+    height: .9rem;
+    color: #fff;
+    font-size: .28rem;
+    background-color: #EB3D44;
+    border-radius: 0;
+}
+
+.u-resume-box .u-flow1-foot .u-infoDetil-notpass {
+    background: #e6e6e6;
+    color: #666;
+}
+
+.u-resume-search .u-collapse {
+    top: 3.28rem;
+}
+
+/* 兼容 Iphone5 手机样式 */
+@media screen and (max-width: 320px) {
+    .u-more-box .u-more-content .u-more-item .u-more-title>span {
+        font-size: 12px;
+    }
+
+    .u-more-box .u-more-content .u-more-item .u-collapse-select-list {
+        text-align: center;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>添加简历</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/TalentManagement/talentManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="u-resumeByAdd-box u-wrapper">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="resumeGroup.html"></a>
+        <p class="u-header-title text-center">添加简历</p>
+    </div>
+
+    <!--修改列表-->
+    <div class="container-fluid u-add-manager">
+        <div class="col-xs-12">
+            <div class="input-group" onclick="window.location='addResumeByBasicInfo.html'">
+                    <span class="input-group-addon">
+                        <span class="highlight-red">*</span>基本信息
+                    </span>
+                <div class="u-select-btn-box pull-right">
+                    未添加 <span class="highlight-red"> > </span>
+                </div>
+            </div>
+            <div class="input-group" onclick="window.location='addResumeByIntension.html'">
+                    <span class="input-group-addon">
+                        <span class="highlight-red">*</span>求职意向
+                    </span>
+                <div class="u-select-btn-box pull-right">
+                    已添加 <span class="highlight-red"> > </span>
+                </div>
+            </div>
+            <div class="input-group" onclick="window.location='addResumeByEducation.html'">
+                    <span class="input-group-addon">
+                      教育经历
+                    </span>
+                <div class="u-select-btn-box pull-right">
+                    待完善 <span class="highlight-red"> > </span>
+                </div>
+            </div>
+            <div class="input-group" onclick="window.location='addResumeByWorkExperience.html'">
+                    <span class="input-group-addon">
+                      工作经验
+                    </span>
+                <div class="u-select-btn-box pull-right">
+                    未添加 <span class="highlight-red"> > </span>
+                </div>
+            </div>
+            <div class="input-group" onclick="window.location='addResumeByProjectExperience.html'">
+                    <span class="input-group-addon">
+                      项目经验
+                    </span>
+                <div class="u-select-btn-box pull-right">
+                    未添加 <span class="highlight-red"> > </span>
+                </div>
+            </div>
+            <div class="input-group" onclick="window.location='addResumeBySpecialSkill.html'">
+                    <span class="input-group-addon">
+                      特殊技能
+                    </span>
+                <div class="u-select-btn-box pull-right">
+                    未添加 <span class="highlight-red"> > </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--修改列表-->
+
+    <div class="u-btn-box container-fluid">
+        <button class="btn" type="submit" onclick="window.location='resumeGroup.html'">保存</button>
+    </div>
+
+</div>
+
+</body>
+</html>

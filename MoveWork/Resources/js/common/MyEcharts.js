@@ -7,7 +7,7 @@ rotate:横坐标旋转角度
 */
 function setBar(id,xdata,data,title,rotate){
   var rotate=rotate||0;
-  option = {
+  var option = {
     title : {
         text: title,
         textStyle:{
@@ -62,4 +62,40 @@ function setBar(id,xdata,data,title,rotate){
     ]
 };
 id.setOption(option);
+}
+
+
+function setPie(id,data,title) {
+    var option = {
+        title : {
+            text: title,
+            textStyle:{
+                color:'#333',
+                fontWeight:'normal',
+                fontSize:14
+            },
+            top:15,
+            left:0
+        },
+        grid:{
+            left:'2%'
+        },
+        color:['#fe4a51','#64d286'],
+        series : [
+            {
+                name: '访问来源',
+                type: 'pie',
+                radius : '55%',
+                center: ['50%', '60%'],
+                data:data,
+                label:{
+                    normal:{
+                        position:'inside'
+                    }
+                },
+                radius : '70%'
+            }
+        ]
+    };
+    id.setOption(option);
 }

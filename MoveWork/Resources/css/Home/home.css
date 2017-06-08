@@ -116,3 +116,216 @@
     line-height: .45rem;
 }
 
+/*引导页*/
+.u-BootPage-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+}
+.u-BootPage-img{
+    background: url("../../img/bootpage.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.u-BootPage-text p{
+    font-size: .32rem;
+    color: #fff;
+    line-height: .54rem;
+    text-align: left;
+}
+.u-BootPage-btn{
+    width: 2.58rem;
+    height: .68rem;
+    border-radius: .1rem;
+    border: .02rem solid #e5fefe;
+    line-height: .68rem;
+    color: #fff;
+    margin: .4rem auto 0;
+    box-sizing: content-box;
+}
+
+.u-BootPage-text{
+    position: absolute;
+    bottom: 1.26rem;
+    left: 0;
+    text-align: center;
+    padding: 0 1.1rem;
+    width: 100%;
+}
+
+.u-BootPage-img2{
+    background: url("../../img/bootpage2.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.u-BootPage-text2 p{
+    font-size: .34rem;
+    color: #fff;
+    line-height: .54rem;
+
+}
+
+.u-BootPage-text2{
+    position: absolute;
+    bottom: 2.1rem;
+    left: 0;
+    text-align: center;
+    padding: 0 .45rem 0 .7rem;
+    width: 100%;
+}
+
+.u-BootPage-img3{
+    background: url("../../img/bootpage3.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.u-BootPage-box .u-BootPage3-text{
+    bottom: 1.3rem;
+}
+
+.u-BootPage-box .u-BootPage3-text p{
+    padding: 0 .72rem;
+}
+
+/* 优惠活动 */
+.u-coupon-box {
+
+}
+
+.u-coupon-box .u-coupon-list {
+    padding-top: .2rem;
+    background-color: #f0f0f0;
+}
+
+.u-coupon-box .u-coupon-list .u-coupon-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: .2rem;
+    padding: 0;
+    height: 2rem;
+    background: url("../../img/bg_coupon.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left {
+    position: relative;
+    padding-left: 0;
+    overflow: hidden;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .54rem;
+    text-align: center;
+    color: #EB3D44;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2 {
+    font-size: .32rem;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2 > span {
+    font-size: .6rem;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3 {
+    padding-top: .5rem;
+    padding-right: 8px;
+    font-size: .36rem
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3 > span {
+    display: block;
+    line-height: .48rem;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type1:before,
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2:before,
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: .53rem;
+    height: .52rem;
+    content: " ";
+    background: url("../../img/icon_coupon_cash.png");
+    background-size: 100% 100%;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type2:before,
+.u-coupon-box .u-coupon-item .u-coupon-item-left.type3:before {
+    background: url("../../img/icon_coupon_discount.png");
+    background-size: 100% 100%;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right {
+    position: relative;
+    padding: .6rem .3rem;
+    height: 2rem;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right .un-used {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 12%;
+    height: 100%;
+    font-size: .24rem;
+    text-align: center;
+    color: #EB3D44;
+    padding: .25rem .1rem 0;
+    border-left: 1px dashed #CCCCCC;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right .used {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 12%;
+    height: 100%;
+    font-size: .24rem;
+    text-align: center;
+    color: #999;
+    padding: .25rem .1rem 0;
+    border-left: 1px dashed #CCCCCC;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right > h2 {
+    font-size: .3rem;
+    color: #444;
+}
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right > p {
+    padding-top: .12rem;
+    font-size: .26rem;
+    color: #888;
+}
+
+/* 轮播图 */
+#pointCarousel {
+    height: 3rem;
+}
+
+#pointCarousel .carousel-indicators li {
+    width: .14rem;
+    height: .14rem;
+    background-color: #fff;
+}
+
+#pointCarousel .carousel-indicators li.active {
+    background-color: #EB3D44;
+}
+
+
+
+
+
+
+
+

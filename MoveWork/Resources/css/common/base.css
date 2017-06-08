@@ -29,7 +29,7 @@ body {
 input, label, select, option, textarea, button, fieldset, legend {
     outline: none
 }
-input,button{
+input:not(.square-choice),button {
     -webkit-appearance: none;
 }
 
@@ -104,6 +104,7 @@ img {
 .mb10{margin-bottom:10px;}
 .mb20{margin-bottom:20px;}
 .mb30{margin-bottom:30px;}
+.mr66{margin-right: .66rem;}
 .pl10{padding-left:10px;}
 .pr10{padding-right:10px;}
 .pt15{padding-top:15px;}
@@ -157,9 +158,56 @@ img {
 .header .header_operate{cursor:pointer;}
 .header .header_operate img{margin-top:13px;}*/
 
+/* 选择方法 */
+.options {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #eee;
+    z-index: 1012;
+    color: #041421;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 15px;
+    -webkit-transform: translate3d(0,250px,0);
+    transform: translate3d(0,250px,0);
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+.options.slide {
+    display: block;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+.options li {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+.options:after {
+    position: fixed;
+    left: 0;
+    bottom: 80px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #444;
+    content: " ";
+    z-index: 1012;
+}
 
-
-
+.over-lay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    display: none;
+    z-index: 1000;
+}
 
 
 

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新增岗位</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/PostManagement/postManagement.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/public/Larea/css/LArea.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+    <script src="../../Resources/js/PostManagement/postManagement.js"></script>
+    <script src="../../Resources/public/Larea/js/LAreaData1.js"></script>
+    <script src="../../Resources/public/Larea/js/LAreaData2.js"></script>
+    <script src="../../Resources/public/Larea/js/LArea.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="u-add-manager-box j-addPost-box u-wrapper">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="postManagement.html"></a>
+        <p class="u-header-title text-center">新增岗位</p>
+    </div>
+
+    <!--修改列表-->
+    <div class="container-fluid u-add-manager">
+        <div class="col-xs-12">
+            <form>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">
+                        <span class="highlight-red">*</span>岗位名称：
+                    </span>
+                    <input type="text" class="form-control" id="PostName" aria-describedby="basic-addon1"
+                           placeholder="请输入岗位名称">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon2">
+                        推荐奖励：
+                    </span>
+                    <input type="text" class="form-control u-form-control" id="RecommendName"
+                           aria-describedby="basic-addon2"
+                           placeholder="请输入金额数">
+                    <div class="u-resume-count">剩余招聘基金: <span class="highlight-red">5000元</span></div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">
+                        推&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广：
+                    </span>
+                    <div class="u-square-choice-box">
+                        <label for="d1">
+                            <input class="square-choice" type="checkbox" ria-describedby="basic-addon3" name="recruit"
+                                   id="d1">急招</label><span
+                            class="u-recruit-icon"></span>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon4">
+                         <span class="highlight-red">*</span>岗位类别：
+                    </span>
+                    <div class="u-select-btn-box pull-right">
+                        <div type="button" id="PostType" class="u-select-btn j-select-btn" data-act="select">
+                            <span class="j-select-idx" data-value="2">请选择</span>
+                            <i class="u-bottom-arrow"></i>
+                            <ul class="options">
+                                <li data-value="1" class="active" style="margin-top: 80px;">Task 1</li>
+                                <li data-value="2" class="">Task 2</li>
+                                <li data-value="3" class="">Task 3</li>
+                                <li data-value="4" class="">Task 4</li>
+                                <li data-value="5" class="">Task 5</li>
+                                <li data-value="6" class="">Task 6</li>
+                                <li data-value="7" class="">Task 7</li>
+                                <li data-value="8" class="">Task 8</li>
+                                <li data-value="9" class="">Task 9</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon5">
+                        <span class="highlight-red">*</span>行&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业：
+                    </span>
+                    <div class="u-select-btn-box pull-right">
+                        <div type="button" id="Industry" class="u-select-btn j-select-btn"  data-act="select">
+                            <span class="j-select-idx" data-value="1">请选择</span>
+                            <i class="u-bottom-arrow"></i>
+                            <ul class="options">
+                                <li data-value="1" class="active" style="margin-top: 80px;">行业一</li>
+                                <li data-value="2" class="">行业二</li>
+                                <li data-value="3" class="">行业三</li>
+                                <li data-value="4" class="">行业四</li>
+                                <li data-value="5" class="">行业五</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon6">
+                        <span class="highlight-red">*</span>工作性质：
+                    </span>
+                    <div class="u-select-btn-box pull-left">
+                        <input class="multiple-choice" type="checkbox" name="sex" id="a1">
+                        <label for="a1">全职</label>
+                        <input class="multiple-choice" type="checkbox" name="sex" id="a2">
+                        <label for="a2" class="ml30">兼职</label>
+                        <input class="multiple-choice" type="checkbox" name="sex" id="a3">
+                        <label for="a3" class="ml30">实习</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon7">
+                        <span class="highlight-red">*</span>薪酬模式：
+                    </span>
+                    <div class="u-select-btn-box pull-right">
+                        <span type="button" id="SalaryMode" class="u-select-btn" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">请选择 <i class="u-bottom-arrow"></i>
+                        </span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">岗位一</a></li>
+                            <li><a href="#">岗位二</a></li>
+                            <li><a href="#">岗位三</a></li>
+                            <li><a href="#">岗位四</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon8"><span class="highlight-red">*</span>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;酬：</span>
+                    <input type="text" class="form-control" id="Salary" aria-describedby="basic-addon8"
+                           placeholder="请输入薪酬数量">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon9"><span class="highlight-red">*</span>结算方式：</span>
+                    <div class="u-select-btn-box pull-left">
+                        <input class="multiple-choice" type="radio" name="sex" id="b1">
+                        <label for="b1">日结</label>
+                        <input class="multiple-choice" type="radio" name="sex" id="b2">
+                        <label for="b2" class="ml30">月结</label>
+                        <input class="multiple-choice" type="radio" name="sex" id="b3">
+                        <label for="b3" class="ml30">完工结算</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon10"><span class="highlight-red">*</span>招聘人数：</span>
+                    <input type="number" class="form-control" id="RecruitCount" aria-describedby="basic-addon10"
+                           placeholder="请输入招聘人数">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon11">
+                        <span class="highlight-red">*</span>工作地点：
+                    </span>
+                    <div class="u-select-btn-box ">
+                        <input type="number" class="form-control j-areainput"  id="j-areainput">
+                        <span type="button" id="WorkAddress" class="u-select-btn pull-right">请选择 <i class="u-bottom-arrow"></i>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon12"><span class="highlight-red">*</span>详细地址：</span>
+                    <input type="number" class="form-control" id="DetailedAddress" aria-describedby="basic-addon12"
+                           placeholder="请输入详细地址">
+                </div>
+                <div class="form-group">
+                    <label class="u-group-addon" id="basic-addon13"><span class="highlight-red">*</span>岗位职责：</label>
+                    <textarea class="form-control u-textarea" aria-describedby="basic-addon13" rows="7"
+                              placeholder="请输入岗位职责"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="u-group-addon" id="basic-addon14"><span class="highlight-red">*</span>岗位要求：</label>
+                    <textarea class="form-control u-textarea" aria-describedby="basic-addon14" rows="7"
+                              placeholder="请输入岗位要求"></textarea>
+                </div>
+                <div class="u-more-btn j-more-btn text-center">添加更多 <span class="u-bottom-arrow"></span></div>
+                <div class="j-more-content u-hidden">
+                    <div class="input-group">
+                        <span class="input-group-addon"
+                              id="basic-addon15">身&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高：</span>
+                        <input type="text" class="form-control" id="Height" aria-describedby="basic-addon15"
+                               placeholder="请输入身高要求">
+                    </div>
+                    <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon16">
+                        性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：
+                    </span>
+                        <div class="u-select-btn-box pull-left">
+                            <input class="multiple-choice" type="radio" name="sex" id="c1">
+                            <label for="c1">男</label>
+                            <input class="multiple-choice" type="radio" name="sex" id="c2">
+                            <label for="c2" class="ml30">女</label>
+                            <input class="multiple-choice" type="radio" name="sex" id="c3">
+                            <label for="c3" class="ml30">不限</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon17">工作时间：</span>
+                        <input type="text" class="form-control" id="WorkTime" aria-describedby="basic-addon15"
+                               placeholder="请输入工作时间">
+                    </div>
+                    <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon18">
+                        工作经验：
+                    </span>
+                        <div class="u-select-btn-box pull-right">
+                        <span type="button" id="WorkExperience" class="u-select-btn" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">请选择 <i class="u-bottom-arrow"></i>
+                        </span>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">岗位一</a></li>
+                                <li><a href="#">岗位二</a></li>
+                                <li><a href="#">岗位三</a></li>
+                                <li><a href="#">岗位四</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon19">
+                        最高学历：
+                    </span>
+                        <div class="u-select-btn-box pull-right">
+                        <span type="button" id="MaxEducation" class="u-select-btn" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">请选择
+                            <i class="u-bottom-arrow"></i>
+                        </span>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">岗位一</a></li>
+                                <li><a href="#">岗位二</a></li>
+                                <li><a href="#">岗位三</a></li>
+                                <li><a href="#">岗位四</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon20">
+                        专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业：
+                    </span>
+                        <div class="u-select-btn-box pull-right">
+                        <span type="button" id="Speciality" class="u-select-btn" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">请选择 <i class="u-bottom-arrow"></i>
+                        </span>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">岗位一</a></li>
+                                <li><a href="#">岗位二</a></li>
+                                <li><a href="#">岗位三</a></li>
+                                <li><a href="#">岗位四</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon21">
+                        福&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利：
+                    </span>
+                        <div class="u-select-btn-box pull-right">
+                        <span type="button" id="Welfare" class="u-select-btn" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">请选择 <i class="u-bottom-arrow"></i>
+                        </span>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">岗位一</a></li>
+                                <li><a href="#">岗位二</a></li>
+                                <li><a href="#">岗位三</a></li>
+                                <li><a href="#">岗位四</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!--修改列表-->
+
+    <div class="u-flow1-foot container-fluid">
+        <div class="row">
+            <button class="btn u-infoDetil-notpass col-xs-6" onclick="window.location='postPreview.html'">预览</button>
+            <button class="btn u-infoDetil-pass col-xs-6" onclick="window.location='postManagement.html'">发布</button>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var area1 = new LArea();
+    area1.init({
+        'trigger': '#WorkAddress', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+        'valueTo': '#j-areainput', //选择完毕后id属性输出到该位置
+        'keys': {
+            id: 'id',
+            name: 'name'
+        }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+        'type': 1, //数据源类型
+        'data': LAreaData //数据源
+    });
+</script>
+</body>
+</html>
