@@ -115,7 +115,11 @@
     width: 100%;
     background: #fff;
     border: none;
+<<<<<<< HEAD
     padding: 4px 12px;
+=======
+    padding: 5px 12px;
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 }
 .u-addProject-box .u-flow5-choice .row .btn .caret {
     border: none;
@@ -132,6 +136,7 @@
 }
 
 .u-addProject-box .u-flow5-choice .u-name{
+<<<<<<< HEAD
     width: 26%;
 }
 .u-addProject-box .u-flow5-choice .u-people{
@@ -140,6 +145,16 @@
 
 .u-addProject-box .u-flow5-choice .u-people-select{
     width: 65%;
+=======
+    width: 25%;
+}
+.u-addProject-box .u-flow5-choice .u-people{
+    width: 34%;
+}
+
+.u-addProject-box .u-flow5-choice .u-people-select{
+    width: 66%;
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 }
 .u-addProject-save {
     width: 100%;
@@ -150,6 +165,7 @@
     color: #fff;
 }
 
+<<<<<<< HEAD
 /*工作管理菜单*/
 .u-nav-list img{
     width: 1.3rem;
@@ -637,6 +653,8 @@
 
 
 
+=======
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 
 
 

@@ -18,6 +18,13 @@
  $(function () {
      var liWidth=0;
     $(".nav-tabs li").each(function (input,index) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        console.log(index);
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
         liWidth+=$(index).width();
 
      });

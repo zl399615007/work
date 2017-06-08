@@ -5,7 +5,10 @@ body {
 /* 公用类样式 */
 .u-wrapper {
     padding-bottom: .6rem;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 }
 
 .u-wrapper .u-bottom-arrow {
@@ -88,11 +91,14 @@ body {
     height: .4rem;
 }
 
+<<<<<<< HEAD
 .u-setting-box .u-btn-box-color {
     background-color: #f0f0f0;
     margin-bottom: 1rem;
 }
 
+=======
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-setting-box .u-setting-item:first-of-type .u-setting-item-icon {
     background: url("../../img/icon_setting1.png") no-repeat center center;
     background-size: 100% 100%;
@@ -189,7 +195,11 @@ body {
 }
 
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type2 > span {
+<<<<<<< HEAD
     font-size: .6rem;
+=======
+    font-size: 30px;
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 }
 
 .u-coupon-box .u-coupon-item .u-coupon-item-left.type3 {
@@ -228,7 +238,14 @@ body {
     padding: .6rem .3rem;
     height: 2rem;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-coupon-box .u-coupon-item .u-coupon-item-right .used {
     position: absolute;
     right: 0;
@@ -243,9 +260,19 @@ body {
     padding: .48rem .1rem 0;
     border-left: 1px dashed #CCCCCC;
 }
+<<<<<<< HEAD
 
 .u-coupon-box .u-coupon-item .u-coupon-item-right > h2 {
     font-size: .3rem;
+=======
+<<<<<<< HEAD
+
+.u-coupon-box .u-coupon-item .u-coupon-item-right > h2 {
+=======
+.u-coupon-box .u-coupon-item .u-coupon-item-right>h2 {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+    font-size: 16px;
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     color: #444;
 }
 
@@ -303,7 +330,15 @@ body {
 }
 
 /* 设置管理员 */
+<<<<<<< HEAD
 .u-manager-box .u-manager-list .u-manager-item {
+=======
+<<<<<<< HEAD
+.u-manager-box .u-manager-list .u-manager-item {
+=======
+.u-manager-box .u-manager-list .u-manager-item{
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     margin-top: .2rem;
     padding-top: .34rem;
     background-color: #fff;
@@ -313,12 +348,26 @@ body {
     font-size: .28rem;
     color: #333;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-manager-box .u-inform-box .u-inform-desc {
     font-size: .24rem;
     color: #999;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-manager-box .u-inform-box .u-inform-time {
     padding-top: .1rem;
     font-size: .26rem;
@@ -332,6 +381,7 @@ body {
     color: #666;
     border-top: 1px solid #E6E6E6;
 }
+<<<<<<< HEAD
 
 .u-btn-box .u-inform-btn {
     font-size: .26rem;
@@ -339,6 +389,23 @@ body {
 }
 
 .u-btn-box .u-inform-btn:last-of-type {
+=======
+<<<<<<< HEAD
+
+.u-btn-box .u-inform-btn {
+    font-size: 13px;
+    border-right: .02rem solid #e6e6e6;
+}
+
+.u-btn-box .u-inform-btn:last-of-type {
+=======
+ .u-btn-box .u-inform-btn {
+    font-size: 13px;
+    border-right: .02rem solid #e6e6e6;
+}
+ .u-btn-box .u-inform-btn:last-of-type {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     border-right: none;
 }
 
@@ -348,7 +415,14 @@ body {
     background-color: #fff;
     border-top: 1px solid #E6E6E6;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-add-manager-box .input-group {
     border-bottom: 1px solid #E6E6E6;
 }
@@ -356,7 +430,14 @@ body {
 .u-add-manager-box .input-group:first-of-type {
     margin-top: .1rem;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-add-manager-box .form-control {
     padding-left: .1rem;
     height: .89rem;
@@ -366,6 +447,10 @@ body {
     border-radius: 0;
     box-shadow: none;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 
 .u-add-manager-box .u-textarea {
     padding: .16rem .2rem;
@@ -378,24 +463,49 @@ body {
 }
 
 .u-add-manager-box .u-group-addon,
+<<<<<<< HEAD
 .u-add-manager-box .input-group-addon {
     padding-left: 0;
     padding-right: 0;
     font-size: .3rem;
+=======
+.u-add-manager-box .input-group-addon {
+    padding-left: 0;
+=======
+.u-add-manager-box .input-group-addon {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+    font-size: 15px;
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     background-color: #fff;
     border: none;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-add-manager-box .u-group-addon {
     padding: 6px 12px;
     padding-left: 4px;
     font-weight: normal;
 }
 
+<<<<<<< HEAD
 .u-add-manager-box .u-select-btn-box {
     height: .86rem;
 }
 
+=======
+.u-add-manager-box .u-select-btn-box {
+    height: .86rem;
+}
+
+=======
+.u-add-manager-box .u-select-btn-box {
+    height: .86rem;
+}
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-add-manager-box .u-select-btn {
     height: 100%;
     line-height: .86rem;
@@ -405,7 +515,14 @@ body {
 .u-add-manager-box .u-btn-box {
     background-color: #fff;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-add-manager-box .u-btn-box .btn {
     margin-top: .7rem;
     height: .9rem;
@@ -414,7 +531,14 @@ body {
     width: 100%;
     outline: none;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-add-manager-box .u-tips {
     padding: .2rem 0;
     font-size: .24rem;
@@ -424,14 +548,32 @@ body {
     padding: .4rem .5rem .36rem;
     font-size: 13px;
 }
+<<<<<<< HEAD
 
 .u-add-manager-box .u-principal-desc > h2 {
+=======
+<<<<<<< HEAD
+
+.u-add-manager-box .u-principal-desc > h2 {
+=======
+.u-add-manager-box .u-principal-desc>h2 {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     padding: .4rem 0;
     line-height: .13rem;
     color: #666;
 }
+<<<<<<< HEAD
 
 .u-add-manager-box .u-principal-desc > p {
+=======
+<<<<<<< HEAD
+
+.u-add-manager-box .u-principal-desc > p {
+=======
+.u-add-manager-box .u-principal-desc>p {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     line-height: .42rem;
     color: #999;
 }
@@ -449,15 +591,32 @@ body {
     font-size: .28rem;
 
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-pointLog-box .u-point-count-box .u-point-count {
     padding-bottom: .3rem;
     text-align: center;
     font-size: .28rem;
 }
+<<<<<<< HEAD
 
 .u-pointLog-box .u-point-count-box .u-point-count > span {
     font-size: .8rem;
+=======
+<<<<<<< HEAD
+
+.u-pointLog-box .u-point-count-box .u-point-count > span {
+=======
+.u-pointLog-box .u-point-count-box .u-point-count>span {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+    font-size: 40px;
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 }
 
 .u-pointHelp-box .u-point-list .u-point-item,
@@ -465,21 +624,44 @@ body {
     border-top: 1px solid #e6e6e6;
     height: 1.26rem;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-pointLog-box .u-point-list .u-point-item .u-point-message {
     padding-top: .28rem;
     padding-bottom: .18rem;
     line-height: .28rem;
     font-size: .28rem;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-pointLog-box .u-point-list .u-point-item .u-point-time {
     line-height: .28rem;
     font-size: .24rem;
     color: #999;
 }
+<<<<<<< HEAD
 
 .u-pointLog-box .u-point-list .u-point-item .u-point-time > span:last-of-type {
+=======
+<<<<<<< HEAD
+
+.u-pointLog-box .u-point-list .u-point-item .u-point-time > span:last-of-type {
+=======
+.u-pointLog-box .u-point-list .u-point-item .u-point-time>span:last-of-type {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     margin-left: .1rem;
 }
 
@@ -493,12 +675,26 @@ body {
     padding-bottom: .26rem;
     height: auto;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-pointHelp-box .u-point-list .u-point-title {
     font-size: .28rem;
     color: #333;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-pointHelp-box .u-point-list .u-point-desc {
     font-size: .26rem;
     color: #666;
@@ -509,13 +705,27 @@ body {
 #pointCarousel {
     height: 3rem;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 #pointCarousel .carousel-indicators li {
     width: .14rem;
     height: .14rem;
     background-color: #fff;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 #pointCarousel .carousel-indicators li.active {
     background-color: #EB3D44;
 }
@@ -526,7 +736,14 @@ body {
     height: 1.88rem;
     border-bottom: 1px solid #ccc;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-pointEx-box .u-point-list .u-point-item .u-item-img-box {
     position: relative;
     display: inline-block;
@@ -534,7 +751,18 @@ body {
     height: 1.29rem;
     vertical-align: top;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+.u-pointEx-box .u-point-list .u-point-item .u-item-img-box img {
+    width: 100%;
+    height: 100%;
+}
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-pointEx-box .u-point-list .u-point-item .u-item-img-desc {
     position: absolute;
     top: 55%;
@@ -551,17 +779,36 @@ body {
     display: inline-block;
     vertical-align: top;
 }
+<<<<<<< HEAD
 
 .u-pointEx-box .u-point-list .u-point-message > h3 {
+=======
+<<<<<<< HEAD
+
+.u-pointEx-box .u-point-list .u-point-message > h3 {
+=======
+.u-pointEx-box .u-point-list .u-point-message>h3 {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     padding-top: .08rem;
     padding-bottom: .28rem;
     font-size: .3rem;
     color: #444;
 }
+<<<<<<< HEAD
 
 .u-pointEx-box .u-point-list .u-point-message > p {
     font-size: .26rem;
     font-size: .26rem;
+=======
+<<<<<<< HEAD
+
+.u-pointEx-box .u-point-list .u-point-message > p {
+=======
+.u-pointEx-box .u-point-list .u-point-message>p {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+    font-size: 14px;
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     color: #888;
 }
 
@@ -584,7 +831,14 @@ body {
 .u-pointExLog-box .u-point-list {
     border-top: 1px solid #E6E6E6;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-pointExLog-box .u-point-list .u-point-item {
     border-bottom: 1px solid #E6E6E6;
     padding: .26rem 0;
@@ -594,18 +848,44 @@ body {
     border-bottom: none;
 }
 
+<<<<<<< HEAD
 .u-pointExLog-box .u-point-item .u-point-message > h3 {
     font-size: .28rem;
     color: #333;
 }
 
 .u-pointExLog-box .u-point-item .u-point-message > p {
+=======
+<<<<<<< HEAD
+.u-pointExLog-box .u-point-item .u-point-message > h3 {
+    font-size: 14px;
+    color: #333;
+}
+
+.u-pointExLog-box .u-point-item .u-point-message > p {
+=======
+.u-pointExLog-box .u-point-item .u-point-message>h3 {
+    font-size: 14px;
+    color: #333;
+}
+.u-pointExLog-box .u-point-item .u-point-message>p {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     padding-top: .12rem;
     font-size: .24rem;
     color: #999
 }
+<<<<<<< HEAD
 
 .u-pointExLog-box .u-point-item .u-point-message > p span:last-of-type {
+=======
+<<<<<<< HEAD
+
+.u-pointExLog-box .u-point-item .u-point-message > p span:last-of-type {
+=======
+.u-pointExLog-box .u-point-item .u-point-message>p span:last-of-type {
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     margin-left: .1rem;
 }
 
@@ -622,7 +902,14 @@ body {
     padding: 0 .3rem;
     border-top: 1px solid #E6E6E6;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-certificate-box .u-certificate-list .u-certificate-item {
     margin: 0;
     margin-top: .3rem;
@@ -631,7 +918,14 @@ body {
     color: #fff;
     font-size: .3rem;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-certificate-box .u-certificate-list .u-certificate-item:first-of-type {
     background-color: #F8B551;
 }
@@ -639,11 +933,25 @@ body {
 .u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(2) {
     background-color: #50C3F2;
 }
+<<<<<<< HEAD
 
 .u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(3) {
     background-color: #ED6F7D;
 }
 
+=======
+<<<<<<< HEAD
+
+.u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(3) {
+    background-color: #ED6F7D;
+}
+
+=======
+.u-certificate-box .u-certificate-list .u-certificate-item:nth-of-type(3) {
+    background-color: #ED6F7D;
+}
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-certificate-box .u-certificate-list .u-certificate-icon {
     margin-right: .14rem;
     display: inline-block;
@@ -653,13 +961,195 @@ body {
     background-size: 100% 100%;
     vertical-align: middle;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 .u-certificate-box .u-certificate-list .u-certificate-intro {
     padding-top: .3rem;
 }
 
 /* 提交认证资料 */
+<<<<<<< HEAD
 .u-certificateSubmit-box .u-certificate-list {
+=======
+<<<<<<< HEAD
+.u-certificateSubmit-box .u-certificate-list {
+    border-top: 1px solid #E6E6E6;
+}
+
+/* 基本信息 */
+.u-basicMessage-box {
+
+}
+
+.u-basicMessage-box .u-company-pic-box {
+    position: relative;
+}
+
+.u-basicMessage-box .u-company-pic-box .u-indicators {
+    position: absolute;
+    right: .15rem;
+    top: .15rem;
+    width: .45rem;
+    height: .45rem;
+    line-height: .45rem;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 100%;
+}
+
+.u-basicMessage-box .u-company-pic-box .u-company-item-desc {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: .3rem;
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.u-basicMessage-box .u-company-message-box {
+
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-message-title {
+    padding: .3rem 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-sm-logo {
+    margin-right: .1rem;
+    overflow: hidden;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #ccc;
+    border-radius: .1rem;
+    text-align: center;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-sm-logo img {
+    display: inline-block;
+    width: 1rem;
+    height: .93rem;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-name {
+    font-size: 16px;
+    color: #333;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-star {
+    padding-top: .16rem;
+    font-size: 12px;
+    color: #666;
+}
+
+.u-basicMessage-box .u-company-message-box .u-company-star > span {
+    color: #333;
+}
+
+.u-basicMessage-box .u-company-message-box .u-location-ion {
+    margin-top: .05rem;
+    margin-bottom: .05rem;
+    display: inline-block;
+    width: .28rem;
+    height: .4rem;
+    background: url("../../img/icon_location.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.u-basicMessage-box .u-company-message-list {
+    font-size: 14px;
+    color: #888;
+}
+
+.u-basicMessage-box .u-company-message-list li {
+    padding-top: .16rem;
+}
+
+.u-basicMessage-box .u-company-message-list li > span {
+    color: #333;
+}
+
+.u-basicMessage-box .u-company-message-list li > span.u-indent {
+    display: inline-block;
+    color: #888;
+    text-indent: .6rem;
+}
+
+.u-basicMessage-box .u-company-message-list .u-company-qrcode {
+    margin-top: .22rem;
+    width: 1.48rem;
+    height: 1.48rem;
+}
+
+/* 修改基本信息 */
+.u-basicMessageByAditor-box .u-add-btn-box {
+
+}
+
+.u-basicMessageByAditor-box .u-add-btn {
+    position: relative;
+    margin-top: .2rem;
+    margin-right: .3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px dotted #CCC;
+}
+
+.u-basicMessageByAditor-box .u-add-btn .u-add-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.29rem;
+    margin-left: -.02rem;
+    display: block;
+    width: .04rem;
+    height: .58rem;
+    content: " ";
+    background-color: #ccc;
+}
+
+.u-basicMessageByAditor-box .u-add-btn .u-add-icon:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.29rem;
+    margin-top: -.02rem;
+    display: block;
+    height: .04rem;
+    width: .58rem;
+    content: " ";
+    background-color: #ccc;
+}
+
+/* 兼容 Iphone5 手机样式 */
+@media screen and (max-width: 320px) {
+    .u-coupon-box .u-coupon-item .u-coupon-item-right > h2 {
+        font-size: 14px;
+    }
+
+    .u-coupon-box .u-coupon-item .u-coupon-item-right > p {
+        font-size: 12px;
+    }
+
+    .u-coupon-box .u-coupon-item .u-coupon-item-left {
+        font-size: 26px;
+    }
+
+=======
+.u-certificateSubmit-box .u-certificate-list{
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
     border-top: 1px solid #E6E6E6;
 }
 .u-certificateSubmit-box .u-group-addon {
@@ -820,6 +1310,7 @@ body {
 }
 
 /* 修改基本信息 */
+<<<<<<< HEAD
 .u-basicMessageByAditor-box .u-add-btn {
     position: relative;
     margin-top: .2rem;
@@ -855,3 +1346,41 @@ body {
     background-color: #ccc;
 }
 
+=======
+.u-basicMessageByAditor-box
+
+@media screen and (max-width: 320px){
+    .u-coupon-box .u-coupon-item .u-coupon-item-right>h2 {
+        font-size: 14px;
+    }
+    .u-coupon-box .u-coupon-item .u-coupon-item-right>p {
+        font-size: 12px;
+    }
+    .u-coupon-box .u-coupon-item .u-coupon-item-left {
+        font-size: 26px;
+    }
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+    .u-coupon-box .u-coupon-item .u-coupon-item-right .used {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 25%;
+        height: 100%;
+        line-height: .45rem;
+        font-size: 16px;
+        text-align: center;
+        color: #999;
+        padding: .48rem .1rem 0;
+        border-left: 1px dashed #CCCCCC;
+    }
+
+    .u-pointEx-box .u-point-list .u-point-item .u-item-img-desc {
+        font-size: 14px;
+    }
+
+    .u-certificate-box .u-certificate-list .u-certificate-intro {
+        padding-top: .24rem;
+    }
+}
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2

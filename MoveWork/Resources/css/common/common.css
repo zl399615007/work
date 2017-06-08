@@ -210,7 +210,9 @@
 .highlight-red {
     color: #EB3D44;
 }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 .highlight-blue {
     color: #7ECEF4;
 }
@@ -666,5 +668,64 @@
     -webkit-animation-delay:0.8s;
     animation-delay:0.8s;
 }
+=======
+=======
+>>>>>>> 99d7e43fdfbbeeea8e4b0ef7b35994692b060b22
+>>>>>>> f4f1a6806d88d6dd9c922839eeaef7f083d418b2
 
+/*自定义单选框样式*/
+.multiple-choice{
+    position: absolute;
+    display: none;
+}
 
+.multiple-choice + label{
+    position: relative;
+    padding: 0px 0 0 .4rem;
+    font-size:.26rem;
+    color:#444;
+    font-weight: normal;
+}
+
+.multiple-choice + label:before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: .24rem;
+    height: .24rem;
+    content: '';
+    border: 1px solid #b3b3b3;
+    margin-top:-.12rem;
+}
+
+.multiple-choice + label:after{
+    position: absolute;
+    display: none;
+    content: '';
+}
+
+.multiple-choice:checked + label:after{
+    display: block;
+}
+.multiple-choice:checked + label{
+    color:#EB3D44;
+}
+
+.multiple-choice + label:before{
+    border-radius: 50%;
+}
+
+.multiple-choice + label:after{
+    top: 50%;
+    left: .08rem;
+    width:.08rem;
+    height: .08rem;
+    border-radius: 50%;
+    background: #EB3D44;
+    margin-top: -.04rem;
+
+}
+
+.multiple-choice:checked + label:before{
+    border: 1px solid #EB3D44;
+}
