@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>个人认证</title>-->
+    <script>
+        $('.workmanagement-item-b a').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            console.log(url);
+            $('#preRight').load(url)
+        })
+        $('#goevaluation').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            console.log(url);
+            $('#preRight').load(url)
+        })
+    </script>
+</head>
+<body>
+<div class="u-workmanagement-box u-collect-box ">
+    <h2 class="u-preRight-title size16">工作管理<span class="u-preRight-sub">>&nbsp;&nbsp;曾经工作</span></h2>
+
+    <div class="u-collect-list">
+        <div class="u-collect-item">
+            <div class="left u-company-pic">
+                <img src="../../Resources/img/pic_collect_company.jpg">
+            </div>
+            <div class="left u-collect-intro">
+                <p class="u-collect-name size16">河北敬业集团</p>
+                <div class="size14">
+                    入职时间：2017-02-06
+                    <div class="right worktime">工作20天</div>
+                </div>
+                <div class="size14">
+                    离职时间：2017-02-06
+                </div>
+            </div>
+            <div class="right u-post-btn-box">
+                <div class="u-post-btn u-btn-sure size16 left" id="goevaluation" data-name="jobEvaluation.html">去评价</div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="u-collect-item">
+            <div class="left u-company-pic">
+                <img src="../../Resources/img/pic_collect_company.jpg">
+            </div>
+            <div class="left u-collect-intro">
+                <p class="u-collect-name size16">河北敬业集团</p>
+                <div class="size14">
+                    入职时间：2017-02-06
+                    <div class="right worktime">工作20天</div>
+                </div>
+                <div class="size14">
+                    离职时间：2017-02-06
+                </div>
+            </div>
+            <div class="right u-post-btn-box">
+                <div class="u-post-btn u-btn-cancel size16 left">已评价</div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="M-box"></div>
+</div>
+
+<script>
+    $('.M-box').pagination({
+        coping:true,
+        homePage:'首页',
+        endPage:'末页',
+        prevContent:'上一页',
+        nextContent:'下一页'
+    });
+</script>
+</body>
+</html>

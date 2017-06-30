@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>考勤-调班</title>-->
+    <script>
+        $('#workmanagement-kq-nav a').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            $('#preRight').load(url)
+        });
+        $('#tb-history a').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            console.log(url)
+            $('#preRight').load(url)
+        })
+    </script>
+</head>
+<body>
+<div class="u-workmanagement-box">
+    <h2 class="u-preRight-title size16">工作管理<span class="u-preRight-sub">>&nbsp;&nbsp;正在工作</span><span class="u-preRight-sub">>&nbsp;&nbsp;考勤</span><span class="u-preRight-sub">>&nbsp;&nbsp;调班</span></h2>
+    <ul class="workmanagement-kq-nav clear" id="workmanagement-kq-nav">
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq.html">考勤状况</a>
+        </li>
+        <li class="kq-nav-active">
+            <a href="javascript:;" data-name="workManagement-kq-tb.html">调班</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-qj.html">请假</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-lz.html">离职</a>
+        </li>
+    </ul>
+    <div class="workmanagement-kq-content">
+        <div class="tb-list spr-select">
+            <span>审批人：</span>
+            <select>
+                <option value="">1</option>
+            </select>
+        </div>
+        <div class="tb-list">
+            <p>本应工作时间段：</p>
+            <select>
+                <option value="">选择日期</option>
+            </select>
+            <select>
+                <option value="">选择时间</option>
+            </select>
+            <span class="tb-line">—</span>
+            <select>
+                <option value="">选择日期</option>
+            </select>
+            <select>
+                <option value="">选择时间</option>
+            </select>
+        </div>
+        <div class="tb-list">
+            <p>调班时间段：</p>
+            <select>
+                <option value="">选择日期</option>
+            </select>
+            <select>
+                <option value="">选择时间</option>
+            </select>
+            <span class="tb-line">—</span>
+            <select>
+                <option value="">选择日期</option>
+            </select>
+            <select>
+                <option value="">选择时间</option>
+            </select>
+        </div>
+        <div class="tb-list">
+            <p>调班时间段：</p>
+            <textarea></textarea>
+        </div>
+        <div class="pub-btn">提交申请</div>
+
+        <p class="tb-history" id="tb-history"><a href="javascript:;" data-name="tb-history.html" >查看调班记录></a></p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

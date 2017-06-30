@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>招聘项目详情-招聘岗位</title>
+   <link rel="stylesheet" href="../../Resources/css/common/base.css">
+   <link rel="stylesheet" href="../../Resources/css/RecruitmentProject/recruitmentProject.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script>
+        //招聘项目流程
+        $('#recruitdetil-foot-nav a').on('click',function () {
+            var url=$(this).attr('data-name');
+            console.log(url);
+            $('#content').load(url)
+        });
+
+    </script>
+</head>
+<body>
+
+  <div class="u-recruitdetil-box">
+      <div class="u-bgf0"></div>
+      <div class="u-page u-recruitdetil">
+        <div class="u-recruitdetil-head">
+          <h2>北京安特永益科技有限公司招聘公告</h2>
+          <div class="u-recruitdetil-ts">
+            <span>招聘报名(进行中)</span>
+          </div>
+          <p class="u-recruitdetil-p">
+            <b>公司简介：</b>石炼宾馆隶属中国石化集团,前身是石炼招待所，负责企业对外接待工作中的餐饮、住宿、商务、会议服务和对外经营工作。设有经理、办公室、前厅部、客房部、餐饮部、单身食堂、维修部、安保部等部门。成立于1979年，占地面积24亩，总建筑面积6240平方米，床位156张，设有供250人就餐的餐厅，能容纳250人开会的会议厅，四间能容纳30人开会的会议室。1993年，招待所更名为石炼宾馆。1997年，宾馆在北侧建外招楼，为七层建筑。设客房71间，标准间50间，套房21间。有可容纳20人的会议室2间，70人会议室1间，250人会议厅1间。餐厅有可容纳10人包房4间，15人包房3间，30人包房1间，50人餐厅1间，40人自助餐厅2间，250人宴会厅1间。
+          </p>
+          <div class="recruitdetil-sc">
+              <img src="../../Resources/img/recruit-pf.png" alt="" class="recruit-pf">
+              <span class="recruitdetil-sc-text">收藏</span>
+          </div>
+        </div>
+        <div class="u-recruitdetil-foot">
+            <div class="recruitdetil-foot-nav" id="recruitdetil-foot-nav">
+                <a href="javascript:;"  class="foot-nav-active" data-name="../RecruitmentProject/recruitDetil.html">招聘岗位</a>
+                <a href="javascript:;"  data-name="../RecruitmentProject/recruitDetil-gg.html">项目流程</a>
+            </div>
+            <div class="recruitdetil-foot-content">
+                <ul class="recruitdetil-foot-list clear">
+                    <li>
+                        <span class="rec-f-num">1</span>
+                        <div class="rec-f-text clear">
+                            <p>酒店业务坐席专员</p>
+                            <span>招聘人数：2人</span>
+                            <span>学历要求：专科以上</span>
+                            <span>专业要求：管理专业</span>
+                            <span>其它要求：XXX技能认证</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="rec-f-num">2</span>
+                        <div class="rec-f-text clear">
+                            <p>酒店业务坐席专员</p>
+                            <span>招聘人数：2人</span>
+                            <span>学历要求：专科以上</span>
+                            <span>专业要求：管理专业</span>
+                            <span>其它要求：XXX技能认证</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="rec-f-num">3</span>
+                        <div class="rec-f-text clear">
+                            <p>酒店业务坐席专员</p>
+                            <span>招聘人数：2人</span>
+                            <span>学历要求：专科以上</span>
+                            <span>专业要求：管理专业</span>
+                            <span>其它要求：XXX技能认证</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="rec-f-num">4</span>
+                        <div class="rec-f-text clear">
+                            <p>酒店业务坐席专员</p>
+                            <span>招聘人数：2人</span>
+                            <span>学历要求：专科以上</span>
+                            <span>专业要求：管理专业</span>
+                            <span>其它要求：XXX技能认证</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+  </div>
+  </div>
+
+</body>
+</html>

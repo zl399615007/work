@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>管理菜单</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/WorkManagement/WorkManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+
+
+</head>
+<body>
+<div class="u-nav-box">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="index.html"></a>
+        <p class="u-header-title text-center">XXX项目组</p>
+    </div>
+    <div class="container u-nav-list">
+        <div class="row">
+            <div class="col-xs-4" onclick="window.location='EmployeeManagement.html'">
+                <img src="../../Resources/img/workmanagemet-work.png" alt="">
+                <span>员工管理</span>
+            </div>
+            <div class="col-xs-4" onclick="window.location='check.html'">
+                <img src="../../Resources/img/workmanagemet-check.png" alt="">
+                <span>考勤管理</span>
+            </div>
+            <div class="col-xs-4" onclick="window.location='WorkReport.html'">
+                <img src="../../Resources/img/workmanagemet-report.png" alt="">
+                <span>工作报告</span>
+            </div>
+        </div>
+        <div class="row" data-toggle='modal' data-target='#modal-tips'>
+            <div class="col-xs-4" >
+                <img src="../../Resources/img/workmanagemet-wages.png" alt="">
+                <span>工资管理</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-tips'>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                				<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">
+                </span>
+                <h4 class="modal-title" id="myModalLabel2">
+                    提示
+                </h4>
+            </div>
+            <div class="modal-body text-center">
+                手机端无法操作，请到PC端nuo.hbhro.com进行操作。
+            </div>
+
+            <!--<div class="modal-footer u-btn-box">-->
+            <!--</div>-->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+</body>
+</html>

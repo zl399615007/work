@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>员工管理</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/WorkManagement/WorkManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+    <script src="../../Resources/js/WorkManagement/EmployeeManagement.js"></script>
+
+
+</head>
+<body class="u-EmployeeManagement">
+<div class="u-layout j-layout"></div>
+<div class="u-EmployeeManagement-box">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="nav.html"></a>
+        <p class="u-header-title text-center">员工管理</p>
+        <span type="button" class="u-header-add j-header-add" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<div class='Addmembers'>添加成员</div><div class='j-import-btn'>导入简历</div><div class='j-tips-btn' data-toggle='modal' data-target='#modal-tips'>导入文件</div>">
+            <div class="collapse u-collapse container-fluid" id="import">
+                    <div class="row u-collapse-head">
+                        <div class="col-xs-12">
+                            <p class="pull-left">请选择要导入的简历，可多选</p>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="u-collapse-select-list row checkbox">
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d1">
+                                <label for="d1">xxx的的简历</label>
+                            </div>
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d2">
+                                <label for="d2">xxx的的简历</label>
+                            </div>
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d3">
+                                <label for="d3">xxx的的简历</label>
+                            </div>
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d4">
+                                <label for="d4">xxx的的简历</label>
+                            </div>
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d5">
+                                <label for="d5">xxx的的简历</label>
+                            </div>
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d6">
+                                <label for="d6">xxx的的简历</label>
+                            </div>
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d7">
+                                <label for="d7">xxx的的简历</label>
+                            </div>
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d8">
+                                <label for="d8">xxx的的简历</label>
+                            </div>
+                            <div class="u-collapse-slect-item col-xs-6">
+                                <input class="checkbox-choice" type="checkbox" name="eduation" id="d9">
+                                <label for="d9">xxx的的简历</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input class="u-reset btn u-infoDetil-notpass u-white-color col-xs-6" type="reset"/>
+                            <button class="btn u-infoDetil-pass col-xs-6">确定</button>
+                        </div>
+                    </form>
+                </div>
+        </span>
+    </div>
+    <div class="container u-lookresume-box u-EmployeeManagement-list">
+        <div class="row">
+
+            <div class="u-lookresume-t">
+                <span>李雪</span>
+                <span></span>
+                <span>销售总经理</span>
+                <i class="fr u-EmployeeManagement-time">2017-02-01</i>
+            </div>
+            <div class="u-lookresume-b">
+                <span>工号：<b>100210</b></span>
+                <span>手机号：<b>18787872878</b></span>
+            </div>
+            <div class="u-project-f">
+                <div class="u-project-a">
+                    <a href="ModifyManagerInfo.html">修改</a>
+                    <a data-toggle="modal" data-target="#modal-delete">删除</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="u-lookresume-t">
+                <span>李雪</span>
+                <span></span>
+                <span>销售总经理</span>
+                <i class="fr u-EmployeeManagement-time">2017-02-01</i>
+            </div>
+            <div class="u-lookresume-b">
+                <span>工号：<b>100210</b></span>
+                <span>手机号：<b>18787872878</b></span>
+            </div>
+            <div class="u-project-f">
+                <div class="u-project-a">
+                    <a href="ModifyManagerInfo.html">修改</a>
+                    <a data-toggle="modal" data-target="#modal-delete">删除</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-delete'>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--				<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">-->
+                </span>
+                <h4 class="modal-title" id="myModalLabel">
+                    提示
+                </h4>
+            </div>
+            <div class="modal-body text-center">
+                确认删除吗？
+            </div>
+
+            <div class="modal-footer u-btn-box">
+                <div class="row">
+                    <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                    <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-tips'>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                				<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">
+                </span>
+                <h4 class="modal-title" id="myModalLabel2">
+                    提示
+                </h4>
+            </div>
+            <div class="modal-body text-center">
+                手机端无法操作，请到PC端nuo.hbhro.com进行操作。
+            </div>
+
+            <!--<div class="modal-footer u-btn-box">-->
+            <!--</div>-->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<script>
+
+</script>
+</body>
+</html>

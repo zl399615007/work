@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>公司详情</title>
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/CompanyDetail/companyDetail.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="u-header">
+    <div class="tbar">
+        <div class="u-page clear">
+            <div class="u-weixin left">
+                <i class="icon_hf icon_wx"></i>
+                <span>微信</span>
+            </div>
+            <div class="u-useinfo right">
+                <ul class="u-user">
+                    <li class="u-mesage">
+                        <a href="#">消息</a>
+                    </li>
+                    <li class="u-userselect">
+                        <a href="#">
+                            <span class="l-link_fff"></span>
+                            <span>用户名</span>
+                            <i class="icon-down"></i>
+                        </a>
+                        <ul class="user_info_list pub_list">
+                            <li class="user_info_show clear">
+                                <div class="left">
+                                    <img src="../../Resources/img/user_img.png" alt="">
+                                    <b class="user_name">姓名</b>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="quit">退出登陆</a>
+                                </div>
+                                <div class="user-sanjiao"></div>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_red"></i>
+                                <p>我的简历</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_sc"></i>
+                                <p>我的收藏</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_mm"></i>
+                                <p>修改密码</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_qz"></i>
+                                <p>求职进展</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_gz"></i>
+                                <p>工作管理</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="u-nav-box">
+        <div class="u-page clear_no">
+            <div class="logo">
+                <a href="#"></a>
+                <span class="loc f16">【<em>石家庄</em>】</span>
+            </div>
+            <ul class="tnav_wrap left" id='tnav'>
+                <li class="nav-home"><a href="#" class="nav-on">首页</a></li>
+                <li><a href="#" data-name='../RecruitmentProject/recruitmentProject.html'>招聘项目</a></li>
+                <li><a href="#">我要兼职</a></li>
+                <li><a href="#">最新资讯</a></li>
+            </ul>
+            <div class="right">
+                <div class='tphone'>
+                    <i class="icon-tphone"></i>
+                    <span>400-666-5643</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="u-page">
+    <div class="u-companyDetail-box">
+        <div class="u-left-box left">
+            <div class="u-left-head">
+                <div class="u-company-logo">
+                    <img src="../../Resources/img/company.jpg">
+                </div>
+                <div class="u-company-name">
+                    <h2 class="size24 highlight-333">博创华宇（北京）科技有限公司石家庄分公司 <span
+                            class="u-btn-sure u-btn size18 u-btn-follow j-btn-follow" data-value="false">关注</span></h2>
+                    <div class="u-company-message">
+                        <div class="left u-message-item">
+                            <p class="size18 highlight-333">8个</p>
+                            <p class="size14 highlight-999">招聘职位</p>
+                        </div>
+                        <div class="left u-message-item">
+                            <p class="size18 highlight-333">89%</p>
+                            <p class="size14 highlight-999">申请人反馈</p>
+                        </div>
+                        <div class="left u-message-item">
+                            <p class="size18 highlight-333">2小时</p>
+                            <p class="size14 highlight-999">反馈时间处理</p>
+                        </div>
+                        <div class="left u-message-item">
+                            <p class="size18 highlight-333">15个</p>
+                            <p class="size14 highlight-999"> 面试评价</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="u-step-box">
+                <h1 class="u-title2 size22 highlight-333">企业介绍</h1>
+                <div class="u-desc3 highlight-999">
+                    <span>博创华宇（北京）科技有限公司----石家庄分公司</span>
+                    博创华宇（北京）科技有限公司成立于2010年。总部位于北京中关村信息产业园，是一家专门从事软件研发、软件技术咨询、系统集成、软件技术培训等业务的高科技软件公司，在石家庄，西安、郑州、程度、武汉等地设有分公司或办事处。2012年博创华宇成立研发部门...<span class="highlight-red">【展开】</span>
+
+                </div>
+            </div>
+            <div class="u-step-box post-list">
+                <h1 class="u-title2 size22 highlight-333">
+                    该公司全部岗位
+                    <div class="u-switch-box right size18">
+                    <i class="icon_hf switch-left"></i>
+                    <span class="highlight-red">1</span>
+                    <span class="switch-line highlight-999">/</span>
+                    <span class="highlight-999">3</span>
+                    <i class="icon_hf switch-right"></i>
+                </div>
+                </h1>
+               <div class="u-post-list">
+                   <div class="u-post-item bounty">
+                       <div class="u-post-name size16">
+
+                           <a href="../PostDetail/postDetail.html" target="_blank"  class="highlight-blue highlight-333">内部招待员<i></i></a>
+                       </div>
+                      <ul class="u-post-message left size14 highlight-666">
+                          <li class="u-post-li">
+                              <span>地区：上东城区</span>
+                              <span>类型：兼职</span>
+                              <span class="size18 highlight-red">80元/天</span>
+                          </li>
+                          <li class="u-post-li">
+                              <span>结算方式：日结</span>
+                              <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                              <span>1小时前发布</span>
+                          </li>
+                      </ul>
+                       <div class="u-btn u-btn-sure right">投简历</div>
+                       <div class="clear"></div>
+                   </div>
+                   <div class="u-post-item bounty">
+                       <div class="u-post-name size16">
+                           <a href="../PostDetail/postDetail.html" target="_blank"  class="highlight-blue highlight-333">内部招待员<i></i></a>
+                       </div>
+                       <ul class="u-post-message left size14 highlight-666">
+                           <li class="u-post-li">
+                               <span>地区：上东城区</span>
+                               <span>类型：兼职</span>
+                               <span class="size18 highlight-red">80元/天</span>
+                           </li>
+                           <li class="u-post-li">
+                               <span>结算方式：日结</span>
+                               <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                               <span>1小时前发布</span>
+                           </li>
+                       </ul>
+                       <div class="u-btn u-btn-sure right">投简历</div>
+                       <div class="clear"></div>
+                   </div>
+                   <div class="u-post-item">
+                       <div class="u-post-name size16">
+                           <a href="../PostDetail/postDetail.html" target="_blank"  class="highlight-blue highlight-333">内部招待员<i></i></a>
+                       </div>
+                       <ul class="u-post-message left size14 highlight-666">
+                           <li class="u-post-li">
+                               <span>地区：上东城区</span>
+                               <span>类型：兼职</span>
+                               <span class="size18 highlight-red">80元/天</span>
+                           </li>
+                           <li class="u-post-li">
+                               <span>结算方式：日结</span>
+                               <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                               <span>1小时前发布</span>
+                           </li>
+                       </ul>
+                       <div class="u-btn u-btn-sure right">投简历</div>
+                       <div class="clear"></div>
+                   </div>
+                   <div class="u-post-item">
+                       <div class="u-post-name size16">
+                           <a href="../PostDetail/postDetail.html" target="_blank"  class="highlight-blue highlight-333">内部招待员<i></i></a>
+                       </div>
+                       <ul class="u-post-message left size14 highlight-666">
+                           <li class="u-post-li">
+                               <span>地区：上东城区</span>
+                               <span>类型：兼职</span>
+                               <span class="size18 highlight-red">80元/天</span>
+                           </li>
+                           <li class="u-post-li">
+                               <span>结算方式：日结</span>
+                               <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                               <span>1小时前发布</span>
+                           </li>
+                       </ul>
+                       <div class="u-btn u-btn-sure right">投简历</div>
+                       <div class="clear"></div>
+                   </div>
+                   <div class="u-post-item">
+                       <div class="u-post-name size16">
+                           <a href="../PostDetail/postDetail.html" target="_blank"  class="highlight-blue highlight-333">内部招待员<i></i></a>
+                       </div>
+                       <ul class="u-post-message left size14 highlight-666">
+                           <li class="u-post-li">
+                               <span>地区：上东城区</span>
+                               <span>类型：兼职</span>
+                               <span class="size18 highlight-red">80元/天</span>
+                           </li>
+                           <li class="u-post-li">
+                               <span>结算方式：日结</span>
+                               <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                               <span>1小时前发布</span>
+                           </li>
+                       </ul>
+                       <div class="u-btn u-btn-sure right">投简历</div>
+                       <div class="clear"></div>
+                   </div>
+
+               </div>
+            </div>
+            <div class="u-step-box post-list">
+                <h1 class="u-title2 size22 highlight-333">
+                    企业评价
+                    <div class="u-switch-box right size18">
+                        <i class="icon_hf switch-left"></i>
+                        <span class="highlight-red">1</span>
+                        <span class="switch-line highlight-999">/</span>
+                        <span class="highlight-999">3</span>
+                        <i class="icon_hf switch-right"></i>
+                    </div>
+                </h1>
+                <div class="u-evaluate-list">
+                    <div class="u-evaluate-item">
+                        <span class="size18 highlight-333">综合评价：</span>
+                        <span class="icon_hf u-star full"></span>
+                        <span class="icon_hf u-star full"></span>
+                        <span class="icon_hf u-star full"></span>
+                        <span class="icon_hf u-star full"></span>
+                        <span class="icon_hf u-star"></span>
+                        <span class="size18 highlight-red">4.0分</span>
+                        <span class="size12 highlight-999">（来自123份评价）</span>
+                    </div>
+                    <div class="u-evaluate-item">
+                        <div class="u-user-pic left">
+                            <i class="icon_hf"></i>
+                        </div>
+                        <ul class="u-evaluate-message size14 left">
+                            <li class="u-evaluate-li1">
+                                <span class="highlight-333">匿名</span>
+                                <span class="highlight-999">面试职位：</span>
+                                <span class="highlight-333">平面设计师</span>
+                                <span class="highlight-999 right">2017-03-27</span>
+                            </li>
+                            <li class="u-evaluate-li2">
+                                <span class="highlight-999">综合评分：</span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="size18 highlight-red">4.0分</span>
+                            </li>
+                            <li class="u-evaluate-li3 highlight-666">公司很欧发展潜力，leader是个有实力的美女，公司福利方面也都很棒。</li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="u-evaluate-item">
+                        <div class="u-user-pic left">
+                            <i class="icon_hf"></i>
+                        </div>
+                        <ul class="u-evaluate-message size14 left">
+                            <li class="u-evaluate-li1">
+                                <span class="highlight-333">匿名</span>
+                                <span class="highlight-999">面试职位：</span>
+                                <span class="highlight-333">平面设计师</span>
+                                <span class="highlight-999 right">2017-03-27</span>
+                            </li>
+                            <li class="u-evaluate-li2">
+                                <span class="highlight-999">综合评分：</span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="size18 highlight-red">4.0分</span>
+                            </li>
+                            <li class="u-evaluate-li3 highlight-666">公司很欧发展潜力，leader是个有实力的美女，公司福利方面也都很棒。</li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="u-evaluate-item">
+                        <div class="u-user-pic left">
+                            <i class="icon_hf"></i>
+                        </div>
+                        <ul class="u-evaluate-message size14 left">
+                            <li class="u-evaluate-li1">
+                                <span class="highlight-333">匿名</span>
+                                <span class="highlight-999">面试职位：</span>
+                                <span class="highlight-333">平面设计师</span>
+                                <span class="highlight-999 right">2017-03-27</span>
+                            </li>
+                            <li class="u-evaluate-li2">
+                                <span class="highlight-999">综合评分：</span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="size18 highlight-red">4.0分</span>
+                            </li>
+                            <li class="u-evaluate-li3 highlight-666">公司很欧发展潜力，leader是个有实力的美女，公司福利方面也都很棒。</li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="u-evaluate-item">
+                        <div class="u-user-pic left">
+                            <i class="icon_hf"></i>
+                        </div>
+                        <ul class="u-evaluate-message size14 left">
+                            <li class="u-evaluate-li1">
+                                <span class="highlight-333">匿名</span>
+                                <span class="highlight-999">面试职位：</span>
+                                <span class="highlight-333">平面设计师</span>
+                                <span class="highlight-999 right">2017-03-27</span>
+                            </li>
+                            <li class="u-evaluate-li2">
+                                <span class="highlight-999">综合评分：</span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="size18 highlight-red">4.0分</span>
+                            </li>
+                            <li class="u-evaluate-li3 highlight-666">公司很欧发展潜力，leader是个有实力的美女，公司福利方面也都很棒。</li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="u-evaluate-item">
+                        <div class="u-user-pic left">
+                            <i class="icon_hf"></i>
+                        </div>
+                        <ul class="u-evaluate-message size14 left">
+                            <li class="u-evaluate-li1">
+                                <span class="highlight-333">匿名</span>
+                                <span class="highlight-999">面试职位：</span>
+                                <span class="highlight-333">平面设计师</span>
+                                <span class="highlight-999 right">2017-03-27</span>
+                            </li>
+                            <li class="u-evaluate-li2">
+                                <span class="highlight-999">综合评分：</span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star full"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="icon_hf u-star"></span>
+                                <span class="size18 highlight-red">4.0分</span>
+                            </li>
+                            <li class="u-evaluate-li3 highlight-666">公司很欧发展潜力，leader是个有实力的美女，公司福利方面也都很棒。</li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-right-box right">
+            <div class="u-company-basic">
+                <h2 class="size18 highlight-333">
+                    <span class="u-line-red"></span>
+                    公司基本信息
+                    <span class="u-line-white"></span>
+                </h2>
+                <ul class="u-basic-ul highlight-666">
+                    <li>行业：金融</li>
+                    <li>规模：1000-2000人</li>
+                    <li>性质：国企</li>
+                    <li>企业联系人：王经理</li>
+                    <li>企业联系电话：15637564125</li>
+                    <li>地址：河北 石家庄 桥西区 裕华路与大经街交口西行200米</li>
+                </ul>
+            </div>
+            <div class="u-company-position">
+                <img src="../../Resources/img/bg_company_basic_map.jpg">
+            </div>
+            <div class="u-company-pic-box">
+                <h2 class="size18 highlight-333">
+                    <span class="u-line-red"></span>
+                    公司风采
+                    <span class="u-line-white"></span>
+                </h2>
+               <div class="u-company-pic">
+                   <img src="../../Resources/img/pic_company.jpg">
+               </div>
+            </div>
+            <div class="u-authentication">
+                <h2 class="size18 highlight-333">
+                    <span class="u-line-red"></span>
+                    公司认证
+                    <span class="u-line-white"></span>
+                </h2>
+                <div class="u-authentication-item left">
+                    <div class="icon1 icon"><i class="icon_hf"></i></div>
+                    <p class="size16 highlight-333">实名认证</p>
+                </div>
+                <div class="u-authentication-item left">
+                    <div class="icon2 icon"><i class="icon_hf"></i></div>
+                    <p class="size16 highlight-333">合法认证</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="foot">
+    <div class="u-page">
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    增值产品
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    HR服务
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    关于我们
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d f-ss">
+            <div class="f-weixin">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-weixin-text">
+                    <p>微信扫一扫</p>
+                    <p>工作随心找</p>
+                </div>
+            </div>
+            <div class="f-gzh">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-gzh-text">
+                    <p>扫一扫关注</p>
+                    <p>诺亚公众号</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="f-bottom-text">
+        <p>诺亚公司旗下网站</p>
+        <p>
+            <span>2017诺亚人力资源开发有限公司</span>
+            <span>冀ICP备10006226号-4</span>
+            <span>冀公网安备13019902000054号</span>
+        </p>
+        <p>服务热线：400-666-5643</p>
+    </div>
+</div>
+<script>
+    $(function () {
+        $('.j-btn-follow').on('click', function () {
+            if ($(this).attr('data-value') == 'false') {
+                $(this).attr('data-value', 'true');
+                $(this).addClass('follow');
+                $(this).text('已关注');
+            } else {
+                $(this).attr('data-value', 'false');
+                $(this).removeClass('follow');
+                $(this).text('关注');
+            }
+
+
+        });
+    })
+</script>
+</body>
+</html>

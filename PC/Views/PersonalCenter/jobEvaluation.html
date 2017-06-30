@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>个人认证</title>-->
+    <script>
+        $('.workmanagement-item-b a').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            console.log(url);
+            $('#preRight').load(url)
+        })
+        $('#u-btn-sure').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            console.log(url);
+            $('#preRight').load(url)
+        })
+    </script>
+</head>
+<body>
+<div class="u-workmanagement-box u-collect-box ">
+    <h2 class="u-preRight-title size16">工作管理<span class="u-preRight-sub">>&nbsp;&nbsp;曾经工作</span><span class="u-preRight-sub">>&nbsp;&nbsp;工作评价</span></h2>
+    <ul class="pj-list clear">
+        <li>
+            <span>工作环境：</span>
+            <div class="pj-xx">
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-bad"></i>
+
+            </div>
+        </li>
+        <li>
+            <span>领导态度：</span>
+            <div class="pj-xx">
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-bad"></i>
+
+            </div>
+        </li>
+        <li>
+            <span>劳动强度：</span>
+            <div class="pj-xx">
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-bad"></i>
+
+            </div>
+        </li>
+        <li>
+            <span>企业文化：</span>
+            <div class="pj-xx">
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-good"></i>
+                <i class="icon_hf pj-bad"></i>
+
+            </div>
+        </li>
+    </ul>
+    <div class="pj-text">
+        <p>评价内容：</p>
+        <textarea></textarea>
+    </div>
+    <div class="pj-btn-box">
+        <div class="u-btn-sure u-pj-btn" data-name="everWorked.html" id="u-btn-sure">确定</div>
+        <div class="u-btn-cancel u-pj-btn">取消</div>
+    </div>
+</div>
+<script>
+
+</script>
+</body>
+</html>

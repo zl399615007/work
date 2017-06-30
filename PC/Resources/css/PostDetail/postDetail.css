@@ -1,0 +1,207 @@
+.u-page {
+    margin-bottom: 30px;
+}
+
+.u-hidden {
+    display: none;
+}
+
+.u-btn-sure {
+    color: #fffefe;
+    background-color: #eb3d44;
+}
+img { width: 100%; height: 100%; }
+.u-postDetail-box {
+    padding-top: 60px;
+}
+.u-postDetail-box .u-left-box {
+    width: 700px;
+}
+
+.u-postDetail-box .u-left-box .u-step-box:not(:first-of-type) {
+    margin-top: 56px;
+}
+
+.u-postDetail-box .u-left-box .u-title {
+    line-height: 36px;
+    color: #222;
+}
+.u-postDetail-box .u-left-box .u-desc {
+    padding-top: 14px;
+    line-height: 24px;
+    color: #888;
+}
+.u-postDetail-box .u-left-box .u-desc>span {
+    margin: 0 9px;
+}
+.u-postDetail-box .u-left-box .u-desc>span:first-of-type {
+    margin-left: 0;
+}
+
+.u-postDetail-box .u-left-box .u-tag-item {
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #888;
+    background-color: #f0feff;
+}
+
+.u-postDetail-box .u-left-box .u-time {
+    padding-top: 13px;
+    line-height: 24px;
+    color: #888;
+}
+.u-postDetail-box .u-left-box .u-time>span:first-of-type {
+    margin-right: 10px;
+}
+
+.u-postDetail-box .u-left-box .u-title2 {
+    padding-bottom: 15px;
+    line-height: 22px;
+}
+.u-postDetail-box .u-left-box .u-desc2 {
+    line-height: 24px;
+}
+.u-postDetail-box .u-left-box .u-desc2>span {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.u-postDetail-box .u-left-box .u-intro {
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+.u-postDetail-box .u-left-box .u-intro .u-intro-title {
+    padding-bottom: 12px;
+    line-height: 16px;
+}
+.u-postDetail-box .u-left-box .u-intro .u-intro-desc {
+    line-height: 22px;
+}
+.u-postDetail-box .u-left-box .u-desc3 {
+    line-height: 22px;
+}
+
+.u-postDetail-box .u-show-more {
+    cursor: pointer;
+}
+
+.u-postDetail-box .u-step-box.postStation .u-title2 {
+    padding-bottom: 26px;
+}
+.u-postDetail-box .u-left-box .u-postStation-item {
+    margin-bottom: 22px;
+    width: 310px;
+    line-height: 22px;
+}
+.u-postDetail-box .u-left-box .u-postStation-item:nth-of-type(odd) {
+    margin-right: 78px;
+}
+
+.u-postDetail-box .u-left-box .u-postStation-name {
+    line-height: 16px;
+}
+.u-postDetail-box .u-left-box .u-postStation-name a:hover {
+    text-decoration: underline;
+}
+
+.u-postDetail-box .u-left-box .u-postStation-tag {
+    padding-top: 16px;
+}
+.u-postDetail-box .u-left-box .u-postStation-tag>div.left {
+    width: 248px;
+}
+.u-postDetail-box .u-left-box .u-postStation-tag .u-line {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.u-postDetail-box .u-right-box {
+    width: 280px;
+}
+
+.u-postDetail-box .u-right-box .u-btn {
+    display: inline-block;
+    width: 130px;
+    height: 44px;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid #eb3d44;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.u-postDetail-box .u-right-box .u-btn:first-of-type {
+    margin-right: 12px;
+}
+
+.u-postDetail-box .u-right-box .u-btn .icon_hf {
+    margin-top: -5px;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-position: -19px -706px;
+}
+.u-postDetail-box .u-right-box .u-btn .icon_hf.select {
+    background-position: -19px -669px;
+}
+
+.u-postDetail-box .u-right-box .u-data {
+    margin-top: 25px;
+    padding: 40px 30px 28px;
+    background-color: #f0f0f0;
+}
+.u-postDetail-box .u-right-box .u-data-item {
+    text-align: center;
+}
+.u-postDetail-box .u-right-box .u-data-item>p:first-of-type {
+    padding-bottom: 28px;
+}
+
+.u-postDetail-box .u-right-box .u-company-message {
+    margin-top: 25px;
+    padding: 15px 10px 16px;
+    line-height: 24px;
+    background-color: #f0f0f0;
+}
+
+.u-postDetail-box .u-right-box .u-company-message a {
+    cursor: pointer;
+}
+.u-postDetail-box .u-right-box .u-company-message a:hover {
+    text-decoration: underline;
+}
+
+.u-postDetail-box .u-right-box .u-company-message .u-company-data {
+    padding-top: 7px;
+}
+.u-postDetail-box .u-right-box .u-company-message .u-company-data>p {
+    margin-top: 6px;
+}
+.u-postDetail-box .u-right-box .u-company-message .u-company-data>p>span:first-of-type {
+    margin-right: 42px;
+}
+
+.u-postDetail-box .u-right-box .u-company-map {
+    margin-top: 20px;
+    width: 280px;
+    height: 300px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.u-postDetail-box .u-right-box .u-qrcode {
+    margin-top: 62px;
+    text-align: center;
+}
+.u-postDetail-box .u-right-box .u-qrcode-img {
+    margin-top: 26px;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+}
+

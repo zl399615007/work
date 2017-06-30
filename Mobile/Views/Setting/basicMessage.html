@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>基本信息</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/Setting/setting.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="u-wrapper u-basicMessage-box">
+    <div class="u-header-box container-fluid">
+    <a class="u-header-arrow" href="index.html"></a>
+    <p class="u-header-title text-center">基本信息</p>
+    <a class="u-header-help highlight-red" href="basicMessageByAditor.html">修改</a>
+</div>
+
+    <div class="container-fluid">
+        <!--企业图片-->
+ <!--       <div class="u-company-pic-box row">
+            <div class="u-indicators"><span>1</span>/<span>2</span></div>
+            <div class="u-company-pic-item">
+                <img src="../../Resources/img/bg_company_pic1.png">
+                <div class="u-company-item-desc">
+                    河北敬业集团
+                </div>
+            </div>
+        </div>-->
+        <div class="u-company-pic-box row">
+            <div id="pointCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!--<ol class="carousel-indicators">-->
+                    <!--<li data-target="#pointCarousel" data-slide-to="0" class="active"></li>-->
+                    <!--<li data-target="#pointCarousel" data-slide-to="1"></li>-->
+                    <!--<li data-target="#pointCarousel" data-slide-to="2"></li>-->
+                <!--</ol>-->
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="u-indicators"><span>1</span>/<span>3</span></div>
+                        <img src="../../Resources/img/bg_company_pic1.png">
+                        <div class="u-company-item-desc">
+                            河北敬业集团
+                        </div>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="u-indicators"><span>2</span>/<span>3</span></div>
+                        <img src="../../Resources/img/bg_company_pic1.png">
+                        <div class="u-company-item-desc">
+                            河北敬业集团
+                        </div>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="u-indicators"><span>3</span>/<span>3</span></div>
+                        <img src="../../Resources/img/bg_company_pic1.png">
+                        <div class="u-company-item-desc">
+                            河北敬业集团
+                        </div>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!--企业图片-->
+
+        <div class="u-company-message-box">
+            <div class="u-company-message-title">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <div class="u-company-sm-logo pull-left">
+                            <img src="../../Resources/img/bg_company_sm_logo.png">
+                        </div>
+                        <div class="pull-left">
+                            <p class="u-company-name">河北敬业集团</p>
+                            <p class="u-company-star">企业信用能力：<span>4.9分</span></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-xs-4 text-center" onclick="window.location='map.html'">
+                        <div class="u-location-ion"></div>
+                        <p class="highlight-red">查看位置</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="col-xs-12 u-company-message-list">
+                    <li><span>所属行业：</span>医疗、维修</li>
+                    <li><span>企业性质：</span>私企</li>
+                    <li><span>企业规模：</span>1000-2000人</li>
+                    <li><span>企业联系人：</span>王经理</li>
+                    <li><span>企业联系电话：</span>1586346478</li>
+                    <li><span>地址：</span>中华南大街与裕华路交口东行200米路南，万象天成 对面</li>
+                    <li><span>企业简介: </span><br />
+                    <span class="u-indent">河北敬业集团是一家以钢铁为主业，兼营酒店、房地产、贸易、钢材深加工等的大型集团公司。主要产品为螺纹钢、中厚板、热轧卷板。现有员工22500名，总资产258亿元，是全球大型螺纹钢生产基地。2015年集团实现销售收入576亿元，利税8.8亿元，2016年在全国500强企业名列234位，河北百强企业排第8名，连续8年在石家庄市百强企业排第一名。</span><br />
+                        <span  class="u-indent">敬业集团是国家高强钢筋生产示范企业，先后通过了IS09001、ISO14001认证，七国船级社认证、欧盟CE认证、锅炉压力容器板系列认证，螺纹钢产品、中厚板产品获得中国钢铁工业协会冶金产品实物质量认定（金杯奖）。</span>
+                    </li>
+                    <li><span>企业二维码:</span><br />
+                        <img class="u-company-qrcode" src="../../Resources/img/bg_company_qrcode.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>

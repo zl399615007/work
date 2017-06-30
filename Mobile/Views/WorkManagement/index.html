@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+   <meta content="yes" name="apple-mobile-web-app-capable">     
+<meta content="black" name="apple-mobile-web-app-status-bar-style">     
+<meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>云办公</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/WorkManagement/WorkManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+
+
+</head>
+<body>
+    <div class="u-WorkManagement-box">
+        <div class="u-header-box container-fluid">
+            <a class="u-header-arrow" href="../Home/index.html"></a>
+            <p class="u-header-title text-center">云办公</p>
+            <a class="u-header-add" href="AddProject.html"></a>
+        </div>
+        <div class="u-WorkManagement">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#doing" aria-controls="doing" role="tab" data-toggle="tab">正在进行的项目</a>
+                </li>
+                <li role="presentation"><a href="#end" aria-controls="end" role="tab" data-toggle="tab">已结束项目</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="doing">
+                    <div class="container u-lookresume-box">
+                        <div class="row">
+
+                                <div class="u-lookresume-t">
+                                    <span>XXX项目</span>
+                                </div>
+                                <div class="u-lookresume-b">
+                                    <span>负责人：<b>王经理</b></span>
+                                    <span>时间：<b>2017-02-05</b></span>
+                                </div>
+                                <div class="u-project-f">
+                                    <div class="u-project-a">
+                                        <a href="nav.html">管理</a>
+                                        <a href="ModifyProject.html">修改</a>
+                                        <a data-toggle="modal" data-target="#modal-end">结束</a>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--已结束-->
+                <div role="tabpanel" class="tab-pane" id="end">
+                    <div class="container u-lookresume-box">
+                        <div class="row">
+                                <div class="u-lookresume-t">
+                                    <span>XXX项目</span>
+                                </div>
+                                <div class="u-lookresume-b">
+                                    <span>负责人：<b>王经理</b></span>
+                                    <span>时间：<b>2017-02-05</b></span>
+                                </div>
+                                <div class="u-project-f">
+                                    <div class="u-project-a">
+                                        <a href="nav.html">管理</a>
+                                        <a href="ModifyProject.html">修改</a>
+                                        <a data-toggle="modal" data-target="#modal-reboot">重启</a>
+                                    </div>
+                                </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-reboot'>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                				<!--<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">-->
+                <!--</span>-->
+                    <h4 class="modal-title" id="myModalLabel1">
+                        提示
+                    </h4>
+                </div>
+                <div class="modal-body text-center">
+                    确认重启该项目？
+                </div>
+
+                <div class="modal-footer u-btn-box">
+                    <div class="row">
+                        <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                        <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-end'>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!--<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">-->
+                    <!--</span>-->
+                    <h4 class="modal-title" id="myModalLabel2">
+                        提示
+                    </h4>
+                </div>
+                <div class="modal-body text-center">
+                    确认结束该项目？
+                </div>
+
+                <div class="modal-footer u-btn-box">
+                    <div class="row">
+                        <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                        <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>个人认证</title>-->
+</head>
+<body>
+<div class="u-authentication-box">
+    <h2 class="u-preRight-title size16">求职进展 > <span class="size14">普通职位</span></h2>
+
+    <div class="u-jobProgress-box">
+        <div class="u-jobProgress-item">
+            <div class="u-info size16">
+                <p class="inline_block">内部招待员</p><span class="u-vertical-line"></span>
+                <p class="inline_block">诺亚人力资源有限公司</p>
+            </div>
+            <div class="u-message size14">
+                <p class="left">投递状态：<span class="highlight-red">投递成功</span></p>
+                <p class="u-time">投递时间：2016-03-23</p>
+                <a class="highlight-red right u-show-comp j-show-comp">查看竞争力统计 ></a>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="u-jobProgress-item">
+            <div class="u-info size16">
+                <p class="inline_block">内部招待员</p><span class="u-vertical-line"></span>
+                <p class="inline_block">诺亚人力资源有限公司</p>
+            </div>
+            <div class="u-message size14">
+                <p class="left">投递状态：<span class="highlight-red">面试邀约</span></p>
+                <p class="u-time">投递时间：2016-03-23</p>
+                <a class="highlight-red right u-show-comp j-show-comp">查看竞争力统计 ></a>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="u-jobProgress-item">
+            <div class="u-info size16">
+                <p class="inline_block">内部招待员</p><span class="u-vertical-line"></span>
+                <p class="inline_block">诺亚人力资源有限公司</p>
+            </div>
+            <div class="u-message size14">
+                <p class="left">投递状态：<span class="highlight-red">投递成功</span></p>
+                <p class="u-time">投递时间：2016-03-23</p>
+                <a class="highlight-red right u-show-comp j-show-comp">查看竞争力统计 ></a>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="u-jobProgress-item">
+            <div class="u-info size16">
+                <p class="inline_block">内部招待员</p><span class="u-vertical-line"></span>
+                <p class="inline_block">诺亚人力资源有限公司</p>
+            </div>
+            <div class="u-message size14">
+                <p class="left">投递状态：<span class="highlight-red">投递成功</span></p>
+                <p class="u-time">投递时间：2016-03-23</p>
+                <a class="highlight-red right u-show-comp j-show-comp">查看竞争力统计 ></a>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="u-popover-shadow j-popover-shadow"></div>
+    <div class="u-popover-box j-popover-box">
+        <div class="u-head size18">竞争力统计 <span class="popup-close j-popup-close"></span></div>
+        <div class="u-content">
+            <div class="u-item">
+                <h2 class="u-item-name size16">性別比例：</h2>
+                <div class="u-item-data size14">
+                    <p class="left">男：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <div class="clear"></div>
+                    </p>
+                </div>
+            </div>
+            <div class="u-item">
+                <h2 class="u-item-name size16">年齡比例：</h2>
+                <div class="u-item-data size14">
+                    <p class="left">男：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <div class="clear"></div>
+                    </p>
+                </div>
+            </div>
+            <div class="u-item">
+                <h2 class="u-item-name size16">工作比例：</h2>
+                <div class="u-item-data size14">
+                    <p class="left">男：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <div class="clear"></div>
+                    </p>
+                </div>
+            </div>
+            <div class="u-item">
+                <h2 class="u-item-name size16">学历比例：</h2>
+                <div class="u-item-data size14">
+                    <p class="left">男：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <p class="left">女：<span>54%</span></p>
+                    <div class="clear"></div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="M-box"></div>
+</div>
+
+<script>
+    $(function () {
+        $('.j-show-comp').on('click',function () {
+          $('.j-popover-shadow').show();
+          $('.j-popover-box').show();
+        });
+        $('.j-popup-close').on('click',function () {
+            $('.j-popover-shadow').hide()           ;
+            $('.j-popover-box').hide();
+        });
+
+        $('.M-box').pagination({
+            coping:true,
+            homePage:'首页',
+            endPage:'末页',
+            prevContent:'上一页',
+            nextContent:'下一页'
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>请假审批</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/WorkManagement/WorkManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+
+
+</head>
+<body>
+<div class="u-LeaveApproval-box">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="check.html"></a>
+        <p class="u-header-title text-center">请假审批</p>
+    </div>
+    <div class="u-LeaveApproval">
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#doing" aria-controls="doing" role="tab" data-toggle="tab">待审批</a>
+            </li>
+            <li role="presentation"><a href="#end" aria-controls="end" role="tab" data-toggle="tab">已审批</a></li>
+            <div class="u-border-right"></div>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="doing">
+                <div class="container u-lookresume-box u-LeaveApproval-list">
+                    <div class="row">
+                        <div class="col-xs-12" onclick="window.location='LeaveApprovalDetil.html'">
+                            <div class="u-lookresume-t">
+                                <span>李雪</span>
+                                <span></span>
+                                <span>病假</span>
+                                <i class="fr u-LeaveApproval-time">2017-02-01 8:00</i>
+                            </div>
+                            <div class="u-lookresume-b">
+                                <p >开始时间：<b>2017-03-05 08:00</b></p>
+                                <p >结束时间：<b>2017-03-05 08:00</b></p>
+                                <i class="fr u-LeaveApproval-state">审批></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12" onclick="window.location='LeaveApprovalDetil.html'">
+                            <div class="u-lookresume-t">
+                                <span>李雪</span>
+                                <span></span>
+                                <span>病假</span>
+                                <i class="fr u-LeaveApproval-time">2017-02-01 8:00</i>
+                            </div>
+                            <div class="u-lookresume-b">
+                                <p >开始时间：<b>2017-03-05 08:00</b></p>
+                                <p >结束时间：<b>2017-03-05 08:00</b></p>
+                                <i class="fr u-LeaveApproval-state">审批></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="end">
+                <div class="container u-lookresume-box u-LeaveApproval-list">
+                    <div class="row">
+                        <div class="col-xs-12" onclick="window.location='LeaveApprovalDetilOver.html'">
+                            <div class="u-lookresume-t">
+                                <span>李雪</span>
+                                <span></span>
+                                <span>病假</span>
+                                <i class="fr u-LeaveApproval-time">2017-02-01 8:00</i>
+                            </div>
+                            <div class="u-lookresume-b">
+                                <p >开始时间：<b>2017-03-05 08:00</b></p>
+                                <p >结束时间：<b>2017-03-05 08:00</b></p>
+                                <i class="fr u-LeaveApproval-state">已通过</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12" onclick="window.location='LeaveApprovalDetilOver.html'">
+                            <div class="u-lookresume-t">
+                                <span>李雪</span>
+                                <span></span>
+                                <span>病假</span>
+                                <i class="fr u-LeaveApproval-time">2017-02-01 8:00</i>
+                            </div>
+                            <div class="u-lookresume-b">
+                                <p >开始时间：<b>2017-03-05 08:00</b></p>
+                                <p >结束时间：<b>2017-03-05 08:00</b></p>
+                                <i class="fr u-LeaveApproval-state u-state-no">未通过</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

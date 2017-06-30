@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>搜索</title>
+   <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/public/pagination/pagination.css">
+   <link rel="stylesheet" href="../../Resources/css/Search/search.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/pagination/pagination.js"></script>
+</head>
+<body>
+<div class="u-header">
+    <div class="tbar">
+        <div class="u-page clear">
+            <div class="u-weixin left">
+                <i class="icon_hf icon_wx"></i>
+                <span>微信</span>
+            </div>
+            <div class="u-useinfo right">
+                <ul class="u-user">
+                    <li class="u-mesage">
+                        <a href="#">消息</a>
+                    </li>
+                    <li class="u-userselect">
+                        <a href="#">
+                            <span class="l-link_fff"></span>
+                            <span>用户名</span>
+                            <i class="icon-down"></i>
+                        </a>
+                        <ul class="user_info_list pub_list">
+                            <li class="user_info_show clear">
+                                <div class="left">
+                                    <img src="../../Resources/img/user_img.png" alt="">
+                                    <b class="user_name">姓名</b>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="quit">退出登陆</a>
+                                </div>
+                                <div class="user-sanjiao"></div>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_red"></i>
+                                <p>我的简历</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_sc"></i>
+                                <p>我的收藏</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_mm"></i>
+                                <p>修改密码</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_qz"></i>
+                                <p>求职进展</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_gz"></i>
+                                <p>工作管理</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="u-nav-box">
+        <div class="u-page clear_no">
+            <div class="logo">
+                <a href="#"></a>
+                <span class="loc f16">【<em>石家庄</em>】</span>
+            </div>
+            <ul class="tnav_wrap left" id='tnav'>
+                <li class="nav-home"><a href="#" class="nav-on">首页</a></li>
+                <li><a href="#" data-name='../RecruitmentProject/recruitmentProject.html'>招聘项目</a></li>
+                <li><a href="#">我要兼职</a></li>
+                <li><a href="#">最新资讯</a></li>
+            </ul>
+            <div class="right">
+                <div class='tphone'>
+                    <i class="icon-tphone"></i>
+                    <span>400-666-5643</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="search-box">
+        <div class="u-main-search">
+            <div class="u-page">
+                <div class="main-search-box">
+                    <div class="u-search-content">
+                        <div class="u-search-input left">
+                            <input type="text" class="size16" placeholder="请输入职位或公司名称">
+                        </div>
+                        <span class="u-btn-input size18 left">找兼职</span>
+                        <span class="u-btn-input size18 left">找全职</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="u-search-tips size14">
+                        <span>热门搜索：</span>
+                        <span>传单派发</span>
+                        <span>服务员</span>
+                        <span>打包分拣</span>
+                        <span>促销导购</span>
+                        <span>礼仪模特</span>
+                        <span>话务服务</span>
+                        <span>家教助教</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="search-centent">
+            <div class="u-page">
+                <div class="screening-box">
+                    <div class="screening-group clear">
+                        <span>行业：</span>
+                        <ul class="screening-list">
+                            <li class="screening-red">互联网·游戏·软件</li>
+                            <li>电子·通信·硬件</li>
+                            <li>房地产·建筑·物业</li>
+                            <li>金融</li>
+                            <li>消费品</li>
+                            <li> 汽车·机械·制造</li>
+                            <li>制药·医疗</li>
+                            <li>能源·化工·环保</li>
+                            <li>服务·外包·中介</li>
+                        </ul>
+                        <a href="javascript:;">全部行业></a>
+                    </div>
+                    <div class="screening-group clear">
+                        <span>岗位：</span>
+                        <ul class="screening-list">
+                            <li class="screening-red">互联网·游戏·软件</li>
+                            <li>电子·通信·硬件</li>
+                            <li>房地产·建筑·物业</li>
+                            <li>金融</li>
+                            <li>消费品</li>
+                            <li> 汽车·机械·制造</li>
+                            <li>制药·医疗</li>
+                            <li>能源·化工·环保</li>
+                            <li>服务·外包·中介</li>
+                        </ul>
+                        <a href="javascript:;">全部岗位></a>
+                    </div>
+                    <div class="screening-group clear area-div screening-select">
+                        <span>区域：</span>
+                        <select name="" >
+                            <option value="">省</option>
+                        </select>
+                        <select name="" >
+                            <option value="">市</option>
+                        </select>
+                        <select name="" >
+                            <option value="">区</option>
+                        </select>
+                    </div>
+                    <div class="screening-group clear more-div screening-select">
+                        <span>更多：</span>
+                        <select name="" >
+                            <option value="">性别要求</option>
+                        </select>
+                        <select name="" >
+                            <option value="">上班时段</option>
+                        </select>
+                        <select name="" >
+                            <option value="">发布时间</option>
+                        </select>
+                    </div>
+                    <div class="chosen clear">
+                        <span>已选条件：</span>
+                        <span class="chosen-list">互联网<i>×</i></span>
+                        <div class="right">
+                            共找到<b>800+</b>职位
+                        </div>
+                    </div>
+                </div>
+                <div class="search-list clear">
+                    <div class="search-list-left left u-collect-box">
+                        <div class="u-collect-list">
+                            <div class="u-collect-item">
+                                <div class="u-rapid"><div class="u-rapid-bg"></div><span>急</span></div>
+                                <div class="left u-company-pic">
+                                    <img src="../../Resources/img/pic_collect_company.jpg">
+                                </div>
+                                <div class="left u-collect-intro">
+                                    <p class="u-collect-name size16">内部招聘员 <span class="u-collect-cost size18">80元/天</span><i></i></p>
+                                    <div class="size14">
+                                        上东城区 <span class="u-vertical-line"></span>
+                                        兼职 <span class="u-vertical-line"></span>
+                                        日结 <span class="u-vertical-line"></span>
+                                        五险一金
+                                        <span class="u-meal-allowance">餐补</span>
+                                    </div>
+                                    <p class="size14 u-collect-time">1小时前发布</p>
+                                </div>
+                                <div class="right u-post-btn-box">
+                                    <div class="u-post-btn u-btn-sure size16 left">投简历</div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="u-collect-item">
+                                <div class="u-rapid"><div class="u-rapid-bg"></div><span>急</span></div>
+                                <div class="left u-company-pic">
+                                    <img src="../../Resources/img/pic_collect_company.jpg">
+                                </div>
+                                <div class="left u-collect-intro">
+                                    <p class="u-collect-name size16">内部招聘员 <span class="u-collect-cost size18">80元/天</span><i></i></p>
+                                    <div class="size14">
+                                        上东城区 <span class="u-vertical-line"></span>
+                                        兼职 <span class="u-vertical-line"></span>
+                                        日结 <span class="u-vertical-line"></span>
+                                        五险一金
+                                        <span class="u-meal-allowance">餐补</span>
+                                    </div>
+                                    <p class="size14 u-collect-time">1小时前发布</p>
+                                </div>
+                                <div class="right u-post-btn-box">
+                                    <div class="u-post-btn u-btn-sure size16 left">投简历</div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="u-collect-item">
+                                <div class="u-rapid"><div class="u-rapid-bg"></div><span>急</span></div>
+                                <div class="left u-company-pic">
+                                    <img src="../../Resources/img/pic_collect_company.jpg">
+                                </div>
+                                <div class="left u-collect-intro">
+                                    <p class="u-collect-name size16">内部招聘员 <span class="u-collect-cost size18">80元/天</span></p>
+                                    <div class="size14">
+                                        上东城区 <span class="u-vertical-line"></span>
+                                        兼职 <span class="u-vertical-line"></span>
+                                        日结 <span class="u-vertical-line"></span>
+                                        五险一金
+                                        <span class="u-meal-allowance">餐补</span>
+                                    </div>
+                                    <p class="size14 u-collect-time">1小时前发布</p>
+                                </div>
+                                <div class="right u-post-btn-box">
+                                    <div class="u-post-btn u-btn-sure size16 left">投简历</div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="M-box"></div>
+                    </div>
+                    <div class="search-list-right right">
+                        <ul class="guanggao-list">
+                            <li>
+                                <img src="../../Resources/img/guanggao1.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="foot">
+    <div class="u-page">
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    增值产品
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    HR服务
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    关于我们
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d f-ss">
+            <div class="f-weixin">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-weixin-text" >
+                    <p>微信扫一扫</p>
+                    <p>工作随心找</p>
+                </div>
+            </div>
+            <div class="f-gzh">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-gzh-text" >
+                    <p>扫一扫关注</p>
+                    <p>诺亚公众号</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="f-bottom-text">
+        <p>诺亚公司旗下网站</p>
+        <p>
+            <span>2017诺亚人力资源开发有限公司</span>
+            <span>冀ICP备10006226号-4</span>
+            <span>冀公网安备13019902000054号</span>
+        </p>
+        <p>服务热线：400-666-5643</p>
+    </div>
+</div>
+    <script>
+        $('.M-box').pagination({
+            coping:true,
+            homePage:'首页',
+            endPage:'末页',
+            prevContent:'上一页',
+            nextContent:'下一页'
+        });
+    </script>
+</body>
+</html>

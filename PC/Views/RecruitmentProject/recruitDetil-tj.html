@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>招聘项目详情-项目流程-笔试</title>
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/RecruitmentProject/recruitmentProject.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/echarts/echarts.min.js"></script>
+    <script src="../../Resources/js/myecharts.js"></script>
+    <script>
+        $('#recruitdetil-flow-nav a').on('click',function () {
+            var url=$(this).attr('data-name');
+            console.log(url);
+            $('#content').load(url)
+        });
+        $('#recruitdetil-foot-nav a').on('click',function () {
+            var url=$(this).attr('data-name');
+            console.log(url);
+            $('#content').load(url)
+        });
+    </script>
+</head>
+<body>
+
+<div class="u-recruitdetil-box">
+    <div class="u-bgf0"></div>
+    <div class="u-page u-recruitdetil">
+        <div class="u-recruitdetil-head">
+            <h2>北京安特永益科技有限公司招聘公告</h2>
+            <div class="u-recruitdetil-ts">
+                <span>体检(进行中)</span>
+            </div>
+            <p class="u-recruitdetil-p">
+                <b>公司简介：</b>石炼宾馆隶属中国石化集团,前身是石炼招待所，负责企业对外接待工作中的餐饮、住宿、商务、会议服务和对外经营工作。设有经理、办公室、前厅部、客房部、餐饮部、单身食堂、维修部、安保部等部门。成立于1979年，占地面积24亩，总建筑面积6240平方米，床位156张，设有供250人就餐的餐厅，能容纳250人开会的会议厅，四间能容纳30人开会的会议室。1993年，招待所更名为石炼宾馆。1997年，宾馆在北侧建外招楼，为七层建筑。设客房71间，标准间50间，套房21间。有可容纳20人的会议室2间，70人会议室1间，250人会议厅1间。餐厅有可容纳10人包房4间，15人包房3间，30人包房1间，50人餐厅1间，40人自助餐厅2间，250人宴会厅1间。
+            </p>
+            <div class="recruitdetil-sc">
+                <img src="../../Resources/img/recruit-pf.png" alt="" class="recruit-pf">
+                <span class="recruitdetil-sc-text">收藏</span>
+            </div>
+        </div>
+        <div class="u-recruitdetil-foot">
+            <div class="recruitdetil-foot-nav" id="recruitdetil-foot-nav">
+                <a href="javascript:;"   data-name="../RecruitmentProject/recruitDetil.html">招聘岗位</a>
+                <a href="javascript:;" class="foot-nav-active" data-name="../RecruitmentProject/recruitDetil-gg.html">项目流程</a>
+            </div>
+            <div class="recruitdetil-foot-content">
+                <ul class="recruitdetil-flow-nav clear" id="recruitdetil-flow-nav">
+                    <li>
+                        <a href="javascript:;" data-name="../RecruitmentProject/recruitDetil-gg.html">
+                            <p>公告</p>
+                            <p>2月15号</p>
+
+                        </a>
+
+                    </li>
+                    <li >
+                        <a href="javascript:;"  data-name="../RecruitmentProject/recruitDetil-bm.html">
+                            <p>开始报名</p>
+                            <p>2月15号</p>
+
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="javascript:;"  data-name="../RecruitmentProject/recruitDetil-xcsh.html">
+                            <p>现场审核</p>
+                            <p>2月15号</p>
+
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-name="../RecruitmentProject/recruitDetil-zf.html">
+                            <p>费用支付</p>
+                            <p>2月15号</p>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-name="../RecruitmentProject/recruitDetil-zxbs.html">
+                            <p>在线笔试</p>
+                            <p>2月15号</p>
+
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-name="../RecruitmentProject/recruitDetil-bs.html">
+                            <p>笔试</p>
+                            <p>2月15号</p>
+
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-name="../RecruitmentProject/recruitDetil-ms.html">
+                            <p>面试</p>
+                            <p>2月15号</p>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-name="../RecruitmentProject/recruitDetil-zgsc.html">
+                            <p>资格审查</p>
+                            <p>2月15号</p>
+                        </a>
+
+                    </li>
+                    <li class="flow-nav-active">
+                        <a href="javascript:;" data-name="../RecruitmentProject/recruitDetil-tj.html">
+                            <p>体检</p>
+                            <p>2月15号</p>
+                            <p>正在进行</p>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-name="../RecruitmentProject/recruitDetil-rz.html">
+                            <p>入职</p>
+                            <p>2月15号</p>
+                        </a>
+
+                    </li>
+                </ul>
+                <div class="flow-content">
+                    <div class="flow-notice">
+                        <h4 class="title-result">体检书</h4>
+                        <div class="notice-centent">
+                            <div class="table-tj-box">
+                                <h3>2017年度体检通知单</h3>
+                                <table class="table-tj">
+                                    <tr>
+                                        <td width="60" >体检时间：</td>
+                                        <td width="294">2017年6月12日上午8:00</td>
+                                        <td width="145">体检项目：</td>
+                                        <td width="180">诺亚公司套餐四</td>
+                                        <td  rowspan="4" width="118" class="table-photo">
+                                            <img src="../../Resources/img/recruit-img.jpg" alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>体检地点：</td>
+                                        <td colspan="3">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td>
+                                    </tr>
+                                    <tr>
+                                        <td>姓名：</td>
+                                        <td>XXX</td>
+                                        <td>性别：</td>
+                                        <td>男</td>
+                                    </tr>
+                                    <tr>
+                                        <td>身份证号：</td>
+                                        <td>130XXXXXXXXXXX</td>
+                                        <td>报考岗位：</td>
+                                        <td>运行值班员</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5">
+                                            注意事项：</br>一、XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</br>二、XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p>注：请使用浏览器的打印功能打印</p>
+                            </div>
+
+                        </div>
+                        <div class="flow-btn">打印</div>
+                    </div>
+                    <h4 class="title-result">报名审核结果</h4>
+                   <table class="flow-result">
+                       <thead>
+                           <th>姓名</th>
+                           <th>身份证号</th>
+                           <th>考号</th>
+                           <th>报名号</th>
+                           <th>结果</th>
+
+                       </thead>
+                       <tr>
+                           <td width="130px">张蒙蒙</td>
+                           <td width="94px">130******1829</td>
+                           <td width="124px">01</td>
+                           <td width="89px">1236554</td>
+                           <td width="162px">合格</td>
+                       </tr>
+                   </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+</script>
+</body>
+</html>

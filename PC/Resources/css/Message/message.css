@@ -1,0 +1,103 @@
+/* 消息 */
+.u-message-box {
+    margin-bottom: 60px;
+}
+.u-message-box .u-message-head {
+    margin-top: 46px;
+    padding-bottom: 2px;
+    background-color: #fff;
+    border-bottom: 1px solid #eb3d44;
+}
+
+.u-message-box .u-message-head .u-message-bar {
+    background-color: #f0f0f0;
+    height: 40px;
+    line-height: 40px;
+}
+.u-message-box .u-message-head .u-message-bar .u-bar-item {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    color: #333;
+}
+.u-message-box .u-message-head .u-message-bar .u-bar-item.select {
+    color: #fff;
+    background-color: #eb3d44;
+}
+
+.u-message-box .u-message-main {
+    margin: 30px auto 40px;
+    width: 1000px;
+    border-left: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}
+.u-message-box .u-message-main .u-message-th,
+.u-message-box .u-message-main .u-message-tr {
+    display: table;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+}
+
+.u-message-box .u-message-main .u-message-th {
+    display: table;
+
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.u-message-box .u-message-main .u-message-tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+.u-message-box .u-message-main .u-message-td {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+}
+.u-message-box .u-message-main .u-message-td:first-of-type {
+    width: 160px;
+}
+.u-message-box .u-message-main .u-message-td:nth-of-type(2) {
+    padding-left: 34px;
+    text-align: left;
+}
+.u-message-box .u-message-main .u-message-td:nth-of-type(3) {
+    width: 200px;
+}
+.u-message-box .u-message-main .u-message-th .u-message-td:first-of-type>span {
+    margin-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+.u-message-box .u-message-main .u-message-th .u-message-td .u-message-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border: 5px solid transparent;
+    border-top: 6px solid #000;
+}
+
+/* 信息详情 */
+.u-messageDetail-box .u-messageDetail-main {
+    margin-top: 60px;
+    border: 1px solid #e0e0e0;
+}
+
+.u-messageDetail-box .u-messageDetail-main .u-message-title-box {
+    padding: 15px 30px;
+    line-height: 24px;
+    background-color: #f0f0f0;
+}
+.u-messageDetail-box .u-messageDetail-main .u-message-title-box .u-message-title {
+    font-weight: bold;
+}
+.u-messageDetail-box .u-messageDetail-main .u-message-title-box .u-message-time>span {
+    margin-left: 8px;
+}
+.u-messageDetail-box .u-messageDetail-main .u-message-content {
+    padding: 25px 30px 70px;
+}

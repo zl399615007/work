@@ -1,0 +1,2302 @@
+.M-box {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.u-per-box {
+    padding-bottom: 80px;
+}
+
+.pre-tit {
+    line-height: 60px;
+    height: 60px;
+    font-size: 26px;
+    color: #333;
+    font-weight: normal;
+
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.pre-tit span {
+    float: left;
+    display: inline-block;
+    width: 240px;
+    border-bottom: 2px solid #eb3d44;
+    line-height: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.u-per-left {
+    width: 268px;
+
+}
+
+.u-per-right {
+    width: 756px;
+}
+
+.pre-nav {
+    padding-top: 18px;
+    width: 240px;
+
+}
+
+.pre-nav li {
+    line-height: 50px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 60px;
+}
+
+.pre-nav li a {
+    font-size: 16px;
+    color: #333;
+
+}
+
+.pre-nav li i {
+    vertical-align: middle;
+    margin-right: 12px;
+    width: 19px;
+    height: 20px;
+
+}
+
+.icon_per_wdjl {
+    background-position: -18px -910px;
+}
+.u-per-left .pre-nav li.select .icon_per_wdjl,
+.u-per-left .pre-nav li:hover .icon_per_wdjl {
+    background-position: -18px -1300px;
+}
+
+.icon_per_grrz {
+    height: 24px !important;
+    background-position: -18px -961px;
+}
+.u-per-left .pre-nav li.select .icon_per_grrz,
+.u-per-left .pre-nav li:hover .icon_per_grrz {
+    background-position: -18px -1351px;
+}
+
+.icon_per_sc {
+    background-position: -19px -1012px;
+}
+.u-per-left .pre-nav li.select .icon_per_sc,
+.u-per-left .pre-nav li:hover .icon_per_sc {
+    background-position: -19px -1402px;
+}
+
+.icon_per_jf {
+    background-position: -18px -1062px;
+}
+.u-per-left .pre-nav li.select .icon_per_jf,
+.u-per-left .pre-nav li:hover .icon_per_jf {
+    background-position: -18px -1452px;
+}
+
+.icon_per_pj {
+    background-position: -19px -1111px;
+}
+.u-per-left .pre-nav li.select .icon_per_pj,
+.u-per-left .pre-nav li:hover .icon_per_pj {
+    background-position: -19px -1501px;
+}
+
+.icon_per_xgmm {
+    background-position: -18px -1162px;
+}
+.u-per-left .pre-nav li.select .icon_per_xgmm,
+.u-per-left .pre-nav li:hover .icon_per_xgmm {
+     background-position: -18px -1552px;
+ }
+
+.icon_per_qzjz {
+    background-position: -18px -1212px;
+}
+.u-per-left .pre-nav li.select .icon_per_qzjz,
+.u-per-left .pre-nav li:hover .icon_per_qzjz {
+    background-position: -18px -1602px;
+}
+
+.icon_per_gzgl {
+    background-position: -19px -1251px;
+}
+.u-per-left .pre-nav li.select .icon_per_gzgl,
+.u-per-left .pre-nav li:hover .icon_per_gzgl {
+    background-position: -19px -1641px;
+}
+
+.pre-nav li.pre-nav-down {
+    padding-left: 106px;
+    text-align: left;
+}
+
+.u-per-left .pre-nav li:hover,
+.u-per-left .pre-nav li.select {
+    background: #f0feff;
+}
+
+.u-per-left .pre-nav li:hover a,
+.u-per-left .pre-nav li.select a {
+    color: #eb3d44;
+}
+
+/* 个人中心 */
+#preRight {
+    padding-top: 20px;
+}
+
+.u-personal-center .u-box-shadow {
+    box-shadow: 1px 4px 4px rgba(136, 136, 136, 0.3);
+    -moz-box-shadow: 1px 4px 4px rgba(136, 136, 136, 0.3);
+    -webkit-box-shadow: 1px 4px 4px rgba(136, 136, 136, 0.3);
+}
+
+.u-btn-sure {
+    color: #fffefe;
+    background-color: #eb3d44;
+}
+
+.u-btn-cancel {
+    color: #fffefe;
+    background-color: #ccc;
+}
+
+/* 个人认证 */
+.u-authentication-box .u-icon-authentic {
+    margin-right: 8px;
+    margin-top: -2px;
+    width: 22px;
+    height: 22px;
+    background-position: -18px -1800px;
+    vertical-align: top;
+}
+
+.u-authentication-box .u-authentication-list {
+    padding: 0 8px;
+}
+
+.u-authentication-box .u-authentication-list .u-authentication-item {
+    margin-top: 30px;
+    padding: 16px 0;
+    width: 320px;
+    height: 140px;
+    border: 1px solid #e6e6e6;
+}
+
+.u-authentication-box .u-authentication-list .u-authentication-item:nth-of-type(even) {
+    margin-left: 80px;
+}
+
+.u-authentication-box .u-authentication-list .u-authentication-head {
+    padding: 0 16px 12px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.u-authentication-box .u-authentication-list .u-authentication-content {
+    padding: 10px 16px 0;
+}
+
+.u-authentication-box .u-authentication-btn {
+    cursor: pointer;
+}
+
+/* 实名认证 */
+.u-realName-box {
+    margin-top: 25px;
+}
+
+.u-realName-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.u-realName-box .u-realName-left {
+    width: 410px;
+}
+
+.u-realName-box .u-realName-right {
+    margin-left: 50px;
+    width: 280px;
+}
+
+.u-realName-box .u-realName-title {
+    line-height: 24px;
+    color: #666;
+}
+
+.u-realName-box .u-upload-address {
+    margin-right: 20px;
+    padding: 0 15px;
+    width: 280px;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    border: 1px solid #e6e6e6;
+}
+
+.u-realName-box .u-upload-btn {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    color: #fffefe;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.u-realName-box .u-upload-box {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 280px;
+    height: 176px;
+    border: 1px dashed #ccc;
+}
+
+.u-realName-box .u-upload-box:before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -28px;
+    margin-top: -1px;
+    display: block;
+    width: 56px;
+    height: 2px;
+    content: " ";
+    background-color: #ccc;
+}
+
+.u-realName-box .u-upload-box:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -1px;
+    margin-top: -28px;
+    display: block;
+    width: 2px;
+    height: 56px;
+    content: " ";
+    background-color: #ccc;
+}
+
+.u-realName-box .u-realName-submit-btn {
+    width: 280px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.u-realName-box hr.u-line {
+    margin-top: 10px;
+    width: 0;
+    height: 218px;
+    border-left: 1px dashed #ccc;
+
+}
+
+.u-realName-box .u-realName-example {
+    margin-top: 25px;
+    width: 280px;
+    height: 176px;
+}
+
+/* 我的收藏 */
+.u-collect-box {
+
+}
+
+.u-collect-btn-box {
+    margin-bottom: 20px;
+}
+
+.u-collect-btn-box .u-collect-btn {
+    padding: 0 13px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    background-color: #f0feff;
+    cursor: pointer;
+}
+
+.u-collect-btn-box .u-collect-btn:not(:first-of-type) {
+    margin-left: 20px;
+}
+
+.u-collect-btn-box .u-collect-btn.select {
+    color: #fff;
+    background-color: #64d286;
+}
+
+.u-collect-box .u-collect-list {
+    border-top: 1px dashed #e6e6e6;
+}
+
+.u-collect-box .u-collect-list .u-collect-item {
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px dashed #e6e6e6;
+}
+
+.u-collect-box .u-collect-list .u-collect-item .u-rapid {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.u-collect-box .u-collect-list .u-collect-item .u-rapid .u-rapid-bg {
+    position: absolute;
+    left: 14px;
+    top: -18px;
+    width: 0;
+    height: 0;
+    border-width: 28px;
+    border-color: transparent;
+    border-style: solid;
+    border-right-width: 0;
+    border-left-color: #64d286;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.u-collect-box .u-collect-list .u-collect-item .u-rapid > span {
+    position: relative;
+    top: -8px;
+    left: 8px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+.u-collect-box .u-company-pic {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e6e6e6;
+}
+
+.u-collect-box .u-collect-list .u-company-pic > img {
+    width: 100%;
+    height: 100%;
+}
+
+.u-collect-box .u-collect-intro {
+    margin-left: 20px;
+    width: 316px;
+    line-height: 24px;
+    color: #666;
+}
+
+.u-collect-box .u-collect-intro .u-collect-name {
+    padding-top: 6px;
+    padding-bottom: 9px;
+    color: #333;
+}
+
+.u-collect-box .u-collect-intro .u-collect-cost {
+    margin-left: 25px;
+    color: #eb3d44;
+}
+
+.u-collect-box .u-collect-intro .u-collect-time {
+    padding-top: 8px;
+}
+
+.u-collect-box .u-collect-intro .u-vertical-line {
+    margin: -2px 2px 0;
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    vertical-align: middle;
+}
+
+.u-collect-box .u-collect-intro .u-meal-allowance {
+    margin-left: 8px;
+}
+
+.u-collect-box .u-post-btn-box {
+    padding-top: 28px;
+    padding-right: 72px;
+}
+
+.u-collect-box .u-post-btn-box .u-post-btn {
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.u-collect-box .u-post-btn-box .u-post-btn:first-of-type {
+    margin-right: 30px;
+}
+
+/* 企业收藏 */
+.u-collect-box .u-enterprise-btn-box {
+    padding-top: 28px;
+    padding-right: 40px;
+}
+
+.u-collect-box .u-enterprise-btn-box .u-enterprise-btn {
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* 项目收藏 */
+.u-collectProject-box .u-company-pic {
+    width: 172px;
+    height: 170px;
+    border: none;
+}
+
+.u-collectProject-box .u-collect-list {
+    border: none;
+}
+
+.u-collectProject-box .u-collect-list .u-collect-item {
+    margin-top: 40px;
+    padding: 0;
+    border-bottom: none;
+}
+
+.u-collectProject-box .u-collect-intro .u-collect-name {
+    padding-bottom: 5px;
+}
+
+.u-collectProject-box .u-collect-intro .u-collect-time {
+    padding-top: 5px;
+}
+
+.u-collectProject-box .u-enterprise-btn-box {
+    padding-top: 64px;
+}
+
+/* 收到的评价 */
+.u-evaluate-list {
+    margin-top: 30px;
+    padding: 0 27px;
+}
+
+.u-evaluate-list .u-evaluate-item {
+    padding: 30px 0 25px;
+    border-bottom: 1px dashed #e6e6e6;
+}
+
+.u-evaluate-list .u-evaluate-item:first-of-type {
+    border-top: 1px dashed #e6e6e6;
+}
+
+.u-evaluate-list .u-evaluate-item .u-evaluate-pic {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #e6e6e6;
+}
+
+.u-evaluate-list .u-evaluate-item .u-evaluate-pic .u-icon-head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -19px;
+    margin-left: -17px;
+    width: 34px;
+    height: 38px;
+    background-position: -12px -734px;
+
+}
+
+.u-evaluate-list .u-evaluate-item .u-evaluate-intro {
+    width: 636px;
+    line-height: 24px;
+}
+
+.u-evaluate-list .u-evaluate-item .u-evaluate-intro .u-evaluate-name {
+    padding-bottom: 4px;
+    color: #333;
+}
+
+.u-evaluate-list .u-evaluate-item .u-evaluate-intro .u-evaluate-desc {
+    padding-bottom: 6px;
+    color: #999;
+}
+
+.u-evaluate-list .u-evaluate-item .u-evaluate-intro .u-evaluate-content {
+    color: #666;
+}
+
+.u-evaluate-list .u-evaluate-item .u-evaluate-intro .u-evaluate-time {
+    color: #999;
+}
+
+/* 修改密码 */
+.u-form-box {
+    margin: 68px auto 0;
+    width: 410px;
+}
+
+.u-form-box .u-form-group {
+    display: table;
+    table-layout: fixed;
+}
+
+.u-form-box .u-form-group:not(:first-of-type) {
+    margin-top: 30px;
+}
+
+.u-form-box .u-form-group .u-control-label {
+    display: table-cell;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    color: #666;
+}
+
+.u-form-box .u-form-group .u-fill {
+    display: table-cell;
+    width: 20px;
+    height: 1px;
+}
+
+.u-form-box .u-form-group .u-control-box {
+    padding: 6px 8px;
+    display: table-cell;
+    width: 300px;
+    height: 30px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+}
+
+.u-form-box .u-form-group .u-form-control {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+}
+
+.u-form-box .u-btn-box {
+    margin-top: 60px;
+    padding-left: 76px;
+    text-align: center;
+}
+
+.u-form-box .u-btn-box .u-password-btn {
+    display: inline-block;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.u-form-box .u-btn-box .u-password-btn:first-of-type {
+    margin-right: 40px;
+}
+
+/*工作管理*/
+.u-preRight-title .u-preRight-sub {
+    font-size: 14px;
+    color: #666;
+    margin-left: 7px;
+}
+
+.u-workmanagement-item .left img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #cccccc;
+}
+
+.workmanagement-list-name p {
+    font-size: 16px;
+    color: #333;
+}
+
+.workmanagement-list-name span {
+    font-size: 14px;
+    color: #999;
+}
+
+.workmanagement-item-t {
+    height: 139px;
+    border-bottom: 1px dashed #e6e6e6;
+    line-height: 139px;
+    padding: 0 33px 0 9px;
+}
+
+.workmanagement-list-name {
+    display: inline-block;
+    line-height: 38px;
+    height: 80px;
+    padding: 3px 0;
+    vertical-align: middle;
+    max-width: 540px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 26px;
+
+}
+
+.workmanagement-list-work {
+    font-size: 16px;
+    color: #eb3d44;
+}
+
+.workmanagement-item-b {
+    height: 48px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.workmanagement-item-btn {
+    width: 252px;
+    border-right: 2px solid #e6e6e6;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    float: left;
+}
+
+.workmanagement-item-btn span {
+    font-size: 14px;
+    color: #666;
+    margin-left: 8px;
+}
+
+.workmanagement-item-btn i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.icon_kq {
+    background-position: -20px -1988px;
+}
+
+.icon_hb {
+    background-position: -20px -2014px;
+}
+
+.icon_gz {
+    background-position: -20px -2040px;
+}
+
+.workmanagement-item-b .workmanagement-item-btn:last-of-type {
+    border-right: 0;
+    width: 242px;
+}
+
+.workmanagement-item-btn a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+/*考勤状况*/
+.workmanagement-kq-nav a {
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.workmanagement-kq-nav li {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+    padding: 0 12px;
+    text-align: center;
+    margin-right: 38px;
+}
+
+.workmanagement-kq-nav {
+    padding-top: 16px;
+}
+
+.workmanagement-kq-nav .kq-nav-active {
+    border-bottom: 2px solid #eb3d44;
+}
+
+.workmanagement-kq-nav .kq-nav-active a {
+    color: #eb3d44;
+
+}
+
+.select-time select {
+    font-size: 16px;
+    color: #666;
+    width: 110px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding-right: 40px;
+    padding-left: 26px;
+    text-align: right;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../../img/select-down.png") no-repeat 70px 10px;
+}
+
+.select-time select:nth-of-type(2) {
+    background: url("../../img/select-down.png") no-repeat 60px 10px;
+    padding-left: 35px;
+}
+
+.select-time span {
+    margin-left: 30px;
+    margin-right: 64px;
+}
+
+.select-time {
+    line-height: 76px;
+    font-size: 16px;
+    color: #666;
+    padding-left: 3px;
+}
+
+.calendar span {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    position: relative;
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+}
+
+.calendar span:nth-of-type(15), .calendar span:nth-of-type(30), .calendar span:last-of-type {
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.calendar span:nth-of-type(30) {
+    border-top: 0;
+}
+
+.calendar {
+    padding-left: 4px;
+    padding-top: 7px;
+}
+
+.calendar span img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 26px;
+    height: 23px;
+}
+
+.kq-history {
+    padding-top: 14px;
+    padding-left: 6px;
+}
+
+.kq-history-list {
+    font-size: 16px;
+    color: #666;
+    line-height: 43px;
+}
+
+.kq-history-list b {
+    font-weight: normal;
+}
+
+.kq-history-list span {
+    display: inline-block;
+}
+
+.kq-history-list span:nth-of-type(1) {
+    width: 222px;
+}
+
+.kq-history-list span:nth-of-type(2) {
+    width: 218px;
+}
+
+.kq-history-list span:nth-of-type(3) {
+    width: 142px;
+}
+
+/*调班*/
+.tb-list select {
+    width: 160px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../../img/select-down.png) no-repeat 130px center;
+    padding-right: 30px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #999;
+    padding-left: 10px;
+}
+
+.workmanagement-kq-content .spr-select select {
+    width: 260px;
+    background: url(../../img/select-down.png) no-repeat 230px center;
+}
+
+.tb-list span {
+    font-size: 14px;
+    color: #444;
+}
+
+.tb-list p {
+    font-size: 14px;
+    color: #444;
+    line-height: 54px;
+    padding-top: 6px;
+}
+
+.tb-list .tb-line {
+    color: #999;
+    margin-right: 9px;
+}
+
+.workmanagement-kq-content .spr-select {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.tb-list {
+    padding-left: 12px;
+}
+
+.tb-list textarea {
+    width: 700px;
+    height: 130px;
+    border: 1px solid #ccc;
+    background: #fff;
+    resize: none;
+    padding-left: 5px;
+    margin-bottom: 40px;
+}
+
+.tb-history {
+    line-height: 38px;
+    text-align: center;
+}
+
+.tb-history a {
+    font-size: 14px;
+    color: #eb3d44;
+
+}
+
+/*调班记录*/
+.tb-history-box {
+    position: relative;
+    margin-top: 32px;
+}
+
+.tab-history {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.tab-history td {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.tab-history tr .sping {
+    color: #eb3d44;
+}
+
+.tab-history tr .spend {
+    color: #64d286;
+}
+
+.tab-history tr {
+    height: 39px;
+    line-height: 39px;
+}
+
+.j-switch {
+    position: absolute;
+    top: -32px;
+    right: 0;
+    height: 32px;
+    line-height: 32px;
+}
+
+.switch-num {
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+}
+
+.switch-num .switch-cur {
+    color: #eb3d44;
+}
+
+.j-switch i {
+    width: 10px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.switch-left {
+    background-position: -25px -501px;
+}
+
+.switch-right {
+    background-position: -25px -528px;
+}
+
+.switch-line {
+    margin: 0 -4px;
+}
+
+/*请假*/
+.qj-list select {
+    margin-right: 6px;
+}
+
+.spr-select .qj-mr40 {
+    margin-right: 40px;
+}
+
+/*离职*/
+.lz-type input[type='radio'] {
+    display: none;
+}
+
+.lz-type input[type='radio']:checked + label {
+    background: #64d286;
+    color: #fff;
+}
+
+.lz-type .label-boy {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.lz-type label {
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    line-height: 26px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+
+.lz-type .label-girl {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -5px;
+}
+
+.lz-type {
+    height: 60px;
+    line-height: 86px;
+}
+
+/*离职状态*/
+.lzzt span {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    background: #e6e6e6;
+    font-size: 14px;
+    color: #666;
+    line-height: 36px;
+    text-align: center;
+}
+
+.lzzt i {
+    display: inline-block;
+    font-size: 26px;
+    color: #777;
+    width: 106px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.lzzt {
+    padding-left: 13px;
+    padding-top: 42px;
+}
+
+.lzzt .lzzt-cur {
+    color: #fff;
+    background: #eb3d44;
+}
+
+/*工作汇报*/
+.hb-list select {
+    width: 260px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../../img/select-down.png) no-repeat 230px center;
+    padding-right: 30px;
+    font-size: 12px;
+    color: #999;
+    padding-left: 10px;
+}
+
+.hb-list input {
+    width: 260px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    color: #999;
+    padding-left: 10px;
+}
+
+.hb-list span {
+    font-size: 14px;
+    color: #444;
+    display: inline-block;
+    width: 75px;
+    text-align: left;
+}
+
+.hb-list p {
+    font-size: 14px;
+    color: #444;
+    padding-bottom: 20px;
+}
+
+.hb-list textarea {
+    width: 700px;
+    height: 130px;
+    border: 1px solid #ccc;
+    background: #fff;
+    resize: none;
+    padding-left: 5px;
+}
+
+.hb-list span:nth-of-type(even) {
+    margin-left: 34px;
+}
+
+.hb-list {
+    margin-top: 30px;
+    padding-left: 14px;
+}
+
+.add-hblist {
+    height: 30px;
+    margin-top: 30px;
+    padding-left: 89px;
+    line-height: 30px;
+    padding-right: 37px;
+}
+
+.add-hbbox {
+    background: #f0f0f0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add-hbbox span {
+    font-size: 14px;
+    color: #eb3d44;
+    margin-left: 5px;
+}
+
+.add-hbbox i {
+    vertical-align: middle;
+    width: 20px;
+    height: 22px;
+    display: inline-block;
+}
+
+.add-hbbox .icon-add {
+    background-position: -20px -1956px;
+}
+
+.u-add-btn-box .u-add-btn {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 1px dashed #ccc;
+}
+
+.u-add-btn-box .u-add-btn .u-add-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 48px;
+    margin-top: -24px;
+    margin-left: -1px;
+    display: block;
+    content: '';
+    background-color: #a9b7b7;
+}
+
+.u-add-btn-box .u-add-btn .u-add-icon:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 2px;
+    margin-top: -1px;
+    margin-left: -24px;
+    display: block;
+    content: '';
+    background-color: #a9b7b7;
+}
+
+.hb-list .u-add-btn-box {
+    margin-bottom: 74px;
+}
+
+/*汇报记录*/
+.hb-history-list {
+    padding-top: 20px;
+    border-bottom: 1px dashed #e6e6e6;
+}
+
+.hb-history-p1, .hb-history-p2 {
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.hb-history-p1 b, .hb-history-p2 b {
+    color: #333;
+    font-weight: normal;
+}
+
+.hb-history-p1 span:nth-of-type(odd), .hb-history-p2 span:nth-of-type(odd) {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+.hb-history-p2 span:nth-of-type(even) {
+    padding-right: 78px;
+    margin-right: 78px;
+    display: inline-block;
+    height: 13px;
+    line-height: 13px;
+    border-right: 1px solid #cccccc;
+}
+
+.hb-history-p2 span:last-of-type {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0;
+}
+
+.hb-history-text p {
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+}
+
+.hb-history-text {
+    padding-top: 17px;
+}
+
+.hb-history-img {
+    width: 120px;
+    height: 120px;
+    background: #e6e6e6;
+    display: inline-block;
+    margin: 30px 18px;
+}
+
+/*工资*/
+.gz-content .tb-history-box {
+    margin-top: 44px;
+}
+
+/*曾经工作*/
+.u-workmanagement-box .worktime {
+    font-size: 14px;
+    color: #eb3d44;
+}
+
+.u-workmanagement-box .u-collect-intro {
+    width: 340px;
+}
+
+.u-workmanagement-box .u-post-btn-box .u-post-btn {
+    width: 120px;
+    height: 36px;
+
+}
+
+.u-workmanagement-box .u-post-btn-box {
+    padding-right: 40px;
+}
+
+.u-workmanagement-box .u-post-btn-box .u-post-btn:first-of-type {
+    margin-right: 0;
+}
+
+/*工作评价*/
+.pj-list{
+    padding-top: 16px;
+}
+.pj-list li{
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    color: #666;
+
+}
+.pj-list li:nth-of-type(odd){
+    padding-right: 92px;
+}
+.pj-list li span{
+    display: inline-block;
+    width: 136px;
+    padding-left: 12px;
+}
+.pj-list li i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.pj-list li .pj-xx{
+    display: inline-block;
+}
+.pj-list li .pj-good{
+    background-position: -19px -668px;
+}
+.pj-list li .pj-bad{
+    background-position: -19px -705px;
+}
+.pj-text p{
+    font-size: 14px;
+    color: #666;
+    line-height: 54px;
+
+}
+.pj-text{
+    padding-top: 3px;
+    padding-left: 12px;
+}
+.pj-text textarea{
+    resize: none;
+    width: 740px;
+    height: 200px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+}
+.pj-btn-box{
+    padding-top: 30px;
+    text-align: center;
+}
+.pj-btn-box .u-pj-btn{
+    display: inline-block;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.pj-btn-box .u-pj-btn:first-of-type{
+    margin-right: 140px;
+}
+
+/* 求职进展 */
+.u-jobProgress-box .u-jobProgress-item {
+    padding: 26px 14px 25px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.u-jobProgress-box .u-jobProgress-item .u-project-into > p:first-of-type,
+.u-jobProgress-box .u-jobProgress-item .u-info > p:first-of-type {
+    color: #333;
+}
+
+.u-jobProgress-box .u-jobProgress-item .u-project-into > p:last-of-type,
+.u-jobProgress-box .u-jobProgress-item .u-info > p:last-of-type {
+    color: #666;
+}
+
+.u-jobProgress-box .u-jobProgress-item .u-vertical-line {
+    margin: -2px 10px 0;
+    display: inline-block;
+    width: 2px;
+    height: 14px;
+    background-color: #eb3d44;
+    vertical-align: middle;
+}
+
+.u-jobProgress-box .u-jobProgress-item .u-message {
+    padding-top: 22px;
+    text-align: center;
+    color: #666;
+}
+
+.u-jobProgress-box .u-jobProgress-item .u-message .u-time {
+    display: inline-block;
+    width: 190px;
+    text-align: center;
+    color: #999;
+}
+
+.u-jobProgress-box .u-desc {
+    padding-top: 22px;
+    text-align: left;
+    color: #666;
+}
+
+.u-authentication-box .u-popover-box {
+    position: fixed;
+    top: 18%;
+    left: 50%;
+    margin-left: -290px;
+    padding-bottom: 40px;
+    display: none;
+    width: 680px;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    -moz-box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    z-index: 1001;
+}
+
+.u-popover-shadow {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.u-popover-shadow.black {
+    position: absolute;
+    height: auto;
+    background: rgba(4, 20, 33, .4);
+}
+
+.u-authentication-box .u-popover-box .u-head {
+    position: relative;
+    padding: 0 40px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #eb3d44;
+}
+
+.u-authentication-box .u-jobProgress-item .u-show-comp {
+    cursor: pointer;
+}
+
+.u-authentication-box .u-popover-box .u-content {
+    padding: 0 40px;
+}
+
+.u-authentication-box .u-popover-box .u-item {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.u-authentication-box .u-jobProgress-item .u-status {
+    width: 110px;
+    display: inline-block;
+    color: #666;
+
+}
+
+.u-authentication-box .u-popover-box .u-item-name {
+    padding-bottom: 22px;
+    color: #666;
+}
+
+.u-authentication-box .u-popover-box .u-item-data {
+    color: #999;
+}
+
+.u-authentication-box .u-popover-box .u-item-data > p > span {
+    margin-left: 6px;
+}
+
+.u-authentication-box .u-popover-box .u-item-data > p:not(:first-of-type) {
+    margin-left: 90px;
+}
+
+.u-jobProgress-box .u-jobProgress-item .u-project-into {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.u-jobProgress-box .u-jobProgress-item .u-project-into > p:last-of-type {
+    color: #999;
+}
+
+/* 我的简历 */
+.u-circle-progss {
+    position: relative;
+    margin-right: 36px;
+    width: 90px;
+    height: 90px;
+    background-color: #eb3d44;
+    border-radius: 45px;
+}
+
+.u-circle-progss .u-circle-bg-white {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -37px;
+    margin-left: -37px;
+    width: 74px;
+    height: 74px;
+    background-color: #fff;
+    border-radius: 37px;
+    z-index: 4;
+}
+
+.u-circle-progss .u-circle-label {
+    position: relative;
+    padding-top: 28px;
+    width: 90px;
+    line-height: 22px;
+    z-index: 5;
+    text-align: center;
+    color: #666;
+}
+
+.u-circle-progss .u-circle-right-box,
+.u-circle-progss .u-circle-left-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 90px;
+    background-color: transparent;
+    overflow: hidden;
+    transform-origin: right center;
+    -webkit-transform-origin: right center;
+}
+
+.u-circle-progss .u-circle-right-box {
+    top: 0;
+    left: 45px;
+    transform-origin: left center;
+    -webkit-transform-origin: left center;
+}
+
+.u-circle-progss .u-circle-right-box .u-circle-right,
+.u-circle-progss .u-circle-left-box .u-circle-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    background-color: #e6e6e6;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.u-circle-progss .u-circle-right-box .u-circle-right {
+    left: -45px;
+    z-index: 3;
+}
+
+.u-circle-progss .u-circle-right-box .u-circle-right.red {
+    background-color: #eb3d44;
+}
+
+/* 个人简历内容 */
+.u-myResume-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.u-myResume-box .u-myResume-head {
+    padding-top: 6px;
+    padding-right: 22px;
+    margin-bottom: 30px;
+}
+
+.u-myResume-box .u-myResume-head .u-view,
+.u-myResume-box .u-myResume-head .u-refresh {
+    padding-top: 20px;
+    margin-left: 96px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.u-myResume-box .u-myResume-head .u-refresh .u-refresh-bg {
+    display: block;
+    margin: 0 auto 9px;
+    width: 38px;
+    height: 32px;
+    background-position: -10px -1674px;
+}
+
+.u-myResume-box .u-myResume-head .u-view {
+    margin-left: 0;
+}
+
+.u-myResume-box .u-myResume-head .u-view .u-view-bg {
+    display: block;
+    margin: 0 auto 9px;
+    width: 38px;
+    height: 32px;
+    background-position: -11px -1720px;
+}
+
+.u-myResume-box .u-myResume-head .u-pudate-time,
+.u-myResume-box .u-myResume-head .u-head-name {
+    padding-top: 38px;
+    line-height: 24px;
+}
+
+.u-myResume-box .u-myResume-head .u-pudate-time {
+    padding-left: 50px;
+}
+
+.u-myResume-box .u-content {
+    position: relative;
+}
+
+.u-myResume-box .u-content .u-user-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+
+.u-myResume-box .u-content .u-user-message-box {
+    margin-left: 16px;
+    display: table;
+    table-layout: fixed;
+}
+
+.u-myResume-box .u-content.main .u-user-message-box {
+    width: 90%;
+}
+
+.u-myResume-box .u-user-message-box .u-user-message-side {
+    display: table-cell;
+    width: 50%;
+}
+
+.u-myResume-box .u-user-message-box .u-user-message-side:first-of-type {
+    padding-right: 14px;
+}
+
+.u-myResume-box .u-user-message-box .u-message-ul {
+    margin-bottom: 5px;
+}
+
+.u-myResume-box .u-user-message-box .u-message-ul > li {
+    display: inline-block;
+    line-height: 24px;
+}
+
+.u-myResume-box .u-user-message-box .u-message-ul .u-user-label {
+    width: 95px;
+    text-align: right;
+    color: #999;
+    vertical-align: top;
+}
+
+.u-myResume-box .u-user-message-box .u-message-ul .u-user-input {
+    text-align: left;
+    color: #666;
+    width: 175px;
+}
+
+.u-myResume-box .main .u-user-message-box .u-message-ul .u-user-input {
+    width: 210px;
+}
+
+.u-myResume-box .u-user-message-box .u-message-ul .u-user-input.sm,
+.u-myResume-box .u-user-message-box .u-message-ul .u-user-label.sm {
+    width: 45px;
+}
+
+.u-myResume-box .u-content .u-user-aditor {
+    cursor: pointer;
+}
+
+.u-myResume-box .u-content .u-user-aditor .icon_hf {
+    margin-right: 12px;
+    margin-top: -1px;
+    width: 18px;
+    height: 20px;
+    background-position: -20px -1764px;
+    vertical-align: middle;
+}
+
+.u-myResume-box .u-content .u-user-aditor {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    color: #64d286;
+}
+
+.u-form .u-label {
+    margin-right: 10px;
+    display: inline-block;
+    min-width: 80px;
+    text-align: right;
+}
+
+.u-form .u-input-sm,
+.u-form .u-input {
+    padding: 0 5px;
+    width: 207px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+}
+
+.u-form .u-input-box {
+    position: relative;
+    display: inline-block;
+    padding: 0 5px;
+    padding-right: 18px;
+    width: 80px;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+}
+
+.u-form .u-input-box > input {
+    padding: 0;
+    width: 50px;
+    border: none;
+}
+
+.u-form .u-input-box .u-input-tips {
+    position: absolute;
+    right: 7px;
+    top: 0;
+    height: 100%;
+
+}
+
+.u-form .u-select-sm,
+.u-form .u-select {
+    padding: 0 5px;
+    padding-right: 30px;
+    width: 207px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../../img/select-down.png") no-repeat 178px center;
+}
+
+.u-form .u-select-sm {
+    width: 98px;
+    background-position: 68px center;
+}
+
+.u-form .u-select-sm:not(:first-of-type) {
+    margin-left: 6px;
+}
+
+.u-form .u-textarea {
+    padding: 4px 8px;
+    width: 538px;
+    height: 150px;
+    resize: none;
+    border: 1px solid #cccccc;
+}
+
+.u-form .u-textarea-label {
+    vertical-align: top;
+}
+
+.u-form .u-line {
+    display: inline-block;
+    margin: 0 12px;
+    width: 14px;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.u-form .u-item {
+    display: table;
+    table-layout: fixed;
+}
+
+.u-form .u-item:not(:first-of-type) {
+    margin-top: 30px;
+}
+
+.u-form .u-item .u-form-group {
+    display: table-cell;
+    width: 50%;
+}
+
+.u-form .u-item .u-form-group:first-of-type {
+    padding-right: 24px;
+}
+
+.u-form .u-form-group > li {
+    margin-top: 30px;
+}
+
+.u-form .u-label-radio {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.u-form .u-label-radio:first-of-type {
+    margin-left: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.u-form .u-label-radio:last-of-type {
+    margin-left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.u-form input[type='radio'] {
+    display: none;
+}
+
+.u-form input[type='radio']:checked + label {
+    background: #64d286;
+    color: #fff;
+}
+
+.u-myResume-box .u-popover-box {
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    margin-left: -364px;
+    padding-top: 42px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    display: none;
+    width: 728px;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    -moz-box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    z-index: 1001;
+    animation: box-in .3s ease;
+}
+
+.u-myResume-box .u-popover-box.project {
+    position: absolute;
+    display: none;
+}
+
+.u-myResume-box .u-popover-box .u-head {
+    text-align: center;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.u-myResume-box .u-popover-box .u-foot {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.u-myResume-box .u-popover-box .u-foot .u-foot-btn {
+    display: inline-block;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.u-myResume-box .u-popover-box .u-foot .u-foot-btn:last-of-type {
+    margin-left: 160px;
+}
+
+/* 教育经历 */
+.u-myResume-box .u-content-list .u-content-item {
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.u-myResume-box .u-content-list .u-title {
+    padding-bottom: 6px;
+}
+
+.u-myResume-box .u-content-list .u-inform > p:nth-of-type(1) {
+    width: 90px;
+}
+
+.u-myResume-box .u-content-list .u-inform > p:nth-of-type(2) {
+    margin-left: 25px;
+    margin-right: 50px;
+    width: 200px;
+}
+
+.u-myResume-box .u-content-list .u-inform > p:nth-of-type(3) {
+    width: 118px;
+}
+
+.u-myResume-box .u-content-list .u-inform .u-btn-modify {
+    width: 20px;
+    height: 20px;
+    background-position: -19px -1884px;
+    cursor: pointer;
+}
+
+.u-myResume-box .u-content-list .u-inform .u-btn-delete {
+    margin-left: 22px;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    background-position: -19px -1923px;
+    cursor: pointer;
+}
+
+.u-myResume-box .u-btn-box {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.u-myResume-box .u-btn-box .u-btn-add {
+    display: inline-block;
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+    background-color: #64d286;
+    cursor: pointer;
+}
+
+/* 工作经验 */
+.u-myResume-box .work .u-content-list .u-inform > p:nth-of-type(1) {
+    width: 90px;
+}
+
+.u-myResume-box .work .u-content-list .u-inform > p:nth-of-type(2) {
+    margin-left: 25px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.u-myResume-box .work .u-content-list .u-inform > p:nth-of-type(3) {
+    width: 80px;
+    margin-right: 40px;
+}
+
+.u-myResume-box .work .u-content-list .u-inform > p:nth-of-type(4) {
+    width: 118px;
+}
+
+.u-myResume-box .u-content-list .u-desc {
+    padding-top: 8px;
+}
+
+/* 特殊技能 */
+.u-myResume-box .u-content-box .u-content {
+    position: relative;
+    padding-top: 55px;
+    line-height: 24px;
+}
+
+.u-myResume-box .u-skill-message > span:not(:first-of-type) {
+    margin-left: 28px;
+}
+
+.u-myResume-box .u-popover-box.skill {
+    padding-left: 0;
+}
+
+.u-form .u-textarea-lg {
+    margin: 20px auto 0;
+    display: block;
+    width: 536px;
+}
+
+/* 简历预览 */
+.u-myResume-box .u-popover-preview-box {
+    margin: 50px auto;
+    width: 800px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    -moz-box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    box-shadow: 5px 6px 16px 0px rgba(170, 170, 170, 0.25);
+    z-index: 1001;
+    animation: box-in .3s ease;
+}
+
+.u-myResume-box .u-popover-preview-box .u-popover-head {
+    padding-top: 60px;
+    width: 100%;
+    background: url("../../img/bg_popover_preview.jpg") no-repeat center top;
+}
+
+.u-myResume-box .u-popover-preview-box .u-head-img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.u-myResume-box .u-popover-preview-box .u-head-name {
+    padding-top: 22px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.u-myResume-box .u-popover-preview-box .u-popover-content {
+    padding-left: 35px;
+    padding-right: 25px;
+}
+
+.u-myResume-box .u-popover-preview-box .u-popover-content-item {
+    margin-top: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #dbdbdb;
+}
+
+.u-myResume-box .u-popover-preview-box .u-content-title {
+    padding-bottom: 25px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.u-myResume-box .u-popover-preview-box .u-user-message-box .u-message-ul .u-user-label {
+    text-align: left;
+}
+
+.u-myResume-box .u-popover-preview-box .u-user-message-box .u-message-ul .u-user-input:not(.sm) {
+    width: 214px;
+}
+
+.u-myResume-box .u-popover-preview-box .u-user-message-box .u-user-message-side:first-of-type {
+    padding-right: 20px;
+}
+
+.u-myResume-box .u-popover-preview-box .u-user-add,
+.u-myResume-box .u-popover-preview-box .u-user-aditor {
+    margin-right: 24px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.u-myResume-box .u-popover-preview-box .u-user-aditor .icon_editor {
+    margin-top: -1px;
+    margin-right: 12px;
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    background: url("../../img/icon_myResume_editor.jpg") no-repeat center center;
+    vertical-align: top;
+}
+
+.u-myResume-box .u-popover-preview-box .u-user-add .icon_hf {
+    margin-right: 8px;
+    width: 22px;
+    height: 20px;
+    vertical-align: top;
+    background-position: -18px -1956px;
+}
+
+/* 我的积分 */
+.u-myPoints-box .u-currPoints {
+    margin-top: 18px;
+}
+
+.u-myPoints-box .u-currPoints > span {
+    vertical-align: bottom;
+}
+
+.u-myPoints-box .u-myPoints-content {
+    padding-left: 16px;
+}
+
+.u-myPoints-box .u-assignment {
+    margin-top: 32px;
+}
+
+.u-myPoints-box .u-assignment .u-assignment-bar {
+    width: 100%;
+    border-bottom: 1px dashed #dbdbdb;
+}
+
+.u-myPoints-box .u-assignment .u-bar-select {
+    position: relative;
+    padding-bottom: 5px;
+    display: inline-block;
+    line-height: 24px;
+    color: #999;
+}
+
+.u-myPoints-box .u-assignment .u-bar-select:not(:first-of-type) {
+    margin-left: 36px;
+}
+
+.u-myPoints-box .u-assignment .u-bar-select.active {
+    color: #eb3d44;
+}
+
+.u-myPoints-box .u-assignment .u-bar-select.active::before {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: " ";
+    background-color: #eb3d44;
+}
+
+.u-myPoints-box .u-assignment .u-switch-box i {
+    width: 10px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.u-myPoints-box .u-assignment .u-switch-box .switch-line {
+    color: #999;
+}
+
+.u-myPoints-box .u-assignment .u-assignment-content {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.u-myPoints-box .u-assignment .u-circle-box {
+    display: inline-block;
+    text-align: center;
+    line-height: 14px;
+}
+
+.u-myPoints-box .u-assignment .u-circle-box:not(:first-of-type) {
+    margin-left: 48px;
+}
+
+.u-myPoints-box .u-assignment .u-circle-box .u-circle {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: #fffefe;
+    border-radius: 100%;
+}
+
+.u-myPoints-box .u-assignment .u-circle-box:nth-of-type(odd) .u-circle {
+    background-color: #64d286;
+}
+
+.u-myPoints-box .u-assignment .u-circle-box:nth-of-type(even) .u-circle {
+    background-color: #fec458;
+}
+
+.u-myPoints-box .u-assignment-table {
+}
+
+.u-myPoints-box .u-assignment-table ul {
+    display: table;
+    table-layout: fixed;
+}
+
+.u-myPoints-box .u-assignment-table ul > li {
+    display: table-cell;
+    color: #666;
+}
+
+.u-myPoints-box .u-assignment-table .u-table-th {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f0feff;
+    color: #666;
+}
+
+.u-myPoints-box .u-assignment-table .u-table-tr {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.u-myPoints-box .u-assignment-table .u-table-tr > .u-table-td:nth-of-type(2) {
+    color: #00b7ee;
+}
+
+.u-goods-list {
+}
+
+.u-goods-list .u-goods-item {
+    width: 220px;
+    text-align: center;
+}
+
+.u-goods-list .u-goods-item:not(:first-of-type) {
+    margin-left: 30px;
+}
+
+.u-goods-list .u-goods-pic {
+    padding: 20px 0;
+    display: inline-block;
+    width: 220px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.u-goods-list .u-goods-pic > img {
+    width: 160px;
+    height: 160px;
+}
+
+.u-goods-list .u-goods-name {
+    padding-top: 15px;
+    line-height: 24px;
+}
+
+.u-goods-list .u-goods-count {
+    padding-bottom: 15px;
+    line-height: 24px;
+}
+
+.u-goods-list .u-btn-points {
+    width: 220px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* 积分商城-全部商品 */
+.u-pointsExchange-box .u-pointsExchange-title {
+    padding-left: 16px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f0feff;
+}
+
+.u-pointsExchange-box .u-goods-list {
+    margin-top: 40px;
+}
+
+.u-pointsExchange-box .u-goods-list .u-goods-item:not(:first-of-type) {
+    margin-left: 46px;
+}
+
+.u-pointsExchange-box.u-myResume-box .u-popover-box {
+    padding-top: 10px;
+    padding-left: 0;
+    margin-left: -280px;
+    width: 560px;
+}
+
+.u-pointsExchange-box.u-myResume-box .u-popover-box .u-head {
+    line-height: 70px;
+    border-bottom: 1px solid #eb3d44;
+}
+
+.u-pointsExchange-box .u-form .u-input-sm, .u-form .u-input {
+    width: 310px;
+}
+
+.u-pointsExchange-box .u-form .u-form-group > li {
+    text-align: center;
+}
+
+/* 兑换商品详情 */
+.u-goodsDetail-box .u-pointsExchange-title {
+    margin-top: 30px;
+    padding: 6px 16px;
+    background-color: #f0feff;
+    color: #333;
+    line-height: 26px;
+}
+.u-goodsDetail-box .u-goods-box {
+    margin-top: 40px;
+    display: table;
+}
+.u-goodsDetail-box .u-goods-box .u-goods-pic {
+    display: table-cell;
+    width: 300px;
+    height: 300px;
+    vertical-align: top;
+}
+.u-goodsDetail-box .u-goods-box .u-goods-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.u-goodsDetail-box .u-goods-box .u-goods-detail {
+    padding-left: 24px;
+    line-height: 24px;
+    vertical-align: top;
+}
+
+.u-goodsDetail-box .u-goods-box .u-goods-name {
+    padding-bottom: 7px;
+    line-height: 34px;
+}
+.u-goodsDetail-box .u-goods-box .u-goods-count {
+    padding-bottom: 6px;
+}
+.u-goodsDetail-box .u-goods-box .u-goods-delivery {
+    padding-top: 12px;
+}
+.u-goodsDetail-box .u-goods-box .u-btn-exchange {
+    margin-top: 96px;
+    width: 220px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+}

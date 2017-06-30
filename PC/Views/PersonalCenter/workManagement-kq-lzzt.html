@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>考勤-离职</title>-->
+    <script>
+        $('#workmanagement-kq-nav a').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            $('#preRight').load(url)
+        })
+    </script>
+</head>
+<body>
+<div class="u-workmanagement-box">
+    <h2 class="u-preRight-title size16">工作管理<span class="u-preRight-sub">>&nbsp;&nbsp;正在工作</span><span class="u-preRight-sub">>&nbsp;&nbsp;考勤</span><span class="u-preRight-sub">>&nbsp;&nbsp;离职</span></h2>
+    <ul class="workmanagement-kq-nav clear" id="workmanagement-kq-nav">
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq.html">考勤状况</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-tb.html">调班</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-qj.html">请假</a>
+        </li>
+        <li class="kq-nav-active">
+            <a href="javascript:;" data-name="workManagement-kq-lz.html">离职</a>
+        </li>
+    </ul>
+    <div class="workmanagement-kq-content">
+      <div class="lzzt">
+          <span class="lzzt-cur">提出申请</span>
+          <i>></i>
+          <span>主管已审批</span>
+          <i>></i>
+          <span>工资已结算</span>
+          <i>></i>
+          <span>已离职</span>
+      </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

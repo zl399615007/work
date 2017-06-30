@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>积分商城</title>
+    <link rel="stylesheet" href="../../Resources/public/pagination/pagination.css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/PersonalCenter/PersonalCenter.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/pagination/pagination.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="u-header">
+    <div class="tbar">
+        <div class="u-page clear">
+            <div class="u-weixin left">
+                <i class="icon_hf icon_wx"></i>
+                <span>微信</span>
+            </div>
+            <div class="u-useinfo right">
+                <ul class="u-user">
+                    <li class="u-mesage">
+                        <a href="#">消息</a>
+                    </li>
+                    <li class="u-userselect">
+                        <a href="#">
+                            <span class="l-link_fff"></span>
+                            <span>用户名</span>
+                            <i class="icon-down"></i>
+                        </a>
+                        <ul class="user_info_list pub_list">
+                            <li class="user_info_show clear">
+                                <div class="left">
+                                    <img src="../../Resources/img/user_img.png" alt="">
+                                    <b class="user_name">姓名</b>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="quit">退出登陆</a>
+                                </div>
+                                <div class="user-sanjiao"></div>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_red"></i>
+                                <p>我的简历</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_sc"></i>
+                                <p>我的收藏</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_mm"></i>
+                                <p>修改密码</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_qz"></i>
+                                <p>求职进展</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_gz"></i>
+                                <p>工作管理</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="u-nav-box">
+        <div class="u-page clear_no">
+            <div class="logo">
+                <a href="#"></a>
+                <span class="loc f16">【<em>石家庄</em>】</span>
+            </div>
+            <ul class="tnav_wrap left" id='tnav'>
+                <li class="nav-home"><a href="#" class="nav-on">首页</a></li>
+                <li><a href="#" data-name='../RecruitmentProject/recruitmentProject.html'>招聘项目</a></li>
+                <li><a href="#">我要兼职</a></li>
+                <li><a href="#">最新资讯</a></li>
+            </ul>
+            <div class="right">
+                <div class='tphone'>
+                    <i class="icon-tphone"></i>
+                    <span>400-666-5643</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="u-page">
+        <div class="u-pointsExchange-box u-myResume-box">
+            <h1 class="u-pointsExchange-title size16 highlight-333">
+                <span class="highlight-red">个人中心</span>>我的积分>全部兑换商品
+            </h1>
+            <div class="u-goods-list">
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-goods-list">
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-goods-list">
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-goods-list">
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="u-goods-item left">
+                    <div class="u-goods-pic">
+                        <img src="../../Resources/img/bg_goods_pic.jpg">
+                    </div>
+                    <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                    <p class="u-goods-count size14 highlight-999">库存数量：30
+                    <div class="u-btn-sure u-btn-points size18 j-btn-points">100 积分兑换</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!-- 兑换弹框 -->
+            <div class="u-popover-box j-popover-box">
+                <div class="u-head size18 highlight-666">兑换</div>
+                <div class="u-content u-form size14 highlight-666">
+                    <div class="u-item">
+                        <ul class="u-form-group">
+                            <li>
+                                <span class="u-label">兑换数量：</span>
+                                <input class="u-input" type="text"/>
+                            </li>
+                            <li>
+                                <span class="u-label">收货人：</span>
+                                <input class="u-input" type="text"/>
+                            </li>
+                            <li>
+                                <span class="u-label">联系电话：</span>
+                                <input class="u-input" type="text"/>
+                            </li>
+                            <li>
+                                <span class="u-label">收货地址：</span>
+                                <input class="u-input" type="text"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="u-foot">
+                    <div class="u-foot-btn u-btn-sure j-btn-sure">确定</div>
+                    <div class="u-foot-btn u-btn-cancel j-btn-cancel">取消</div>
+                </div>
+            </div>
+            <!-- 兑换弹框 -->
+        </div>
+        <div class="M-box"></div>
+    </div>
+<div class="foot">
+    <div class="u-page">
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    增值产品
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    HR服务
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    关于我们
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d f-ss">
+            <div class="f-weixin">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-weixin-text" >
+                    <p>微信扫一扫</p>
+                    <p>工作随心找</p>
+                </div>
+            </div>
+            <div class="f-gzh">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-gzh-text" >
+                    <p>扫一扫关注</p>
+                    <p>诺亚公众号</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="f-bottom-text">
+        <p>诺亚公司旗下网站</p>
+        <p>
+            <span>2017诺亚人力资源开发有限公司</span>
+            <span>冀ICP备10006226号-4</span>
+            <span>冀公网安备13019902000054号</span>
+        </p>
+        <p>服务热线：400-666-5643</p>
+    </div>
+</div>
+<script>
+    $('.M-box').pagination({
+        coping:true,
+        homePage:'首页',
+        endPage:'末页',
+        prevContent:'上一页',
+        nextContent:'下一页'
+    });
+
+    $(function () {
+        $('.j-btn-points').on('click', function () {
+            $('.j-popover-box').show();
+            $('.j-popover-shadow').show();
+        });
+        $('.j-btn-cancel').on('click', function () {
+            $('.j-popover-box').hide();
+            $('.j-popover-shadow').hide();
+        });
+        $('.j-btn-sure').on('click', function () {
+            $('.j-popover-box').hide();
+            $('.j-popover-shadow').hide();
+        });
+    })
+</script>
+</body>
+</html>

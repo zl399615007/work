@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>考勤-调班</title>-->
+    <script>
+        $('#workmanagement-kq-nav a').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            $('#preRight').load(url)
+        })
+    </script>
+</head>
+<body>
+<div class="u-workmanagement-box">
+    <h2 class="u-preRight-title size16">工作管理<span class="u-preRight-sub">>&nbsp;&nbsp;正在工作</span><span class="u-preRight-sub">>&nbsp;&nbsp;考勤</span><span class="u-preRight-sub">>&nbsp;&nbsp;调班</span><span class="u-preRight-sub">>&nbsp;&nbsp;调班记录</span></h2>
+    <ul class="workmanagement-kq-nav clear" id="workmanagement-kq-nav">
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq.html">考勤状况</a>
+        </li>
+        <li class="kq-nav-active">
+            <a href="javascript:;" data-name="workManagement-kq-tb.html">调班</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-qj.html">请假</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-lz.html">离职</a>
+        </li>
+    </ul>
+    <div class="workmanagement-kq-content">
+        <div class="tb-history-box">
+            <div class="j-switch">
+                <i class="icon_hf switch-left"></i>
+                <div class="switch-num">
+                    <span class="switch-cur">1</span>
+                    <span class="switch-line">/</span>
+                    <span class="switch-tit">3</span>
+                </div>
+                <i class="icon_hf switch-right"></i>
+            </div>
+            <table class="tab-history">
+                <tr>
+                    <td width="189">申请时间</td>
+                    <td width="449">调班时间</td>
+                    <td width="114">审批状态</td>
+                </tr>
+                <tr>
+                    <td>2017-03-06 08:00:00</td>
+                    <td>2017-03-06 08:00- 18:00  调至  2017-03-06 08:00- 18:00</td>
+                    <td class="sping">审批中</td>
+                </tr>
+                <tr>
+                    <td>2017-03-06 08:00:00</td>
+                    <td>2017-03-06 08:00- 18:00  调至  2017-03-06 08:00- 18:00</td>
+                    <td class="spend">已审批</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

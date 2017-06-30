@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>个人认证</title>-->
+    <script>
+        $('.workmanagement-item-b a').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            console.log(url);
+            $('#preRight').load(url)
+        })
+    </script>
+</head>
+<body>
+<div class="u-workmanagement-box">
+    <h2 class="u-preRight-title size16">工作管理<span class="u-preRight-sub">>&nbsp;&nbsp;正在工作</span></h2>
+
+    <div class="u-workmanagement-list">
+        <div class="u-workmanagement-item">
+            <div class="workmanagement-item-t clear">
+                <div class="left">
+                    <img src="../../Resources/img/company.jpg" alt="">
+                    <div class="workmanagement-list-name">
+                        <p>河北敬业集团</p>
+                        <span>2017年03月06日入职</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <span class="workmanagement-list-work">已工作</span>
+                </div>
+            </div>
+            <div class="workmanagement-item-b">
+                <div class="workmanagement-item-btn">
+                    <a href="javascript:;" data-name="workManagement-kq.html">
+                        <i class="icon_hf icon_kq"></i>
+                        <span>考勤</span>
+                    </a>
+
+                </div>
+                <div class="workmanagement-item-btn">
+                    <a href="javascript:;" data-name="workManagement-hb.html">
+                        <i class="icon_hf icon_hb"></i>
+                        <span>工作汇报</span>
+                    </a>
+                </div>
+                <div class="workmanagement-item-btn">
+                    <a href="javascript:;" data-name="workManagement-gz.html">
+                        <i class="icon_hf icon_gz"></i>
+                        <span>工资</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="u-workmanagement-item">
+            <div class="workmanagement-item-t clear">
+                <div class="left">
+                    <img src="../../Resources/img/company.jpg" alt="">
+                    <div class="workmanagement-list-name">
+                        <p>河北敬业集团</p>
+                        <span>2017年03月06日入职</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <span class="workmanagement-list-work">已工作</span>
+                </div>
+            </div>
+            <div class="workmanagement-item-b">
+                <div class="workmanagement-item-btn">
+                    <i class="icon_hf icon_kq"></i>
+                    <span>考勤</span>
+                </div>
+                <div class="workmanagement-item-btn">
+                    <i class="icon_hf icon_hb"></i>
+                    <span>工作汇报</span>
+                </div>
+                <div class="workmanagement-item-btn">
+                    <i class="icon_hf icon_gz"></i>
+                    <span>工资</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

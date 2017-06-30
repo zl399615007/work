@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆</title>
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/LogoIn/logoin.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+</head>
+<body><div class="u-logoin-box">
+    <div class="u-page">
+        <div class="u-logoin-nav">
+            <ul class="logoin-nav-list">
+                <li class="active-nav"><a href="javascript:;">登陆</a></li>
+                <li><a href="javascript:;">注册</a></li>
+            </ul>
+            <div class="form-content">
+                <div class="login-content content-guop">
+                    <form action="">
+                        <div class="input-guop">
+                            <input type="text" value="登录名" >
+                        </div>
+                        <div class="input-guop">
+                            <input type="text" value="密码">
+                        </div>
+
+
+                        <p class="forget-btn"><a href="forget.html">忘记密码？</a></p>
+                    </form>
+                    <div class="logoin-btn">登录</div>
+                </div>
+                <div class="reg-content content-guop">
+                    <form action="">
+                        <div class="input-guop">
+                            <input type="text" value="手机号">
+                        </div>
+                        <div class="input-guop yzm-box">
+                            <input type="text" value="验证码">
+                            <span class="yzm-btn">
+                                 获取验证码
+                                </span>
+                        </div>
+                        <div class="input-guop">
+                            <input type="text" value="密码" ></div>
+                        <div class="input-guop">
+                            <input type="text" value="确认密码">
+                        </div>
+                    </form>
+                    <div class="logoin-btn">注册</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    $('.logoin-nav-list li').click(function () {
+        var $index=$(this).index();
+        $(this).addClass('active-nav').siblings().removeClass('active-nav');
+        $('.form-content ').find('.content-guop').eq($index).show().siblings().hide();
+    })
+    $('.yzm-btn').click(function () {
+        var str=59;
+        var that=$(this);
+        $(this).css('color','#eb3d44');
+        setInterval(function () {
+            str=--str;
+            that.html(str+'S')
+        },1000);
+        that.html(str+'S');
+    })
+</script>
+</body>
+</html>

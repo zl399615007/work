@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>我的收藏</title>-->
+    <script>
+        $(function () {
+            $('.j-collect-btn-box .j-collect-btn').on('click',function () {
+                $('.j-collect-btn-box .j-collect-btn').removeClass('select');
+                $(this).addClass('select');
+                var url=$(this).attr('data-name');
+                $('.j-collect-content').load(url);
+
+            });
+            $('.j-collect-btn-box .j-collect-btn').eq(2).click();
+        });
+    </script>
+</head>
+<body>
+<div class="u-collect-box">
+    <div class="u-collect-btn-box j-collect-btn-box">
+        <div class="u-collect-btn size16 j-collect-btn left" data-name="myCollectByPost.html">岗位收藏</div>
+        <div class="u-collect-btn size16 j-collect-btn left" data-name="myCollectByEnterprise.html">企业收藏</div>
+        <div class="u-collect-btn size16 j-collect-btn left" data-name="myCollectByProject.html">项目收藏</div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="u-collect-content j-collect-content">
+
+    </div>
+
+
+</div>
+</body>
+</html>

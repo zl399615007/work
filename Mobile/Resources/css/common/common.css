@@ -1,0 +1,675 @@
+/*公共头*/
+.u-header-box {
+    position: relative;
+    margin: 0;
+    height: .88rem;
+    line-height: .88rem;
+    background-color: #fff;
+}
+.u-header-box .u-header-title{
+    font-size: 16px;
+    color: #222;
+}
+.u-header-box .u-header-arrow {
+    position: absolute;
+    left: .3rem;
+    top: 50%;
+    margin-top: -.2rem;
+    display: block;
+    width: .22rem;
+    height: .4rem;
+    background: url("../../img/icon_setting_arrow.png") no-repeat center center;
+    background-size: 100% 100%;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.u-header-add {
+    position: absolute;
+    right: .4rem;
+    width: .3rem;
+    height: .3rem;
+    top: 50%;
+    margin-top: -0.15rem;
+    background: url("../../img/add.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-header-help {
+    position: absolute;
+    right: .3rem;
+    top: 50%;
+    margin-top: -.44rem;
+    display: inline-block;
+    height: .88rem;
+    font-size: 13px;
+}
+.u-header-exchangeLog {
+    position: absolute;
+    right: .3rem;
+    top: 50%;
+    margin-top: -.22rem;
+    display: inline-block;
+    width: .37rem;
+    height: .44rem;
+    background: url("../../../Resources/img/icon_exchange_log.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*底部标签栏*/
+.foot-tab{
+    position: fixed;
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    border-top: .02rem solid #d9d9d9;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.foot-tab .col-xs-4{
+    text-align: center;
+    height: 100%;
+}
+.foot-tab .col-xs-4 img{
+    margin-top: .2rem;
+}
+.foot-tab .col-xs-4:nth-of-type(1) img{
+    width: .36rem;
+    height: .32rem;
+}
+.foot-tab .col-xs-4:nth-of-type(2) img{
+    width: .39rem;
+    height: .36rem;
+}
+.foot-tab .col-xs-4:nth-of-type(3) img{
+    width: .38rem;
+    height: .36rem;
+}
+.foot-tab .col-xs-4 p {
+    font-size: .22rem;
+    color: #666;
+    height: .32rem;
+    line-height: .32rem;
+    margin-top: .04rem;
+}
+
+.foot-tab .col-xs-4 p.highlight-red{
+    color: #EB3D44;
+}
+
+.foot-tab .row{
+    height: 100%;
+
+}
+
+
+/*待查看简历岗位*/
+
+.u-lookresume-box .row{
+    height: 1.6rem;
+    border-top:.02rem solid #e6e6e6;
+}
+.u-lookresume-box .row .col-xs-12{
+    height: 100%;
+}
+.u-lookresume-t span:nth-of-type(1){
+    display: inline-block;
+    font-size: .28rem;
+    color: #333;
+    height: .28rem;
+    line-height: .28rem;
+}
+.line-red,
+.u-lookresume-t span:nth-of-type(2) {
+    display: inline-block;
+    width: .03rem;
+    height: .26rem;
+    background: #eb3d44;
+    margin: 0 .2rem;
+    line-height: .26rem;
+    vertical-align: -1px;
+}
+.u-lookresume-t span:nth-of-type(3){
+    display: inline-block;
+    font-size: .24rem;
+    color: #999;
+    height: .25rem;
+    line-height: .25rem;
+}
+.u-lookresume-t a{
+    float: right;
+    font-size: .26rem;
+    color: #02b720;
+}
+.u-lookresume-t{
+    line-height: .56rem;
+    margin-top: .24rem;
+}
+
+.u-lookresume-b {
+    line-height: .58rem;
+}
+.u-lookresume-b span{
+    font-size: .24rem;
+    color: #666;
+    margin-right: .3rem;
+}
+.u-lookresume-b b{
+    font-weight: normal;
+}
+.u-lookresume-b span:nth-of-type(3){
+    margin-right: 0;
+}
+.u-lookresume-box .row:last-child{
+    border-bottom: .02rem solid #e6e6e6;
+}
+
+
+/*模态框样式*/
+.u-model .modal-dialog{
+    margin: 50% 1.48rem
+}
+.u-model .modal-header{
+    text-align: center
+}
+.u-model .modal-body{
+    padding: .3rem .6rem .4rem .6rem;
+    line-height: .7rem;
+    font-size: .26rem;
+    color: #333;
+}
+.u-dialog-close{
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    background: url("../../img/dialog-close.png") no-repeat;
+    background-size: 100%;
+}
+.u-model .modal-header .close{
+    margin-top: -18px;
+    margin-right: -20px;
+    opacity: 1
+}
+
+.modal-dialog textarea.form-control {
+    padding: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    resize: none;
+}
+
+.modal-dialog textarea.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.highlight-red {
+    color: #EB3D44;
+}
+
+.highlight-blue {
+    color: #7ECEF4;
+}
+
+/*自定义单选框样式*/
+.multiple-choice{
+    position: absolute;
+    display: none;
+}
+
+.multiple-choice + label{
+    position: relative;
+    padding: 0px 0 0 .4rem;
+    font-size:.26rem;
+    color:#444;
+    font-weight: normal;
+}
+
+.multiple-choice + label:before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: .24rem;
+    height: .24rem;
+    content: '';
+    border: 1px solid #b3b3b3;
+    margin-top:-.12rem;
+}
+
+.multiple-choice + label:after{
+    position: absolute;
+    content: '';
+}
+
+.multiple-choice:checked + label:after{
+    background: #EB3D44;
+}
+.multiple-choice:checked + label{
+    color:#EB3D44;
+}
+
+.multiple-choice + label:before{
+    border-radius: 50%;
+}
+
+.multiple-choice + label:after{
+    top: 50%;
+    left: .08rem;
+    width:.08rem;
+    height: .08rem;
+    border-radius: 50%;
+    background: #B3B3B3;
+    margin-top: -.04rem;
+
+}
+
+.multiple-choice:checked + label:before{
+    border: 1px solid #EB3D44;
+}
+
+/*简历详情-收藏*/
+.u-ResumeDetil>.row{
+    margin-right: -.2rem;
+    margin-left: -.2rem;
+}
+.u-ResumeDetil-box{
+    position: absolute;
+    /*height: 100%;*/
+    width: 100%;
+    background: #f2f2f2;
+    padding-bottom: 1.44rem;
+}
+.u-resume-p1{
+    background: #fff;
+}
+.u-p1-t{
+    overflow: hidden;
+}
+.u-img-box{
+    width: 1.4rem;
+    height: 1.4rem;
+    float: left;
+    border-radius: 50%;
+}
+.u-img-box img{
+    width: 100%;
+    height: 100%;
+}
+.u-ResumeDetil{
+    padding: 0 .2rem;
+
+}
+.u-port{
+    margin-top: .2rem;
+    border-radius: .06rem;
+}
+.u-resume-p1{
+    padding:.2rem 0;
+}
+.u-p1-t .col-xs-8 p:nth-of-type(1){
+    font-size: .30rem;
+    color: #333;
+    line-height: .5rem;
+}
+.u-p1-t p{
+    font-size: .26rem;
+    color: #333;
+    line-height: .44rem;
+}
+.u-p1-t span{
+    margin-left: .28rem;
+}
+.u-p1-t{
+    padding: .06rem .2rem .16rem .2rem;
+    border-bottom: .02rem solid #e6e6e6;
+}
+.u-p1-b{
+    overflow: hidden;
+}
+
+.u-p1-b p{
+    font-size: .26rem;
+    color: #999;
+}
+.u-p1-b span{
+    display: block;
+    color: #333;
+    font-size: .26rem;
+}
+.u-p1-b .col-xs-4{
+    padding-right: 0;
+    width: 27%;
+}
+
+.u-p1-b .col-xs-8{
+    padding-left: 0;
+}
+.u-p1-t .u-Gender{
+    display: inline-block;
+    width: .28rem;
+    height: .28rem;
+    margin-right: .4rem;
+}
+.u-Gender img{
+    width: 100%;
+    height: 100%;
+}
+
+.u-p2-t h3{
+    color: #EB3D44;
+    font-size: .3rem;
+    font-weight: normal;
+    line-height: .88rem;
+    padding-left: .2rem;
+    border-bottom: .02rem solid #e6e6e6;
+}
+.u-p2-b p{
+    font-size: .26rem;
+    color: #444;
+    text-indent: .56rem;
+    line-height: .36rem;
+    padding: .22rem .2rem .24rem .2rem;
+}
+.u-p3-b span{
+    font-size: .26rem;
+    color: #999;
+    line-height: .4rem;
+}
+
+.u-p3-b p{
+    line-height: .42rem;
+    font-size: .26rem;
+    color: #333;
+}
+.u-p3-b p span{
+    display: inline-block;
+    font-size: .26rem;
+    color: #333;
+    height: .24rem;
+    line-height: .24rem;
+    border-right: .04rem solid #555;
+    padding-right: .08rem;
+}
+.u-p3-b p span:last-of-type{
+    border-right: 0;
+    padding-right: 0;
+}
+.u-p3-b{
+    padding: .12rem .2rem .24rem .2rem;
+}
+
+.u-resume-foot,.u-resume-footBtn{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: .88rem;
+    width: 100%;
+    line-height: .88rem;
+    background: #fff;
+    text-align: center;
+}
+
+.u-resume-foot span{
+    display: inline-block;
+    font-size: .3rem;
+    color: #EB3D44;
+    height: .33rem;
+    line-height: .33rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -.16rem;
+    left: 50%;
+    margin-left: 0.08rem;
+
+}
+.u-resume-foot img{
+    width: .35rem;
+    height: .33rem;
+    vertical-align: middle;
+    line-height: .33rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -.16rem;
+    right: 50%;
+    margin-right: 0.08rem;
+
+}
+.u-resume-foot p{
+    display: inline-block;
+
+
+}
+
+/*简历详情-人才库*/
+
+.u-totalentManagement{
+    position: absolute;
+    right: .4rem;
+    height: .24rem;
+    line-height: .24rem;
+    top: 50%;
+    margin-top: -0.12rem;
+    font-size: .24rem;
+    color: #EB3D44;
+}
+.u-resume-choise{
+    text-align: center;
+}
+.u-resume-choise span{
+    font-size: .26rem;
+    color: #333;
+    float: left;
+}
+.u-resume-choise button{
+    width: 3rem;
+    background: #fff;
+    border: .02rem solid #e6e6e6;
+    height: .7rem;
+    line-height: .7rem;
+}
+.u-resume-choise button .caret{
+    float: right;
+}
+.u-ResumeDetil-box .modal-dialog{
+    margin: 50% 0.48rem;
+}
+.u-resumemodel-btn{
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+.u-resumemodel-btn div{
+    width: 50%;
+    float: left;
+    font-size: .28rem;
+    color: #555;
+}
+
+.u-resumemodel-btn .u-resumemodel-line{
+    position: absolute;
+    width: .02rem;
+    height: .78rem;
+    background: #e6e6e6;
+    left: 50%;
+    top:50%;
+    margin-top: -.36rem;
+}
+
+.u-resumemodel-btn .u-resumemodel-yes{
+    color: #EB3D44;
+}
+.u-resume-footBtn span{
+    display: inline-block;
+    line-height: .3rem;
+    font-size: .26rem;
+    color: #777;
+    border-right: .02rem solid #e6e6e6;
+
+}
+.u-resume-footBtn{
+    text-align: left;
+}
+.u-resume-footBtn span:nth-of-type(1),.u-resume-footBtn span:nth-of-type(2){
+    padding: 0 .6rem;
+}
+.u-resume-footBtn span:nth-of-type(3),.u-resume-footBtn span:nth-of-type(4){
+    padding: 0 .52rem;
+}
+.u-resume-footBtn span:nth-of-type(4){
+    border-right: 0;
+}
+.u-foot-collection{
+    width: 2.08rem;
+    height: .8rem;
+    background: #EB3D44;
+    border-radius: .06rem;
+    float: left;
+    position: relative;
+    margin-right: .2rem;
+}
+.u-resume-talentCollection{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height:1.2rem;
+    width: 100%;
+    line-height: 1.2rem;
+    background: #fff;
+    text-align: center;
+    padding: .2rem .4rem;
+}
+.u-foot-collection img{
+    width: .35rem;
+    height: .33rem;
+    vertical-align: middle;
+    line-height: .33rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -.16rem;
+    right: 58%;
+    margin-right: 0.08rem;
+}
+.u-foot-collection span{
+    display: inline-block;
+    font-size: .3rem;
+    color: #fff;
+    height: .33rem;
+    line-height: .33rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -.16rem;
+    left: 42%;
+    margin-left: 0.08rem;
+}
+.u-foot-toTalent{
+    width: 4.4rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+    border-radius: .06rem;
+    background: #EB3D44;
+    float: left;
+}
+
+
+/*饼图*/
+.u-pie{
+    border-top: .02rem solid #e6e6e6;
+}
+.u-pie .col-xs-12{
+    padding-left: 0;
+}
+.pie-sex,.pie-education,.pie-work{
+    margin: 0;
+    border-bottom: .02rem solid #e6e6e6;
+    position: relative;
+}
+.pie-text{
+    font-size: .26rem;
+    color: #666;
+    line-height: .42rem;
+    position: absolute;
+    right: 0;
+    top:.76rem;
+}
+.pie-text span{
+    margin-left: .12rem;
+}
+
+.u-hidden {
+    display: none;
+}
+
+/*loading层*/
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(0,0,0,.5);
+
+
+}
+
+.loading{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    top:  50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -20px;
+
+
+}
+.loading span{
+    display: inline-block;
+    width: 8px;
+    height: 100%;
+    border-radius: 4px;
+    background: lightgreen;
+    -webkit-animation: load 1s ease infinite;
+    animation: load 1s ease infinite;
+}
+@-webkit-keyframes load{
+    0%,100%{
+        height: 40px;
+        background: lightgreen;
+    }
+    50%{
+        height: 70px;
+        margin: -15px 0;
+        background: lightblue;
+    }
+}
+.loading span:nth-child(2){
+    -webkit-animation-delay:0.2s;
+    animation-delay:0.2s;
+}
+.loading span:nth-child(3){
+    -webkit-animation-delay:0.4s;
+    animation-delay:0.4s;
+}
+.loading span:nth-child(4){
+    -webkit-animation-delay:0.6s;
+    animation-delay:0.6s;
+}
+.loading span:nth-child(5){
+    -webkit-animation-delay:0.8s;
+    animation-delay:0.8s;
+}
+
+

@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>求职设置</title>
+    <link rel="stylesheet" href="../../Resources/public/pagination/pagination.css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/Home/home.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/pagination/pagination.js"></script>
+    <script src="../../Resources/js/base.js"></script>
+    <script>
+        $(function () {
+            $('#tnav a').on('click', function () {
+                var url = $(this).attr('data-name');
+                console.log(url);
+                $('#content').load(url);
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="u-header">
+    <div class="tbar">
+        <div class="u-page clear">
+            <div class="u-weixin left">
+                <i class="icon_hf icon_wx"></i>
+                <span>微信</span>
+            </div>
+            <div class="u-useinfo right">
+                <ul class="u-user">
+                    <li class="u-mesage">
+                        <a href="#">消息</a>
+                    </li>
+                    <li class="u-userselect">
+                        <a href="#">
+                            <span class="l-link_fff"></span>
+                            <span>用户名</span>
+                            <i class="icon-down"></i>
+                        </a>
+                        <ul class="user_info_list pub_list">
+                            <li class="user_info_show clear">
+                                <div class="left">
+                                    <img src="../../Resources/img/user_img.png" alt="">
+                                    <b class="user_name">姓名</b>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="quit">退出登陆</a>
+                                </div>
+                                <div class="user-sanjiao"></div>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_red"></i>
+                                <p>我的简历</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_sc"></i>
+                                <p>我的收藏</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_mm"></i>
+                                <p>修改密码</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_qz"></i>
+                                <p>求职进展</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_gz"></i>
+                                <p>工作管理</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="u-nav-box">
+        <div class="u-page clear_no">
+            <div class="logo">
+                <a href="#"></a>
+                <span class="loc f16">【<em>石家庄</em>】</span>
+            </div>
+            <ul class="tnav_wrap left" id='tnav'>
+                <li class="nav-home"><a href="#" class="nav-on">首页</a></li>
+                <li><a href="#" data-name='../RecruitmentProject/recruitmentProject.html'>招聘项目</a></li>
+                <li><a href="#">我要兼职</a></li>
+                <li><a href="#">最新资讯</a></li>
+            </ul>
+            <div class="right">
+                <div class='tphone'>
+                    <i class="icon-tphone"></i>
+                    <span>400-666-5643</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="u-page u-setting-box u-mt60">
+    <h2 class="u-setting-title size18 highlight-333">求职设置</h2>
+    <div class="u-setting-content j-setting-content editor">
+        <div class="u-setting-list">
+            <div class="u-setting-item left">
+                <div class="u-label">职位类别：</div>
+                <div class="u-select j-select" data-value="false">
+                    <span class="select-text"></span>
+                    <i class="select-arrow"></i>
+                    <ul>
+                        <li data-value="1">销售1</li>
+                        <li data-value="2">销售2</li>
+                        <li data-value="3">销售3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="u-setting-item left">
+                <div class="u-label">工作地点：</div>
+                <div class="u-select j-select" data-value="false">
+                    <span class="select-text"></span>
+                    <i class="select-arrow"></i>
+                    <ul>
+                        <li data-value="1">北京1</li>
+                        <li data-value="2">北京2</li>
+                        <li data-value="3">北京3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="u-setting-item left">
+                <div class="u-label">空闲时间：</div>
+                <div class="u-select u-select-sm j-select time-select" data-value="false">
+                    <span class="select-text"></span>
+                    <i class="select-arrow"></i>
+                    <ul>
+                        <li data-value="1">周一</li>
+                        <li data-value="2">周二</li>
+                        <li data-value="3">周三</li>
+                        <li data-value="4">周四</li>
+                        <li data-value="5">周五</li>
+                        <li data-value="6">周六</li>
+                        <li data-value="7">周日</li>
+                    </ul>
+                </div>
+                <div class="u-select u-select-sm j-select time-select" data-value="false">
+                    <span class="select-text"></span>
+                    <i class="select-arrow"></i>
+                    <ul>
+                        <li data-value="1">上午</li>
+                        <li data-value="2">中午</li>
+                        <li data-value="3">下午</li>
+                    </ul>
+                </div>
+                <div class="u-btn-sure u-btn-select j-btn-select" data-toggle=".time-select">确定</div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="u-setting-tips j-setting-tips">
+            <span>周一上午 <i class="icon_hf j-close"></i></span>
+            <span>周二上午 <i class="icon_hf j-close"></i></span>
+            <span>周三上午 <i class="icon_hf j-close"></i></span>
+        </div>
+        <div class="u-btn-box">
+            <div class="u-btn-save j-btn-save u-btn-sure size14" data-toggle=".view">保存设置</div>
+        </div>
+    </div>
+    <div class="u-setting-content j-setting-content view u-hidden">
+        <div class="u-setting-list">
+            <div class="u-setting-item left">
+                <div class="u-label left">职位类别：</div>
+                <div class="u-setting-text left">
+                    <span>销售</span>
+                    <span>销售</span>
+                    <span>销售</span>
+                    <span>销售</span>
+                    <span>销售</span>
+                    <span>保险</span>
+                    <span>导购</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-setting-item left">
+                <div class="u-label left">工作地点：</div>
+                <div class="u-setting-text left">
+                    <span>北京</span>
+                    <span>上海</span>
+                    <span>天津</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="u-setting-tips-box">
+            <div class="u-label left">空闲时间：</div>
+            <div class="u-setting-tips left">
+                <span>周一上午 <i class="icon_hf j-close"></i></span>
+                <span>周二上午 <i class="icon_hf j-close"></i></span>
+                <span>周三上午 <i class="icon_hf j-close"></i></span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="u-btn-box">
+            <div class="u-btn-save j-btn-save u-btn-sure size14" data-toggle=".editor">修改</div>
+        </div>
+    </div>
+</div>
+<div class="u-page u-mt60">
+    <div class="u-publishTab size18 highlight-333">
+        <div class="u-position">
+            你可能感兴趣岗位
+        </div>
+    </div>
+    <div class="u-post-list j-post-list" data-value="1">
+        <div class="u-post-item bounty">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item bounty">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="u-post-list j-post-list u-hidden" data-value="2">
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item ">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item bounty">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333" data-url="../PostDetail/postDetail.html">
+                        <a>内部招待员</a>
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                   <span class="highlight-blue highlight-333" data-url="../PostDetail/postDetail.html" data-target="_blank">
+                        <a>内部招待员</a>
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+        <div class="u-post-item">
+            <div class="u-post-pic left">
+                <img src="../../Resources/img/company_lg.jpg">
+            </div>
+            <div class="left u-post-mid size14">
+                <div class="u-post-name size16">
+                    <span class="highlight-blue highlight-333">
+                        内部招待员
+                        <span class="u-sm-tips size12">推荐</span>
+                        <span class="u-sm-tips size12">急招</span>
+                        <i></i>
+                    </span>
+                </div>
+                <ul class="u-post-message left highlight-666">
+                    <li class="u-post-li">
+                        <span>地区：上东城区</span>
+                        <span>类型：兼职</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>结算方式：日结</span>
+                        <span>福利：五险一金 <span class="u-line"></span> 餐补</span>
+                    </li>
+                </ul>
+                <ul class="u-post-message second left highlight-666">
+                    <li class="u-post-li">
+                        <span class="size18 highlight-red">80元/天</span>
+                    </li>
+                    <li class="u-post-li">
+                        <span>1小时前发布</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="u-btn u-btn-sure j-btn-send right">投简历</a>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="M-box"></div>
+<div class="foot">
+    <div class="u-page">
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    增值产品
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    HR服务
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    关于我们
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d f-ss">
+            <div class="f-weixin">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-weixin-text">
+                    <p>微信扫一扫</p>
+                    <p>工作随心找</p>
+                </div>
+            </div>
+            <div class="f-gzh">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-gzh-text">
+                    <p>扫一扫关注</p>
+                    <p>诺亚公众号</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="f-bottom-text">
+        <p>诺亚公司旗下网站</p>
+        <p>
+            <span>2017诺亚人力资源开发有限公司</span>
+            <span>冀ICP备10006226号-4</span>
+            <span>冀公网安备13019902000054号</span>
+        </p>
+        <p>服务热线：400-666-5643</p>
+    </div>
+</div>
+<script>
+    $('.M-box').pagination({
+        coping: true,
+        homePage: '首页',
+        endPage: '末页',
+        prevContent: '上一页',
+        nextContent: '下一页'
+    });
+
+    $(function () {
+        // 投递按钮
+        $('.j-btn-send').on('click', function () {
+            if ($(this).hasClass('disabled')) {
+                return;
+            }
+            $(this).addClass('disabled').text('已投递');
+        });
+        // 空闲时间按钮
+        $('.j-btn-select').on('click', function () {
+            var text = '';
+            $selectToggle = $(document).find($(this).attr('data-toggle'));
+            $selectToggle.find('.select-text').each(function (index, item) {
+                var selectText = $(item).text();
+                if (selectText != '') {
+                    text += selectText;
+                }
+            });
+            $('.j-setting-tips').append('<span>' + text + ' <i class="icon_hf j-close"></i></span>');
+
+        });
+        $('.j-setting-tips').on('click', '.j-close', function () {
+            $(this).parents('span').remove();
+        });
+        // 保存设置
+        $('.j-btn-save').on('click', function () {
+            $('.j-setting-content').hide();
+            $('.j-setting-content' + $(this).attr('data-toggle')).show();
+        });
+    });
+</script>
+</body>
+</html>

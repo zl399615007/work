@@ -1,0 +1,742 @@
+/*工作管理*/
+.u-WorkManagement-box{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background: #f2f2f2;
+}
+.u-WorkManagement{
+    background: #fff;
+}
+.u-WorkManagement ul,.u-managementflow ul{
+    border-bottom: 0;
+    border-top: .02rem solid #e6e6e6;
+    height: .9rem;
+}
+.u-WorkManagement li{
+    width: 50%;
+    text-align: center
+}
+.u-WorkManagement .nav-tabs>li.active>a,.u-managementflow .nav-tabs>li.active>a{
+    border: 0;
+    border-bottom: .06rem solid #eb3d44;
+    font-size: .3rem;
+    color: #EB3D44;
+}
+
+.u-WorkManagement .nav-tabs > li > a,.u-managementflow .nav-tabs > li > a {
+    font-size: .3rem;
+    color: #666;
+}
+
+.u-WorkManagement-box .u-lookresume-box .row{
+    height: 2.2rem;
+    border-top:.2rem solid #f2f2f2;
+    box-sizing: content-box;
+}
+.u-lookresume-box .row:last-child{
+    border-bottom: 0;
+}
+.u-project-f {
+    border-top: .02rem solid #e6e6e6;
+    line-height: .8rem;
+}
+.u-WorkManagement-box .u-lookresume-b span{
+    font-size: .26rem;
+    margin-right: 1rem;
+}
+.u-WorkManagement-box .u-lookresume-t,.u-WorkManagement-box .u-lookresume-b{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.u-WorkManagement-box .u-project-f a {
+    font-size: .26rem;
+    color: #666;
+    height: .3rem;
+    border-right: .02rem solid #e6e6e6;
+}
+.u-WorkManagement-box .u-project-f a:nth-of-type(1) {
+    padding-left: .68rem;
+    padding-right: .98rem;
+}
+.u-WorkManagement-box .u-project-f a:nth-of-type(2) {
+    padding: 0 .98rem;
+}
+.u-WorkManagement-box .u-project-f a:last-of-type {
+    padding-left: .98rem;
+    border-right: .68rem;
+}
+.u-WorkManagement-box .u-lookresume-b{
+    line-height: .54rem;
+    padding-bottom: .14rem;
+}
+.u-WorkManagement-box .u-lookresume-t{
+    padding-top: .14rem;
+    margin-top: 0;
+}
+
+
+/*新增，修改项目*/
+.u-addProject-box .u-flow5-choice {
+    height: auto;
+    line-height: normal;
+    border-top: .02rem solid #e6e6e6;
+    padding-right: 0;
+    margin-top: 0;
+}
+.u-addProject-box .u-flow5-choice .row {
+    height: .66rem;
+    line-height: .66rem;
+    margin: 0;
+    border-bottom: .02rem solid #e6e6e6;
+    margin-top: .2rem;
+}
+.u-addProject-box .u-flow5-choice .col-xs-4 {
+    font-size: .3rem;
+    color: #444;
+    padding-right: 0;
+    padding-left: 0;
+    height: 100%;
+}
+.u-addProject-box .u-flow5-choice .col-xs-8 {
+    line-height: .6rem;
+
+    padding-right: 0;
+    padding-left: 0;
+}
+.u-addProject-box .u-flow5-choice input {
+    border: none;
+    font-size: .26rem;
+    color: #444;
+    height: .6rem;
+    line-height: .6rem;
+}
+.u-addProject-box .u-flow5-choice .row .btn {
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 4px 12px;
+}
+.u-addProject-box .u-flow5-choice .row .btn .caret {
+    border: none;
+    width: auto;
+    height: auto;
+    float: right;
+    font-size: .26rem;
+    color: #b3b3b3;
+}
+.u-addProject-box .u-flow5-choice .row .btn .caret img {
+    width: .2rem;
+    height: .1rem;
+    margin-left: .12rem;
+}
+
+.u-addProject-box .u-flow5-choice .u-name{
+    width: 26%;
+}
+.u-addProject-box .u-flow5-choice .u-people{
+    width: 35%;
+}
+
+.u-addProject-box .u-flow5-choice .u-people-select{
+    width: 65%;
+}
+.u-addProject-save {
+    width: 100%;
+    height: .8rem;
+    border-radius: .05rem;
+    background: #EB3D44;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+/*工作管理菜单*/
+.u-nav-list img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.u-nav-list span{
+    display: block;
+    line-height: .62rem;
+    font-size: .26rem;
+    font-family: 'SimHei';
+    color: #333;
+}
+.u-nav-list{
+    text-align: center;
+    padding-top: .5rem;
+    border-top: 1px solid #e6e6e6;
+}
+.u-nav-list .row:nth-of-type(2){
+    padding-top: .4rem;
+}
+
+/*员工管理*/
+.u-EmployeeManagement .popover-content{
+    font-size: .26rem;
+    color: #fff;
+    background: #EB3D44;
+    width: 1.4rem;
+    padding: .16rem 0 .1rem 0;
+    text-align: center;
+    line-height: .55rem;
+}
+.u-EmployeeManagement .popover{
+    background: #EB3D44;
+    padding: 0;
+    border-radius: 4px;
+    left: auto!important;
+    right: .3rem;
+}
+
+.u-EmployeeManagement .popover.bottom>.arrow{
+    border: 0;
+    left: auto!important;
+    right: .36rem;
+
+
+}
+.u-EmployeeManagement .popover.bottom>.arrow:after{
+    border-width: .14rem;
+    border-top-width: .1rem !important;
+    border-bottom-color: #EB3D44 !important;
+    margin: 0;
+
+}
+.u-EmployeeManagement{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+
+.u-WorkManagement-box .u-lookresume-box .row{
+    height: 2.2rem;
+    border-top:.2rem solid #f2f2f2;
+    box-sizing: content-box;
+}
+.u-lookresume-box .row:last-child{
+    border-bottom: 0;
+}
+
+
+.u-EmployeeManagement .u-lookresume-box .row{
+    height: 2.2rem;
+    border-top:.2rem solid #f2f2f2;
+    box-sizing: content-box;
+}
+
+.u-EmployeeManagement .u-lookresume-b span{
+    font-size: .26rem;
+    margin-right: .66rem;
+}
+.u-EmployeeManagement .u-lookresume-t,.u-EmployeeManagement .u-lookresume-b{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.u-EmployeeManagement .u-project-f a {
+    font-size: .26rem;
+    color: #666;
+    height: .3rem;
+    border-right: .02rem solid #e6e6e6;
+}
+.u-EmployeeManagement .u-project-f a:nth-of-type(1) {
+    padding: 0 1.6rem;
+}
+.u-EmployeeManagement .u-project-f a:nth-of-type(2) {
+    padding-left: 1.6rem;
+}
+.u-EmployeeManagement .u-project-f a:last-of-type {
+
+    border-right: 0;
+}
+.u-EmployeeManagement .u-lookresume-b{
+    line-height: .54rem;
+    padding-bottom: .14rem;
+}
+.u-EmployeeManagement .u-lookresume-t{
+    padding-top: .14rem;
+    margin-top: 0;
+}
+.u-EmployeeManagement-list{
+    background: #fff;
+}
+
+.u-EmployeeManagement .u-lookresume-t span:nth-of-type(1){
+    font-size: .3rem;
+}
+.u-EmployeeManagement .u-lookresume-t span:nth-of-type(2){
+    margin: 0 .1rem;
+}
+.u-EmployeeManagement .u-lookresume-t span:nth-of-type(3){
+    font-size: .26rem;
+    color: #666;
+}
+.u-EmployeeManagement .u-EmployeeManagement-time{
+    font-size: .24rem;
+    color: #999;
+}
+
+.u-EmployeeManagement .u-layout {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+    z-index: 9;
+    display: none;
+}
+.u-EmployeeManagement .u-collapse {
+    position: fixed;
+    left: 0;
+    top: .88rem;
+    background-color: #fff;
+    z-index: 10;
+}
+.u-EmployeeManagement .u-collapse .u-collapse-head {
+    height: .9rem;
+    line-height: .9rem;
+    color: #B3B3B3;
+    font-size: 14px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.u-EmployeeManagement .u-collapse .u-collapse-head .u-select-example {
+    color: #444;
+    font-size: .26rem;
+    font-weight: normal;
+}
+.u-EmployeeManagement .square-choice {
+    margin: 0;
+    margin-top: -.06rem;
+    margin-left: .18rem;
+}
+.u-EmployeeManagement .u-collapse-select-list .checkbox-choice + label {
+    position: relative;
+    padding-left: 0;
+    width: 100%;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .26rem;
+    border-bottom: 1px solid transparent;
+}
+.u-EmployeeManagement .u-collapse-select-list .checkbox-choice:checked + label {
+    color: #EB3D44;
+    border-bottom: 1px solid #EB3D44;
+}
+.u-EmployeeManagement .u-collapse-select-list .checkbox-choice:checked + label:after {
+    position: absolute;
+    right: .15rem;
+    top: 50%;
+    margin-top: -.13rem;
+    display: block;
+    width: .26rem;
+    height: .26rem;
+    content: " ";
+    background: url("../../img/icon_talent_select.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.u-EmployeeManagement .u-collapse .btn {
+    height: .8rem;
+    color: #fff;
+    font-size: .28rem;
+    background-color: #EB3D44;
+    border-radius: 0;
+    border-top: 1px solid #E6E6E6;
+}
+
+.u-EmployeeManagement .u-collapse .u-infoDetil-notpass.u-white-color {
+    background: #fff;
+    color: #333;
+}
+
+/*添加成员*/
+.u-addMembers-box .u-flow5-choice .u-addMembers2{
+    width: 18%;
+}
+.u-addMembers-box .u-flow5-choice .u-addMembers3{
+    width: 22%;
+}
+.u-addMembers-box .u-flow5-choice .u-addMembers4{
+    width: 26%;
+}
+.u-addMembers-box .u-addProject-save{
+    margin-top: .6rem;
+}
+
+
+/*考勤*/
+.u-check-box,.u-checkRecord-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+.u-check span{
+    font-size: .3rem;
+    color: #333;
+}
+.u-check i{
+    width: .12rem;
+    height: .2rem;
+    background: url(../../img/icon_setting_arrow.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: .34rem;
+    margin-right: .3rem;
+
+}
+.u-check .row{
+    height: .88rem;
+    line-height: .88rem;
+    background: #fff;
+}
+.u-check .row .col-xs-12{
+    padding-right: 0;
+
+}
+.u-check-border{
+    border-bottom:.02rem solid #e6e6e6;
+    overflow: hidden;
+}
+.u-check .row:nth-of-type(1) {
+    border-top: .2rem solid #f2f2f2;
+    border-bottom: .2rem solid #f2f2f2;
+    box-sizing: content-box;
+}
+.u-check .row:last-of-type .u-check-border{
+    border-bottom: 0;
+}
+
+/*考勤记录*/
+.u-checkRecord-box .u-lookresume-box .row{
+    height: auto;
+    background: #fff;
+    border-top: .2rem solid #f2f2f2;
+}
+.u-checkRecord-box .u-lookresume-t{
+    margin-top: .1rem;
+}
+.u-checkRecord-box .u-lookresume-t span:nth-of-type(1){
+    font-size: .3rem;
+}
+.u-checkRecord-box .u-lookresume-t span:nth-of-type(2){
+    margin: 0 .1rem;
+}
+.u-checkRecord-box .u-project-f .u-project-a{
+    line-height: .46rem;
+    font-size: .26rem;
+    color: #444;
+}
+.u-checkRecord-box .u-project-f .u-project-a span{
+    display: inline-block;
+    height: .3rem;
+    line-height: .3rem;
+    border-right: 1px solid #e6e6e6;
+}
+.u-checkRecord-box .u-project-f .u-project-a b{
+   color: #999;
+    font-weight: normal;
+    margin-left: .2rem;
+}
+.u-lookresume-box .row .u-project-f{
+    line-height: normal;
+    height: auto;
+    padding-top: .12rem;
+    padding-bottom: .22rem;
+}
+.u-checkRecord-box .u-project-a span:nth-of-type(1){
+    padding-right: .82rem;
+}
+.u-checkRecord-box .u-project-a span:nth-of-type(2){
+    padding:0 .5rem;
+}
+.u-checkRecord-box .u-project-a span:nth-of-type(3){
+    padding-left: .82rem;
+    border-right: 0;
+}
+
+/*工作报告(详情)*/
+.u-workReport,.u-workReportDetil,.u-SalaryBar{
+    border-top: .02rem solid #e6e6e6;
+}
+.u-workReport .row,.u-workReportDetil .row,.u-SalaryBar .row{
+    margin-left: 0;
+    border-bottom: .02rem solid #e6e6e6;
+}
+.u-workReport .row .col-xs-10{
+    padding-left: 0;
+}
+.u-workReport .row .col-xs-2{
+    height: 1.28rem;
+    line-height: 1.28rem;
+    padding-left: 0;
+}
+.u-report-name{
+    font-size: .28rem;
+    color: #333;
+    line-height: .48rem;
+    padding-top: .2rem;
+}
+.u-report-info{
+    font-size: .24rem;
+    color: #666666;
+    line-height: .44rem;
+    padding-bottom: .16rem;
+}
+.u-report-info.pb5 {
+    padding-bottom: .05rem;
+}
+.u-report-info span:nth-of-type(1){
+    margin-right: 1.05rem;
+}
+.u-report-look{
+    font-size: .26rem;
+    color: #02b720;
+}
+
+.u-workReportDetil .col-xs-12{
+    padding-left: 0;
+}
+.u-workReportDetil-content p{
+    font-size: .26rem;
+    color: #666666;
+    line-height: .46rem;
+    padding-top: .18rem;
+    padding-bottom: .28rem;
+}
+.u-workReportDetil-content img{
+    width: 1rem;
+    height: 1rem;
+}
+
+/*工资条*/
+.u-SalaryBar .col-xs-12{
+    padding-left: 0;
+}
+.u-getMoney{
+    font-size: .26rem;
+    color:#02b720;
+}
+.u-SalaryBar .u-lookresume-b span:nth-of-type(1){
+    margin-right: .9rem;
+}
+
+/*请假审批、调班审批*/
+.u-LeaveApproval-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+.u-LeaveApproval{
+    background: #fff;
+}
+.u-LeaveApproval ul{
+    border-bottom: 0;
+    border-top: .02rem solid #e6e6e6;
+    height: .9rem;
+    position: relative;
+}
+.u-LeaveApproval li {
+    width: 50%;
+    text-align: center;
+}
+.u-LeaveApproval .nav-tabs>li.active>a {
+    border: 0;
+    border-bottom: .06rem solid #eb3d44;
+    font-size: .3rem;
+    color: #EB3D44;
+}
+.u-LeaveApproval .nav-tabs > li > a{
+    font-size: .3rem;
+    color: #666;
+}
+.u-border-right{
+    position: absolute;
+    width: .02rem;
+    height: .26rem;
+    background: #EB3D44;
+    left: 50%;
+    top:.32rem;
+}
+.u-LeaveApproval-list .u-lookresume-t span:nth-of-type(1) {
+    font-size: .3rem;
+}
+.u-LeaveApproval-list .u-lookresume-t span:nth-of-type(3){
+    font-size: .26rem;
+    color: #333;
+}
+
+.u-LeaveApproval-list .row{
+    height: 2.02rem;
+    border-top: .2rem solid #f2f2f2;
+    box-sizing: content-box;
+}
+.u-LeaveApproval-time{
+    font-size: .24rem;
+    color: #999;
+    margin-right: .3rem;
+}
+.u-LeaveApproval-list  .u-lookresume-t span:nth-of-type(2){
+    margin: 0 .1rem;
+}
+.u-LeaveApproval-list .u-lookresume-t{
+    line-height: .68rem;
+    margin-top: .1rem;
+    border-bottom: .02rem solid #e6e6e6;
+}
+
+.u-LeaveApproval-list .row .col-xs-12{
+    padding-right: 0;
+}
+.u-LeaveApproval-list .u-lookresume-b p{
+    font-size: .26rem;
+    color: #666;
+    line-height: .46rem;
+    float: left;
+    width: 74%;
+}
+.u-LeaveApproval-list .u-lookresume-b{
+    padding-top: .12rem;
+    padding-bottom: .2rem;
+    overflow: hidden;
+}
+
+.u-LeaveApproval-state{
+    font-size: .26rem;
+    color: #fff;
+    display: inline-block;
+    width: 1.1rem;
+    height: .4rem;
+    background: #89c997;
+    border-radius: .2rem;
+    text-align: center;
+    line-height: .4rem;
+    margin-right: .3rem;
+    margin-top: -0.22rem;
+}
+.u-lookresume-b .u-state-no{
+    background: #fe4d54;
+}
+
+.u-LeaveApproval-list .resignation-name p b{
+    font-size: .26rem;
+    color: #999;
+}
+.u-LeaveApproval-list .resignation-name p{
+    line-height: .7rem;
+}
+.u-resignation .row{
+    height: 1.6rem;
+}
+.u-LeaveApproval-list .resignation-name{
+    padding-top: 0;
+    padding-bottom: .1rem;
+}
+
+.resignation-name .u-LeaveApproval-state{
+    margin-top: .22rem;
+}
+
+
+/*请假审批详情*/
+.u-Approval-t .u-leave-state{
+    font-size: .3rem;
+    color: #333;
+    line-height: .6rem;
+    padding-top: .15rem;
+}
+.u-Approval-t p{
+    font-size: .28rem;
+    color: #333;
+    line-height: .56rem
+}
+.u-Approval-t .col-xs-12 p span{
+    font-size: .26rem;
+    color: #999;
+    line-height: .56rem
+}
+.u-Approval-b p:nth-of-type(1){
+    padding-top: .15rem
+}
+.pb15{
+    padding-bottom: .15rem
+}
+.u-LeaveApprovalDetil,.u-Approval-b{
+    border-top: .02rem solid #e6e6e6;
+}
+.u-Approval-reason{
+    border-top: .2rem solid #f2f2f2;
+}
+.u-Approval-reason p{
+    font-size: .28rem;
+    color: #333;
+    line-height: .66rem
+}
+.u-Approval-reason{
+    padding-top: .1rem
+}
+.u-Approval-text{
+    border-top: .02rem solid #e6e6e6;
+}
+.u-leave-state i{
+    font-size: .24rem;
+    color: #ff5a59;
+    text-align: center;
+    background: #fff;
+    width: .9rem;
+    height: .38rem;
+    line-height: .38rem;
+    border: 1px solid #f99599;
+    border-radius: .06rem;
+    margin-left: .2rem
+}
+.u-Approval-reason .u-Approval-result span{
+    color:#eb3d44;
+}
+.u-Approval-text textarea{
+    width: 100%;
+    min-height: 7rem;
+    border: none;
+    resize: none;
+    font-size: .26rem;
+    color: #333;
+    line-height: .48rem;
+    padding-top: .14rem;
+}
+
+/* 离职审批 */
+.u-leave-box .u-project-f {
+    line-height: normal;
+    height: auto;
+    padding-top: .12rem;
+    padding-bottom: .22rem;
+    border: none;
+}
+.u-leave-box .u-project-f a {
+    font-size: .26rem;
+    color: #666;
+    height: .3rem;
+    border-right: .02rem solid #e6e6e6;
+}
+.u-leave-box .u-project-f a:nth-of-type(1) {
+    padding: 0 1.6rem;
+
+}
+.u-leave-box .u-project-f a:nth-of-type(2) {
+    padding-left: 1.6rem;
+}
+.u-leave-box .u-project-f a:last-of-type {
+    border-right: 0;
+}
+
+
+
+
+
+
+
+
+

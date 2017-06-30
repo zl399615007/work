@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的优惠券</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/Setting/setting.css" type="text/css">
+     <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+</head>
+<body>
+<div class="u-coupon-box u-wrapper">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="index.html"></a>
+        <p class="u-header-title text-center">我的优惠券</p>
+    </div>
+    <div class="u-coupon-list container-fluid">
+        <div class="u-coupon-item row">
+            <div class="u-coupon-item-left col-xs-3 pull-left type1">
+                ￥35
+            </div>
+            <div class="u-coupon-item-right col-xs-9  pull-left">
+                <h2>招聘基金</h2>
+                <p>有效期至：2017-08-10</p>
+                <p class="used">您已<br />使用</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="u-coupon-item row" data-toggle="modal" data-target="#modal-aditor">
+            <div class="u-coupon-item-left col-xs-3 pull-left type2">
+                <span>5</span> 折
+            </div>
+            <div class="u-coupon-item-right col-xs-9 pull-left">
+                <h2>简历下载分数充值优惠</h2>
+                <p>有效期至：2017-08-10</p>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="u-coupon-item row">
+            <div class="u-coupon-item-left col-xs-3 pull-left type3">
+                <span>买 50</span>
+                <span>赠 100</span>
+            </div>
+            <div class="u-coupon-item-right col-xs-9 pull-left">
+                <h2>简历下载分数充值优惠</h2>
+                <p>有效期至：2017-08-10</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-aditor'>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabe2">
+                    请输入验证码
+                </h4>
+            </div>
+            <div class="modal-body text-center">
+                <textarea class="form-control u-textarea" placeholder="请输入..."  aria-describedby="basic-addon10" rows="2"></textarea>
+            </div>
+
+            <div class="modal-footer u-btn-box">
+                <div class="row">
+                    <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                    <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+</body>
+</html>

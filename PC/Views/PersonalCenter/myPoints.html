@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>个人认证</title>-->
+    <script>
+        $(function () {
+            $('.j-authentication-btn').on('click',function () {
+                var url=$(this).attr('data-name');
+                $('#preRight').load(url)
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="u-myPoints-box">
+    <h2 class="u-preRight-title size16">我的积分</h2>
+    <div class="u-myPoints-content">
+        <div class='u-currPoints size16 highlight-333'>当前积分：<span class="highlight-red size20">1145</span>
+        </div>
+        <div class="u-assignment">
+            <div class="u-assignment-bar">
+                <span class="highlight-red left u-bar-select active">我的任务</span>
+                <div class="u-switch-box right">
+                    <i class="icon_hf switch-left"></i>
+                    <span class="highlight-red">1</span>
+                    <span class="switch-line">/</span>
+                    <span>3</span>
+                    <i class="icon_hf switch-right"></i>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-assignment-content">
+                <div class="u-circle-box">
+                    <div class="u-circle size14">每日签到</div>
+                    <p class="u-circle-desc size14 highlight-666">签到一次+10积分</p>
+                </div>
+                <div class="u-circle-box">
+                    <div class="u-circle size14">完善简历</div>
+                    <p class="u-circle-desc size14 highlight-666">完善简历+10积分</p>
+                </div>
+                <div class="u-circle-box">
+                    <div class="u-circle size14">完善认证信息</div>
+                    <p class="u-circle-desc size14 highlight-666">完善一项+10积分</p>
+                </div>
+                <div class="u-circle-box">
+                    <div class="u-circle size14">投简历</div>
+                    <p class="u-circle-desc size14 highlight-666">投递一次+10积分</p>
+                </div>
+            </div>
+        </div>
+        <div class="u-assignment">
+            <div class="u-assignment-bar">
+                <span class="highlight-red left u-bar-select active">积分明细</span>
+                <span class="highlight-red left u-bar-select">积分收入</span>
+                <span class="highlight-red left u-bar-select">积分支出</span>
+                <div class="u-switch-box right">
+                    <i class="icon_hf switch-left"></i>
+                    <span class="highlight-red">1</span>
+                    <span class="switch-line">/</span>
+                    <span>3</span>
+                    <i class="icon_hf switch-right"></i>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-assignment-content">
+                <div class="u-assignment-table">
+                    <ul class="u-table-th">
+                        <li class="u-table-td">日期</li>
+                        <li class="u-table-td">收入/支出</li>
+                        <li class="u-table-td">详细说明</li>
+                    </ul>
+                    <ul class="u-table-tr">
+                        <li class="u-table-td">2017-02-10</li>
+                        <li class="u-table-td">+2</li>
+                        <li class="u-table-td">公司签到</li>
+                    </ul>
+                    <ul class="u-table-tr">
+                        <li class="u-table-td">2017-02-10</li>
+                        <li class="u-table-td">+2</li>
+                        <li class="u-table-td">公司签到</li>
+                    </ul>
+                    <ul class="u-table-tr">
+                        <li class="u-table-td">2017-02-10</li>
+                        <li class="u-table-td">+2</li>
+                        <li class="u-table-td">公司签到</li>
+                    </ul>
+                    <ul class="u-table-tr">
+                        <li class="u-table-td">2017-02-10</li>
+                        <li class="u-table-td">+2</li>
+                        <li class="u-table-td">公司签到</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="u-assignment">
+            <div class="u-assignment-bar">
+                <span class="highlight-red left u-bar-select active">积分兑换</span>
+                <div class="u-switch-box right">
+                   <p class="highlight-red">查看更多</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-assignment-content">
+                    <div class="u-goods-list">
+                        <div class="u-goods-item left">
+                            <div class="u-goods-pic">
+                                <img src="../../Resources/img/bg_goods_pic.jpg">
+                            </div>
+                            <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                            <p class="u-goods-count size14 highlight-999">库存数量：30
+                            <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                        </div>
+                        <div class="u-goods-item left">
+                            <div class="u-goods-pic">
+                                <img src="../../Resources/img/bg_goods_pic.jpg">
+                            </div>
+                            <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                            <p class="u-goods-count size14 highlight-999">库存数量：30
+                            <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                        </div>
+                        <div class="u-goods-item left">
+                            <div class="u-goods-pic">
+                                <img src="../../Resources/img/bg_goods_pic.jpg">
+                            </div>
+                            <p class="u-goods-name size14 highlight-666">书：憨的智慧</p>
+                            <p class="u-goods-count size14 highlight-999">库存数量：30
+                            <div class="u-btn-sure u-btn-points size18">100 积分兑换</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

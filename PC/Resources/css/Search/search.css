@@ -1,0 +1,324 @@
+.u-main-search{
+    width: 100%;
+    height: 130px;
+    background: #f0f0f0;
+}
+
+ .u-main-search  .u-search-content,.u-main-search .u-search-tips{
+    position: relative;
+    line-height: 28px;
+    color: #fff;
+    z-index: 4;
+}
+ .u-main-search  .u-search-content {
+
+}
+ .u-main-search  .u-search-content .u-search-input {
+    padding: 0 12px;
+    width: 540px;
+    height: 40px;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #eb3d44;
+}
+ .u-main-search  .u-search-content .u-search-input input {
+    border: none;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    background-color: transparent;
+}
+ .u-main-search  .u-search-content .u-btn-input {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #eb3d44;
+    cursor: pointer;
+}
+.u-main-search  .u-search-content .u-btn-input:nth-of-type(2) {
+    margin-left: 1px;
+}
+.u-main-search  .u-search-tips>span {
+    margin-right: 6px;
+    color: #666;
+}
+.main-search-box{
+    margin: 0 auto;
+    padding: 30px 30px;
+    padding-right: 20px;
+    position: relative;
+    width: 800px;
+
+}
+.main-search-box .u-search-tips{
+    line-height: 42px;
+}
+.screening-box{
+    margin-top: 30px;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 15px;
+}
+.screening-group{
+    line-height: 44px;
+    font-size: 14px;
+    color: #333;
+}
+.screening-group ul{
+    display: inline-block;
+}
+.screening-group span{
+    margin-right: 20px;
+}
+.screening-group ul li{
+    display: inline-block;
+    margin-right: 12px;
+}
+.screening-group ul .screening-red{
+    padding:0 4px;
+    line-height: 24px;
+    height: 24px;
+    background: #eb3d44;
+    color: #fff;
+    border-radius: 3px;
+
+}
+
+.screening-group a{
+    font-size: 14px;
+    color: #eb3d44;
+    float: right;
+}
+.screening-select select{
+    font-size: 14px;
+    color: #999;
+    padding-left: 5px;
+    padding-right: 18px;
+    height: 24px;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance:none;
+
+}
+.area-div select{
+    width: 80px;
+    background: url(../../img/icon-select.png) no-repeat 60px center;
+
+    margin-right: 10px;
+}
+.more-div select{
+    width: 126px;
+    margin-right: 19px;
+    background: url(../../img/icon-select.png) no-repeat 106px center;
+}
+.chosen{
+    background: #f0f0f0;
+    height: 40px;
+    line-height: 40px;
+    padding:0px 15px 0px 10px;
+    margin: 20px 0 30px 0;
+}
+.chosen span{
+    font-size: 14px;
+    color: #666;
+}
+.chosen .chosen-list{
+    display: inline-block;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    background: #eb3d44;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+.chosen .chosen-list i{
+    margin-left: 10px;
+    filter:alpha(opacity=80); /* IE */
+    -moz-opacity:0.8; /* 老版Mozilla */
+    -khtml-opacity:0.8; /* 老版Safari */
+    opacity: 0.8; /* 支持opacity的浏览器*/
+}
+.chosen div b{
+    font-size: 18px;
+    font-weight: normal;
+    color: #3d9ccc;
+    margin: 0 10px;
+
+}
+
+.search-list .search-list-left{
+    width: 744px;
+    padding-bottom: 200px;
+}
+.u-collect-box {
+
+}
+
+.u-collect-btn-box {
+    margin-bottom: 20px;
+}
+
+.u-collect-btn-box .u-collect-btn {
+    padding: 0 13px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    background-color: #f0feff;
+    cursor: pointer;
+}
+
+.u-collect-btn-box .u-collect-btn:not(:first-of-type) {
+    margin-left: 20px;
+}
+
+.u-collect-btn-box .u-collect-btn.select {
+    color: #fff;
+    background-color: #64d286;
+}
+
+.u-collect-box .u-collect-list {
+    border-top: 1px dashed #e6e6e6;
+    padding-bottom: 70px;
+}
+
+.u-collect-box .u-collect-list .u-collect-item {
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px dashed #e6e6e6;
+}
+
+.u-collect-box .u-collect-list .u-collect-item .u-rapid {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.u-collect-box .u-collect-list .u-collect-item .u-rapid .u-rapid-bg {
+    position: absolute;
+    left: 14px;
+    top: -18px;
+    width: 0;
+    height: 0;
+    border-width: 28px;
+    border-color: transparent;
+    border-style: solid;
+    border-right-width: 0;
+    border-left-color: #64d286;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.u-collect-box .u-collect-list .u-collect-item .u-rapid > span {
+    position: relative;
+    top: -8px;
+    left: 8px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+.u-collect-box .u-company-pic {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e6e6e6;
+}
+
+.u-collect-box .u-collect-list .u-company-pic > img {
+    width: 100%;
+    height: 100%;
+}
+
+.u-collect-box .u-collect-intro {
+    margin-left: 20px;
+    width: 316px;
+    line-height: 24px;
+    color: #666;
+}
+
+.u-collect-box .u-collect-intro .u-collect-name {
+    padding-top: 6px;
+    padding-bottom: 9px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+}
+.u-collect-box .u-collect-intro .u-collect-name i{
+    position: absolute;
+    top: 8px;
+    right: -140px;
+    display: block;
+    width: 110px;
+    height: 23px;
+    background: url(../../img/bg_bounty.jpg)no-repeat center center;
+}
+
+.u-collect-box .u-collect-intro .u-collect-cost {
+    margin-left: 25px;
+    color: #eb3d44;
+}
+
+.u-collect-box .u-collect-intro .u-collect-time {
+    padding-top: 8px;
+}
+
+.u-collect-box .u-collect-intro .u-vertical-line {
+    margin: -2px 2px 0;
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    vertical-align: middle;
+}
+
+.u-collect-box .u-collect-intro .u-meal-allowance {
+    margin-left: 8px;
+}
+
+.u-collect-box .u-post-btn-box {
+    padding-top: 28px;
+    padding-right: 72px;
+}
+
+.u-collect-box .u-post-btn-box .u-post-btn {
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.u-collect-box .u-post-btn-box .u-post-btn:first-of-type {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

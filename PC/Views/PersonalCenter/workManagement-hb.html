@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>工作汇报</title>-->
+<script>
+    $('#tb-history a').on('click',function()
+    {
+        var url=$(this).attr('data-name');
+        console.log(url)
+        $('#preRight').load(url)
+    })
+</script>
+</head>
+<body>
+<div class="u-workmanagement-box">
+    <h2 class="u-preRight-title size16">工作管理<span class="u-preRight-sub">>&nbsp;&nbsp;正在工作</span><span class="u-preRight-sub">>&nbsp;&nbsp;工作汇报</span></h2>
+    <div class="hb-content">
+        <div class="hb-list">
+            <span>汇报类型：</span><select><option value=""></option></select><span>汇报日期：</span><select><option value=""></option></select>
+        </div>
+        <div class="hb-list">
+            <span>报销量：</span><input type="text"><span>报销人：</span><input type="text">
+        </div>
+        <div class="add-hblist" id="add-hbbox">
+            <div class="add-hbbox">
+                <i class="icon_hf icon-add"></i>
+                <span>新增报销量</span>
+            </div>
+        </div>
+
+        <div class="hb-list">
+            <p>汇报内容：</p>
+            <textarea></textarea>
+        </div>
+        <div class="hb-list">
+            <p>上传图片：</p>
+            <div class="u-add-btn-box">
+                <div class="u-add-btn pull-left">
+                    <div class="u-add-icon"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="pub-btn">提交申请</div>
+
+        <p class="tb-history" id="tb-history"><a href="javascript:;" data-name="hb-history.html" >查看汇报记录></a></p>
+
+    </div>
+
+</div>
+
+<script>
+    $('#add-hbbox').on('click',function () {
+        var str="<div class='hb-list'><span>报销量：</span><input type='text'><span>报销人：</span><input type='text'></div>"
+        $('.hb-content').find('.hb-list').eq(1).after(str);
+
+
+
+
+    })
+</script>
+</body>
+</html>

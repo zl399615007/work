@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>职位详情</title>
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/PostDetail/postDetail.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="u-header">
+    <div class="tbar">
+        <div class="u-page clear">
+            <div class="u-weixin left">
+                <i class="icon_hf icon_wx"></i>
+                <span>微信</span>
+            </div>
+            <div class="u-useinfo right">
+                <ul class="u-user">
+                    <li class="u-mesage">
+                        <a href="#">消息</a>
+                    </li>
+                    <li class="u-userselect">
+                        <a href="#">
+                            <span class="l-link_fff"></span>
+                            <span>用户名</span>
+                            <i class="icon-down"></i>
+                        </a>
+                        <ul class="user_info_list pub_list">
+                            <li class="user_info_show clear">
+                                <div class="left">
+                                    <img src="../../Resources/img/user_img.png" alt="">
+                                    <b class="user_name">姓名</b>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="quit">退出登陆</a>
+                                </div>
+                                <div class="user-sanjiao"></div>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_red"></i>
+                                <p>我的简历</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_sc"></i>
+                                <p>我的收藏</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_mm"></i>
+                                <p>修改密码</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_qz"></i>
+                                <p>求职进展</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_gz"></i>
+                                <p>工作管理</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="u-nav-box">
+        <div class="u-page clear_no">
+            <div class="logo">
+                <a href="#"></a>
+                <span class="loc f16">【<em>石家庄</em>】</span>
+            </div>
+            <ul class="tnav_wrap left" id='tnav'>
+                <li class="nav-home"><a href="#" class="nav-on">首页</a></li>
+                <li><a href="#" data-name='../RecruitmentProject/recruitmentProject.html'>招聘项目</a></li>
+                <li><a href="#">我要兼职</a></li>
+                <li><a href="#">最新资讯</a></li>
+            </ul>
+            <div class="right">
+                <div class='tphone'>
+                    <i class="icon-tphone"></i>
+                    <span>400-666-5643</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="u-page">
+    <div class="u-postDetail-box">
+        <div class="u-left-box left">
+            <div class="u-step-box">
+                <h1 class="u-title size36">兴业银行大堂经理</h1>
+                <div class="u-desc size18">
+                    <span class="highlight-red size24">4K-8K</span>/<span>桥西中华南大街</span>/<span>全职</span>/<span>月结</span>
+                </div>
+                <div class=" size16">
+                    <div class="u-tag-item left">五险一金</div>
+                    <div class="u-tag-item left">年底双薪</div>
+                    <div class="u-tag-item left">公积金</div>
+                    <div class="u-tag-item left">带薪病假</div>
+                    <div class="u-tag-item left">节日福利</div>
+                    <div class="u-tag-item left">节日福利</div>
+                    <div class="u-tag-item left">节日福利</div>
+                    <div class="u-tag-item left">节日福利</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="u-time">
+                    <span>1小时前</span>
+                    <span>发布于诺招聘网</span>
+                </div>
+            </div>
+            <div class="u-step-box">
+                <h1 class="u-title2 size22 highlight-333">职位介绍</h1>
+                <div class="u-desc2 highlight-999">
+                    <span>招聘人数：10人</span>
+                    <span>性别：女</span>
+                    <span>经验：3年以上</span>
+                    <span>学历：本科</span>
+                    <span>上班时段：07:00-09:00</span>
+                    <span>工作日期：2月30日-5月1日</span>
+                </div>
+                <div class="u-intro">
+                    <h3 class="u-intro-title size16 highlight-333">岗位职责</h3>
+                    <ul class="u-intro-desc highlight-666">
+                        <li>1、做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉</li>
+                        <li>2、做好客户接待服务，主动迎送客户，接收客户咨询，，接收客户咨询，协助网点负责人处理客户投诉</li>
+                        <li>3、做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉</li>
+                        <li>4、做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉</li>
+                        <li>5、做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉,做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉</li>
+
+                    </ul>
+                </div>
+                <div class="u-intro">
+                    <h3 class="u-intro-title size16 highlight-333">岗位职责</h3>
+                    <ul class="u-intro-desc highlight-666">
+                        <li>1、做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉</li>
+                        <li>2、做好客户接待服务，主动迎送客户，接收客户咨询，，接收客户咨询，协助网点负责人处理客户投诉</li>
+                        <li>3、做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉</li>
+                        <li>4、做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉</li>
+                        <li>5、做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉,做好客户接待服务，主动迎送客户，接收客户咨询，协助网点负责人处理客户投诉</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="u-step-box">
+                <h1 class="u-title2 size22 highlight-333">企业介绍</h1>
+                <div class="u-desc3 j-text-brief highlight-999">
+                    <span>博创华宇（北京）科技有限公司----石家庄分公司</span>
+                    博创华宇（北京）科技有限公司成立于2010年。总部位于北京中关村信息产业园，是一家专门从事软件研发、软件技术咨询、系统集成、软件技术培训等业务的高科技软件公司，在石家庄，西安、郑州、程度、武汉等地设有分公司或办事处。2012年博创华宇成立研发部门...<span
+                        class="highlight-red u-show-more j-show-more">【展开】</span>
+                </div>
+                <div class="u-desc3 j-text-all u-hidden highlight-999">
+                    <span>博创华宇（北京）科技有限公司----石家庄分公司</span>
+                    博创华宇（北京）科技有限公司成立于2010年。总部位于北京中关村信息产业园，是一家专门从事软件研发、软件技术咨询、系统集成、软件技术培训等业务的高科技软件公司，在石家庄，西安、郑州、程度、武汉等地设有分公司或办事处。2012年博创华宇成立研发部门、软件技术培训等业务的高科技软件公司，在石家庄，西安、郑州、程度、武汉等地设有分公司或办事处。2012年博创华宇成立研发部门、软件技术培训等业务的高科技软件公司，在石家庄，西安、郑州、程度、武汉等地设有分公司或办事处。2012年博创华宇成立研发部门
+                </div>
+            </div>
+            <div class="u-step-box postStation">
+                <h1 class="u-title2 size22 highlight-333">推荐岗位</h1>
+                <div class="u-postStation">
+                    <div class="u-postStation-item left">
+                        <div class="u-postStation-name size16">
+                            <a  href="../PostDetail/postDetail.html" target="_blank"  class="left highlight-blue">内部招待员</a>
+                            <span class="right highlight-red">80元/天</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="u-postStation-tag">
+                            <div class="left">
+                                兼职<span class="u-line">|</span>日结<span class="u-line">|</span>五险一金<span
+                                    class="u-line"></span>餐补
+                            </div>
+                            <span class="right">上海城区</span>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="u-postStation-item left">
+                        <div class="u-postStation-name size16">
+                            <a  href="../PostDetail/postDetail.html" target="_blank"  class="left highlight-blue">内部招待员</a>
+                            <span class="right highlight-red">80元/天</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="u-postStation-tag">
+                            <div class="left">
+                                兼职<span class="u-line">|</span>日结<span class="u-line">|</span>五险一金<span
+                                    class="u-line"></span>餐补
+                            </div>
+                            <span class="right">上海城区</span>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="u-postStation-item left">
+                        <div class="u-postStation-name size16">
+                            <a  href="../PostDetail/postDetail.html" target="_blank"  class="left highlight-blue">内部招待员</a>
+                            <span class="right highlight-red">80元/天</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="u-postStation-tag">
+                            <div class="left">
+                                兼职<span class="u-line">|</span>日结<span class="u-line">|</span>五险一金<span
+                                    class="u-line"></span>餐补
+                            </div>
+                            <span class="right">上海城区</span>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="u-postStation-item left">
+                        <div class="u-postStation-name size16">
+                            <a  href="../PostDetail/postDetail.html" target="_blank"  class="left highlight-blue">内部招待员</a>
+                            <span class="right highlight-red">80元/天</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="u-postStation-tag">
+                            <div class="left">
+                                兼职<span class="u-line">|</span>日结<span class="u-line">|</span>五险一金<span
+                                    class="u-line"></span>餐补
+                            </div>
+                            <span class="right">上海城区</span>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="u-postStation-item left">
+                        <div class="u-postStation-name size16">
+                            <a  href="../PostDetail/postDetail.html" target="_blank"  class="left highlight-blue">内部招待员</a>
+                            <span class="right highlight-red">80元/天</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="u-postStation-tag">
+                            <div class="left">
+                                兼职<span class="u-line">|</span>日结<span class="u-line">|</span>五险一金<span
+                                    class="u-line"></span>餐补
+                            </div>
+                            <span class="right">上海城区</span>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="u-postStation-item left">
+                        <div class="u-postStation-name size16">
+                            <a  href="../PostDetail/postDetail.html" target="_blank"  class="left highlight-blue">内部招待员</a>
+                            <span class="right highlight-red">80元/天</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="u-postStation-tag">
+                            <div class="left">
+                                兼职<span class="u-line">|</span>日结<span class="u-line">|</span>五险一金<span
+                                    class="u-line"></span>餐补
+                            </div>
+                            <span class="right">上海城区</span>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="u-right-box right">
+            <div class="u-btn-box size18">
+                <div class="u-btn-sure u-btn j-btn-apply">申请职位</div>
+                <div class="u-btn-trans highlight-red u-btn j-btn-collect" data-value="false"><span
+                        class="icon_hf"></span><span class="j-text">收藏</span></div>
+            </div>
+            <div class="u-data">
+                <div class="u-data-item left">
+                    <p class="size30 highlight-red">89%</p>
+                    <p class="size16 highlight-333">申请人反馈</p>
+                </div>
+                <div class="u-data-item right">
+                    <p class="size30 highlight-red">2小时</p>
+                    <p class="size16 highlight-333">反馈处理时间</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-company-message">
+                <a href="../CompanyDetail/companyDetail.html"
+                   class="u-company-name size18 highlight-blue">河北诺亚人力资源有限公司</a>
+                <div class="u-company-data size16">
+                    <p><span>行业</span><span>金融</span></p>
+                    <p><span>规模</span><span>1000人-2000人</span></p>
+                    <p><span>性质</span><span>国企</span></p>
+                </div>
+            </div>
+            <div class="u-company-map">
+                <img src="../../Resources/img/bg_company_map.jpg">
+            </div>
+            <div class="u-qrcode">
+                <p class="size16 highlight-333">扫一扫，关注诺招聘</p>
+                <div class="u-qrcode-img">
+                    <img src="../../Resources/img/qrcode.png">
+                </div>
+
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="foot">
+    <div class="u-page">
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    增值产品
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    HR服务
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    关于我们
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d f-ss">
+            <div class="f-weixin">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-weixin-text">
+                    <p>微信扫一扫</p>
+                    <p>工作随心找</p>
+                </div>
+            </div>
+            <div class="f-gzh">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-gzh-text">
+                    <p>扫一扫关注</p>
+                    <p>诺亚公众号</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="f-bottom-text">
+        <p>诺亚公司旗下网站</p>
+        <p>
+            <span>2017诺亚人力资源开发有限公司</span>
+            <span>冀ICP备10006226号-4</span>
+            <span>冀公网安备13019902000054号</span>
+        </p>
+        <p>服务热线：400-666-5643</p>
+    </div>
+</div>
+<script>
+    $(function () {
+        $('.j-btn-apply').on('click', function () {
+            $(this).text('已申请');
+        });
+        $('.j-btn-collect').on('click', function () {
+            if ($(this).attr('data-value') == 'false') {
+                $(this).attr('data-value', 'true');
+                $(this).find('.icon_hf').addClass('select');
+                $(this).find('.j-text').text('已收藏');
+            } else {
+                $(this).attr('data-value', 'false');
+                $(this).find('.icon_hf').removeClass('select');
+                $(this).find('.j-text').text('收藏');
+            }
+        });
+        // 展开
+        $('.j-show-more').on('click', function () {
+           $('.j-text-brief').hide();
+           $('.j-text-all').show();
+        });
+    })
+</script>
+</body>
+</html>

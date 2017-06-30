@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>个人认证</title>-->
+    <script>
+        $(function () {
+            $('.j-authentication-btn').on('click',function () {
+                var url=$(this).attr('data-name');
+                $('#preRight').load(url)
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="u-authentication-box">
+    <h2 class="u-preRight-title size16">个人认证</h2>
+
+    <div class="u-authentication-list">
+        <div class="u-authentication-item left">
+            <div class="u-authentication-head">
+                <div class="left size16"><span class="icon_hf u-icon-authentic"></span><b>实名认证</b></div>
+                <div class="right size14">已认证</div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-authentication-content size14">需提交身份证证件照才能审核，审核时间一般为2-7个工作日</div>
+        </div>
+        <div class="u-authentication-item left">
+            <div class="u-authentication-head">
+                <div class="left size16"><span class="icon_hf u-icon-authentic"></span><b>实名认证</b></div>
+                <div class="right size14 highlight-lightcyan u-authentication-btn j-authentication-btn" data-name="authenticationRealName.html">（点击认证）</div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-authentication-content size14">需提交身份证证件照才能审核，审核时间一般为2-7个工作日</div>
+        </div>
+        <div class="u-authentication-item left">
+            <div class="u-authentication-head">
+                <div class="left size16"><span class="icon_hf u-icon-authentic"></span><b>实名认证</b></div>
+                <div class="right size14">已认证</div>
+                <div class="clear"></div>
+            </div>
+            <div class="u-authentication-content size14">需提交身份证证件照才能审核，审核时间一般为2-7个工作日</div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>

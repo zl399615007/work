@@ -1,0 +1,138 @@
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.reg-content{
+    display: none;
+}
+.u-logoin-box{
+    position: absolute;
+    background: url("../../img/logoin.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+
+}
+.u-logoin-box .u-page{
+    height: 100%;
+    position: relative;
+}
+.u-logoin-nav{
+    background: #fff;
+    width: 650px;
+    border-radius: 10px;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    margin-left: -325px;
+}
+.logoin-nav-list{
+
+    height: 60px;
+    border-bottom: 1px solid #eb3d44;
+}
+
+.logoin-nav-list li{
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    width: 49%;
+    text-align: center;
+
+}
+.logoin-nav-list li:first-of-type a{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    border-right: 1px solid #eb3d44;
+}
+.logoin-nav-list li a{
+    font-size: 22px;
+    color: #333;
+
+}
+.logoin-nav-list .active-nav a{
+    color: #eb3d44;
+
+}
+.form-content{
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.form-content .input-guop{
+    width: 360px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #e6e6e6;
+    margin-top: 40px;
+}
+.form-content input{
+    border: none;
+    padding-left: 23px;
+    font-size: 16px;
+    color: #999;
+}
+
+
+.forget-btn{
+    text-align: right;
+}
+.forget-btn a{
+    font-size: 16px;
+    color: #eb3d44;
+    line-height: 34px;
+
+}
+.logoin-btn{
+    width: 360px;
+    height: 44px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    margin-top:22px;
+    margin-bottom: 90px;
+    background: #eb3d44;
+}
+.yzm-box span{
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+}
+.reg-content .logoin-btn{
+    margin-top: 46px;
+    margin-bottom: 52px;
+}
+
+.forget-div .logoin-btn{
+    margin-bottom: 0;
+    margin-top: 46px;
+}
+
+.forget-div .forget-btn{
+    margin-bottom: 54px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

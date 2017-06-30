@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>消息</title>
+    <link rel="stylesheet" href="../../Resources/public/pagination/pagination.css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/Message/message.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/pagination/pagination.js"></script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="u-page">
+    <div class="u-message-box">
+        <div class="u-message-head">
+            <ul class="u-message-bar size18">
+                <div class="u-bar-item select">全部</div>
+                <div class="u-bar-item">系统信息</div>
+                <div class="u-bar-item">管理员信息</div>
+                <div class="u-bar-item">面试通知</div>
+                <div class="u-bar-item">工作通知</div>
+            </ul>
+        </div>
+
+        <div class="u-message-main">
+            <ul class="u-message-th">
+                <li class="u-message-td"><span>全部 <i class="u-message-arrow"></i></span></li>
+                <li class="u-message-td">标题</li>
+                <li class="u-message-td">时间</li>
+            </ul>
+            <div class="u-message-body">
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">未读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+                <ul class="u-message-tr">
+                    <li class="u-message-td">已读</li>
+                    <li class="u-message-td">欢迎加入，劳务派遣招聘！</li>
+                    <li class="u-message-td">2016/10/06 10:36</li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="M-box"></div>
+    </div>
+</div>
+
+<script>
+    $('.M-box').pagination({
+        coping: true,
+        homePage: '首页',
+        endPage: '末页',
+        prevContent: '上一页',
+        nextContent: '下一页'
+    });
+
+    $(function () {
+        $('.j-btn-points').on('click', function () {
+            $('.j-popover-box').show();
+            $('.j-popover-shadow').show();
+        });
+        $('.j-btn-cancel').on('click', function () {
+            $('.j-popover-box').hide();
+            $('.j-popover-shadow').hide();
+        });
+        $('.j-btn-sure').on('click', function () {
+            $('.j-popover-box').hide();
+            $('.j-popover-shadow').hide();
+        });
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>岗位管理</title>
+    <link rel="stylesheet" href="../../Resources/public/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="../../Resources/css/PostManagement/postManagement.css" type="text/css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Resources/js/common/base.js"></script>
+
+    <style>
+        body {
+            background-color: #E6E6E6;
+        }
+        .u-resume-box .u-resume-item > .col-xs-12:first-of-type{
+            height: auto
+        }
+    </style>
+
+</head>
+<body>
+<div class="u-resume-box u-receiveResume u-wrapper">
+    <div class="u-header-box container-fluid">
+        <a class="u-header-arrow" href="../Home/index.html"></a>
+        <p class="u-header-title text-center">岗位管理</p>
+        <a class="u-header-add" href="addPost.html"></a>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <ul class="nav u-nav col-xs-12" role="tablist">
+                <li role="presentation" class="active"><a href="#flow1" role="tab" data-toggle="tab">正在招聘</a></li>
+                <li role="presentation"><a href="#flow2" role="tab" data-toggle="tab">暂停招聘</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 简历信息 -->
+    <div class="tab-content">
+        <div id="flow1" role="tabpanel" class="u-resume-list container-fluid tab-pane active">
+            <div class="row u-resume-item">
+                <div class="col-xs-12">
+                    <div class="u-resume-info">
+                        <div>
+                            <a class=" u-resume-name pull-left" href="postPreviewCopy.html">销售总监</a>
+                            <p class="u-resume-time pull-left">发布于2017-02-05</p>
+                            <div class="pull-right u-resume-show-btn" onclick="window.location='receiveResume.html'">查看收到的简历</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="u-resume-state">
+                            发布人：王经理 <span class="ml15">浏览量：129</span><span class="ml15">未查看/简历投递量：12/50</span>
+                            <div class="clearfix"></div>
+                            </p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="row u-btn-box">
+                        <div class="col-xs-3 text-center btn" data-toggle="modal" data-target="#modal-pause">暂停招聘</div>
+                        <div class="col-xs-3 text-center btn" onclick="window.location='aditorPost.html'">编辑</div>
+                        <div class="col-xs-3 text-center btn" onclick="window.location='dataStatistics.html'">统计</div>
+                        <div class="col-xs-3 text-center btn" data-toggle="modal" data-target="#modal-delete">删除</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="flow2" role="tabpanel" class="u-resume-list container-fluid tab-pane">
+            <div class="row u-resume-item">
+                <div class="col-xs-12">
+                    <div class="u-resume-info">
+                        <div>
+                            <a class=" u-resume-name pull-left" href="postPreviewCopy.html">销售总监</a>
+                            <p class="u-resume-time pull-left">发布于2017-02-05</p>
+                            <div class="pull-right u-resume-show-btn" onclick="window.location='receiveResume.html'">查看收到的简历</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="u-resume-state">
+                            发布人：王经理 <span class="ml15">浏览量：129</span><span class="pull-right">未查看/简历投递量：12/50</span>
+                            <div class="clearfix"></div>
+                            </p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="row u-btn-box">
+                        <div class="col-xs-3 text-center btn" data-toggle="modal" data-target="#modal-open">开启招聘</div>
+                        <div class="col-xs-3 text-center btn"  onclick="window.location='aditorPost.html'">编辑</div>
+                        <div class="col-xs-3 text-center btn" onclick="window.location='dataStatistics.html'">统计</div>
+                        <div class="col-xs-3 text-center btn" data-toggle="modal" data-target="#modal-delete">删除</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-open'>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+				<!--<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">-->
+				</span>
+                        <h4 class="modal-title" id="myModalLabel">
+                            提示
+                        </h4>
+                    </div>
+                    <div class="modal-body text-left">
+                        岗位启动后，岗位信息可以被搜索和投递简历，是否开启该岗位？
+                    </div>
+
+                    <div class="modal-footer u-btn-box">
+                        <div class="row">
+                            <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                            <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        <div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-pause'>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+				<!--<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">-->
+				</span>
+                        <h4 class="modal-title" id="myModalLabe2">
+                            提示
+                        </h4>
+                    </div>
+                    <div class="modal-body text-left">
+                        岗位暂停后，岗位信息不能被搜索和投递简历，是否暂停岗位？
+                    </div>
+
+                    <div class="modal-footer u-btn-box">
+                        <div class="row">
+                            <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                            <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        <div class="modal fade u-model" tabindex="-1" role="dialog" id='modal-delete'>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+				<!--<span class="close u-dialog-close" data-dismiss="modal" aria-hidden="true">-->
+				</span>
+                        <h4 class="modal-title" id="myModalLabe3">
+                            提示
+                        </h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        确认删除吗？
+                    </div>
+
+                    <div class="modal-footer u-btn-box">
+                        <div class="row">
+                            <span class="u-inform-btn text-center highlight-red col-xs-6">确定</span>
+                            <span class="u-inform-btn text-center col-xs-6" data-dismiss="modal">取消</span>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+    </div>
+    <!-- 简历信息 -->
+</div>
+</body>
+</html>

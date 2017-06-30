@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<title>考勤-考勤状况</title>-->
+    <script>
+        $('#workmanagement-kq-nav a').on('click',function()
+        {
+            var url=$(this).attr('data-name');
+            $('#preRight').load(url)
+        })
+    </script>
+</head>
+<body>
+<div class="u-workmanagement-box">
+    <h2 class="u-preRight-title size16">工作管理<span class="u-preRight-sub">>&nbsp;&nbsp;正在工作</span><span class="u-preRight-sub">>&nbsp;&nbsp;考勤</span><span class="u-preRight-sub">>&nbsp;&nbsp;考勤状况</span></h2>
+    <ul class="workmanagement-kq-nav clear" id="workmanagement-kq-nav">
+        <li class="kq-nav-active">
+            <a href="javascript:;" data-name="workManagement-kq-tb.html">考勤状况</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-tb.html">调班</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-qj.html">请假</a>
+        </li>
+        <li>
+            <a href="javascript:;" data-name="workManagement-kq-lz.html">离职</a>
+        </li>
+    </ul>
+    <div class="workmanagement-kq-content">
+        <div class="select-time">
+            <select>
+                <option value="">2017</option>
+            </select>
+            <span>年</span>
+            <select>
+                <option value="">05</option>
+            </select>
+            <span>月</span>
+        </div>
+        <div class="calendar clear">
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-c.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-c.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+            <span>
+                1
+                <img src="../../Resources/img/calendar-g.png" alt="">
+            </span>
+        </div>
+        <div class="kq-history">
+            <div class="kq-history-list">
+                <p>2017-03考勤记录：</p>
+            </div>
+            <div class="kq-history-list">
+                <span>迟到：<b>1次</b></span>
+                <span>早退：<b>1次</b></span>
+                <span>旷工：<b>1次</b></span>
+            </div>
+            <div class="kq-history-list">
+                <p>2017-03打卡记录：</p>
+            </div>
+            <div class="kq-history-list">
+                <span>上班时间：<b>08:00:00</b></span>
+                <span>下班时间：<b>08:00:00</b></span>
+                <span>迟到：<b>无</b></span>
+                <span>早退：<b>无</b></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

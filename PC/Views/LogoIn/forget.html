@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>忘记密码</title>
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/LogoIn/logoin.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+</head>
+<body>
+<div class="u-logoin-box">
+    <div class="u-page">
+        <div class="u-logoin-nav">
+
+            <div class="form-content">
+
+                <div class="forget-div content-guop">
+                    <form action="">
+                        <div class="input-guop">
+                            <input type="text" value="手机号">
+                        </div>
+                        <div class="input-guop yzm-box">
+                            <input type="text" value="验证码">
+                            <span class="yzm-btn">
+                                 获取验证码
+                                </span>
+                        </div>
+                        <div class="input-guop">
+                            <input type="text" value="密码" ></div>
+                        <div class="input-guop">
+                            <input type="text" value="确认密码">
+                        </div>
+                    </form>
+                    <div class="logoin-btn">确定</div>
+                    <p class="forget-btn"><a href="logoin.html">返回登录</a></p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    $('.yzm-btn').click(function () {
+        var str=59;
+        var that=$(this);
+        $(this).css('color','#eb3d44');
+        setInterval(function () {
+            str=--str;
+            that.html(str+'S');
+        },1000);
+        that.html(str+'S');
+    })
+</script>
+</body>
+</html>

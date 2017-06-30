@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="../../Resources/public/pagination/pagination.css">
+    <link rel="stylesheet" href="../../Resources/css/common/base.css">
+    <link rel="stylesheet" href="../../Resources/css/PersonalCenter/PersonalCenter.css">
+    <script src="../../Resources/public/jquery/jquery.min.js"></script>
+    <script src="../../Resources/public/pagination/pagination.js"></script>
+    <script>
+        $(function () {
+            $('.pre-nav .j-nav-li').on('click',function () {
+                $('.pre-nav .j-nav-li').removeClass('select');
+                $(this).addClass('select');
+                var $a = $(this).find('a');
+                var url= $a.attr('data-name');
+                $('#preRight').load(url)
+            });
+            $('#tnav a').on('click',function () {
+                var url=$(this).attr('data-name');
+                console.log(url);
+                $('#content').load(url)
+            });
+            $('.u-mesage a').on('click',function () {
+                var url=$(this).attr('data-name');
+                console.log(url);
+                $('#content').load(url)
+            });
+            $('.pre-nav .j-nav-li').eq(0).click();
+        });
+    </script>
+
+    <style>
+        body {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="u-header">
+    <div class="tbar">
+        <div class="u-page clear">
+            <div class="u-weixin left">
+                <i class="icon_hf icon_wx"></i>
+                <span>微信</span>
+            </div>
+            <div class="u-useinfo right">
+                <ul class="u-user">
+                    <li class="u-mesage">
+                        <a href="javascipt:;" data-name="../Message/message.html">消息</a>
+                    </li>
+                    <li class="u-userselect">
+                        <a href="../PersonalCenter/index.html" >
+                            <span class="l-link_fff"></span>
+                            <span>用户名</span>
+                            <i class="icon-down"></i>
+                        </a>
+                        <ul class="user_info_list pub_list">
+                            <li class="user_info_show clear">
+                                <div class="left">
+                                    <img src="../../Resources/img/user_img.png" alt="">
+                                    <b class="user_name">姓名</b>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="quit">退出登陆</a>
+                                </div>
+                                <div class="user-sanjiao"></div>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_red"></i>
+                                <p>我的简历</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_sc"></i>
+                                <p>我的收藏</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_mm"></i>
+                                <p>修改密码</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_qz"></i>
+                                <p>求职进展</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                            <li>
+                                <i class="icon_hf icon_text_gz"></i>
+                                <p>工作管理</p>
+                                <span class="icon_hf icon_more"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="u-nav-box">
+        <div class="u-page clear_no">
+            <div class="logo">
+                <a href="#"></a>
+                <span class="loc f16">【<em>石家庄</em>】</span>
+            </div>
+            <ul class="tnav_wrap left" id='tnav'>
+                <li class="nav-home"><a href="#" class="nav-on">首页</a></li>
+                <li><a href="#" data-name='../RecruitmentProject/recruitmentProject.html'>招聘项目</a></li>
+                <li><a href="#" data-name='../PartTimeJob/partTimeJob.html'>我要兼职</a></li>
+                <li><a href="#" data-name='../News/index.html'>最新资讯</a></li>
+            </ul>
+            <div class="right">
+                <div class='tphone'>
+                    <i class="icon-tphone"></i>
+                    <span>400-666-5643</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="content">
+    <div class="u-page">
+        <h3 class="pre-tit"><span>个人中心</span></h3>
+        <div class="u-per-box clear">
+            <div class="u-per-left left clear">
+                <ul class="pre-nav">
+                    <li class="select j-nav-li">
+                        <a href="javascript:;" data-name="myResume.html">
+                            <i class="icon_hf icon_per_wdjl"></i>
+                            我的简历
+                        </a>
+                    </li>
+                    <li class="j-nav-li">
+                        <a href="javascript:;" data-name="authentication.html">
+                            <i class="icon_hf icon_per_grrz"></i>
+                            个人认证
+                        </a>
+                    </li>
+                    <li class="j-nav-li">
+                        <a href="javascript:;" data-name="myCollect.html">
+                            <i class="icon_hf icon_per_sc"></i>
+                            我的收藏
+                        </a>
+                    </li>
+                    <li class="j-nav-li">
+                        <a href="javascript:;" data-name="myPoints.html">
+                            <i class="icon_hf icon_per_jf"></i>
+                            我的积分
+                        </a>
+                    </li>
+                    <li class="j-nav-li">
+                        <a href="javascript:;" data-name="evaluate.html">
+                            <i class="icon_hf icon_per_pj"></i>
+                            收到的评价
+                        </a>
+                    </li>
+                    <li class="j-nav-li">
+                        <a href="javascript:;" data-name="aditorPassword.html">
+                            <i class="icon_hf icon_per_xgmm"></i>
+                            修改密码
+                        </a>
+                    </li>
+                    <li class="j-nav-li">
+                        <a href="javascript:;" data-name="jobProgressByCommon.html">
+                            <i class="icon_hf icon_per_qzjz"></i>
+                            求职进展
+                        </a>
+                    </li>
+                    <li class="pre-nav-down j-nav-li">
+                        <a href="javascript:;" data-name="jobProgressByCommon.html">
+                            普通岗位
+                        </a>
+                    </li>
+                    <li class="pre-nav-down j-nav-li">
+                        <a href="javascript:;" data-name="jobProgressByProject.html">
+                            项目岗位
+                        </a>
+                    </li>
+                    <li class="j-nav-li">
+                        <a href="javascript:;">
+                            <i class="icon_hf icon_per_gzgl"></i>
+                            工作管理
+                        </a>
+                    </li>
+                    <li class="pre-nav-down j-nav-li">
+                        <a href="javascript:;" data-name="workManagement.html">
+                            正在工作
+                        </a>
+                    </li>
+                    <li class="pre-nav-down j-nav-li">
+                        <a href="javascript:;" data-name="everWorked.html">
+                            曾经工作
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="u-per-right left u-personal-center" id="preRight"></div>
+        </div>
+    </div>
+</div>
+<div class="foot">
+    <div class="u-page">
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    增值产品
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    HR服务
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="pub_d">
+            <ul>
+                <li class="h-list">
+                    关于我们
+                </li>
+                <li>
+                    <a href="#">
+                        诺亚培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        招聘流程外包
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pub_d f-ss">
+            <div class="f-weixin">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-weixin-text" >
+                    <p>微信扫一扫</p>
+                    <p>工作随心找</p>
+                </div>
+            </div>
+            <div class="f-gzh">
+                <img src="../../Resources/img/recruit-img.jpg" alt="">
+                <div class="f-gzh-text" >
+                    <p>扫一扫关注</p>
+                    <p>诺亚公众号</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="f-bottom-text">
+        <p>诺亚公司旗下网站</p>
+        <p>
+            <span>2017诺亚人力资源开发有限公司</span>
+            <span>冀ICP备10006226号-4</span>
+            <span>冀公网安备13019902000054号</span>
+        </p>
+        <p>服务热线：400-666-5643</p>
+    </div>
+</div>
+</body>
+</html>
